@@ -19,6 +19,26 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="stylesheet" href="/fonts.css" />
     <script>
+      // RCade: Provide in-memory localStorage fallback if disabled
+      (function() {
+        try {
+          window.localStorage.setItem('__test__', '1');
+          window.localStorage.removeItem('__test__');
+        } catch (e) {
+          var storage = {};
+          var localStorageShim = {
+            getItem: function(key) { return storage.hasOwnProperty(key) ? storage[key] : null; },
+            setItem: function(key, value) { storage[key] = String(value); },
+            removeItem: function(key) { delete storage[key]; },
+            clear: function() { storage = {}; },
+            get length() { return Object.keys(storage).length; },
+            key: function(i) { var keys = Object.keys(storage); return keys[i] || null; }
+          };
+          Object.defineProperty(window, 'localStorage', { value: localStorageShim, writable: false });
+        }
+      })();
+    </script>
+    <script>
       // Resolution scaling - render at higher virtual resolution and scale down
       (function() {
         var scaleFactor = 2;
