@@ -21,20 +21,35 @@
     <script>
       // RCade: Provide in-memory localStorage fallback if disabled
       (function() {
+        var storage = {};
+        var localStorageShim = {
+          getItem: function(key) { return storage.hasOwnProperty(key) ? storage[key] : null; },
+          setItem: function(key, value) { storage[key] = String(value); },
+          removeItem: function(key) { delete storage[key]; },
+          clear: function() { storage = {}; },
+          get length() { return Object.keys(storage).length; },
+          key: function(i) { var keys = Object.keys(storage); return keys[i] || null; }
+        };
+        // Expose shim globally for code that accesses localStorage directly
+        window.__localStorageShim = localStorageShim;
+
+        // Try to delete and redefine, or use a getter that returns shim on error
         try {
-          window.localStorage.setItem('__test__', '1');
-          window.localStorage.removeItem('__test__');
-        } catch (e) {
-          var storage = {};
-          var localStorageShim = {
-            getItem: function(key) { return storage.hasOwnProperty(key) ? storage[key] : null; },
-            setItem: function(key, value) { storage[key] = String(value); },
-            removeItem: function(key) { delete storage[key]; },
-            clear: function() { storage = {}; },
-            get length() { return Object.keys(storage).length; },
-            key: function(i) { var keys = Object.keys(storage); return keys[i] || null; }
-          };
-          Object.defineProperty(window, 'localStorage', { value: localStorageShim, writable: false });
+          delete window.localStorage;
+          Object.defineProperty(window, 'localStorage', {
+            get: function() { return localStorageShim; },
+            configurable: true
+          });
+        } catch (e1) {
+          // Can't redefine, try to proxy Storage prototype methods
+          try {
+            Storage.prototype.getItem = function(key) { return localStorageShim.getItem(key); };
+            Storage.prototype.setItem = function(key, value) { localStorageShim.setItem(key, value); };
+            Storage.prototype.removeItem = function(key) { localStorageShim.removeItem(key); };
+            Storage.prototype.clear = function() { localStorageShim.clear(); };
+          } catch (e2) {
+            console.warn('RCade: Could not shim localStorage, some features may not work');
+          }
         }
       })();
     </script>
