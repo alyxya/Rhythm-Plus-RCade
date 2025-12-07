@@ -4258,9 +4258,9 @@ input.firebaseui-input-invalid {
 .sticky[data-v-c6a5eb21] {
   position: sticky;
   top: 0;
-  height: 100%;
+  height: 200vh;
   min-width: 500px;
-  max-height: 100vh;
+  max-height: none;
   overflow: scroll;
 }
 .playBtn[data-v-c6a5eb21] {
@@ -4710,7 +4710,6 @@ input.firebaseui-input-invalid {
 .detail[data-v-67a9f2b9] {
   transition: 1s;
   width: 500px;
-  height: 100vh;
 }
 .btn-more[data-v-67a9f2b9] {
   float: right;
@@ -4735,7 +4734,7 @@ input.firebaseui-input-invalid {
     position: fixed;
     z-index: 100;
     transition: 0.3s;
-    top: 80px;
+    top: 0;
   }
 }
 @media only screen and (min-width: 800px) {
