@@ -1,15 +1,131 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Rhythm+</title>
+    <meta
+      name="description"
+      content="Play, create and share your favorite songs right in your browser anywhere, anytime. A community-based online music game."
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Rhythm+" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="stylesheet" href="/fonts.css" />
+    <script src="/js/logger.min.js"></script>
+    <script type="module" crossorigin src="/assets/index-1f029c71.js"></script>
+    <link rel="stylesheet" href="/assets/index-c598971e.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="center_container loading_ph logo_fade">
+        <img src="/assets/logo2.png" class="loading_logo" />
+        <div class="loader"></div>
+      </div>
+    </div>
+    <noscript> To play the game, please enable JavaScript. </noscript>
+    <script type="module" src="/src/main.js"></script>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        background: black;
+        color: white;
+        font-family: "Raleway";
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0.3);
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+      }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rhythm+</title>
-</head>
+      .loading_ph {
+        opacity: 0.5;
+      }
 
-<body>
-  <div id="app"></div>
-  <script type="module" src="/src/main.js"></script>
-</body>
+      .loading_logo {
+        max-width: 350px;
+        padding: 20px 0;
+        width: 100%;
+        height: auto;
+      }
 
+      .center_container {
+        text-align: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 220px;
+      }
+
+      .loader {
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 50%;
+        border-top: 5px solid #10101c;
+        width: 24px;
+        height: 24px;
+        animation: spin 1s linear infinite;
+        margin: auto;
+      }
+
+      .logo_fade {
+        animation: fadein 1s ease-in;
+      }
+
+      @keyframes fadein {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 0.5;
+        }
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .blink_me {
+        opacity: 0.5;
+        animation: blinker 2s ease-in-out infinite;
+      }
+
+      .login-line {
+        width: 120px;
+        padding-left: 20px;
+        animation: widthFull 0.5s ease-in-out;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+
+      @keyframes widthFull {
+        from {
+          opacity: 0;
+          padding-left: 0;
+          width: 0;
+        }
+        to {
+          opacity: 1;
+          padding-left: 20px;
+          width: 120px;
+        }
+      }
+
+      @keyframes blinker {
+        50% {
+          opacity: 0.2;
+        }
+      }
+    </style>
+  </body>
 </html>
