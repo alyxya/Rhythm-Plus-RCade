@@ -1,1 +1,950 @@
-import{n,S as c,a as u,U as l,M as v,C as h,I as f,m as _,g as m,V as p,b as g,c as w,d as y,s as d,e as b,f as x,h as C,i as R,j as $,T as S,k as U}from"./index-1f029c71.js";const k={props:["role","scrollProgress"],components:{SongListItem:c,SheetDetailLine:u,UserProfileCard:l,ModalInput:v,Checkbox:h,InfiniteScroll:f},data(){return{loading:!0,loadingNextPage:!1,showPendingOnly:!0,endReached:!1,requests:[],locatedRequestId:null}},async mounted(){await this.getRequests(),this.loading=!1,Logger.log(this.requests),this.$route.query.request&&(this.locatedRequestId=this.$route.query.request,this.$nextTick(()=>{document.getElementById(this.locatedRequestId).scrollIntoView({behavior:"smooth"})}))},watch:{showPendingOnly(){this.getRequests()}},computed:{adminRole(){return this.role=="su"||this.role=="admin"}},methods:{async getRequests(i){this.loading=!0,this.loadingNextPage=i;try{const e=await _(i?this.requests[this.requests.length-1].createdAt:void 0,void 0,!this.showPendingOnly);i?e.length==0?this.endReached=!0:this.requests.push(...e):(this.requests=e,this.endReached=!1)}catch(e){Logger.error(e),this.$store.state.alert.error("Server Error",3e3)}this.loading=!1,this.loadingNextPage=!1},openNew(i){window.open(i,"_blank")},async mark(i,e){let t="";const s=i.reviewStage==1?"First Review":"Second Review";try{if(i.reviewStage==1){const r=await m(i.sheet.id);if(Logger.log(r),!r&&this.adminRole&&!e)this.$store.state.alert.warn("To verify, you have to complete this sheet at least once. However, as admin you can still reject the request.",5e3);else if(!r){this.$store.state.alert.error("To verify, you have to complete this sheet at least once",5e3);return}}else if(i.reviewStage==2&&e&&this.$store.state.currentUser.uid===i.firstReviewer.uid){this.$store.state.alert.error("You cannot approve your own request",5e3);return}const a={titleText:`Verify this sheet? (${s})`,okText:"Submit",placeholder:"(Optional) Reason for approval",guide:p};e||(a.titleText=`Reject this sheet? (${s})`,a.placeholder="Reason for rejection",a.guide="You have to provide a reason for rejection.",a.requireText=!0);const o=await this.$refs.inputModal.show(a);Logger.log("reason",o,o!==!1),o!==!1&&(this.loading=!0,t=o.text,i.reviewStage==1?await g(i.id,e,t):i.reviewStage==2&&await w(i.id,e,t),this.$store.state.alert.success("Success"),await this.getRequests())}catch(a){Logger.error(a),this.$store.state.alert.error("Something went wrong, your input is backed up to clipboard, please try again later",5e3),t&&navigator.clipboard.writeText(t)}this.loading=!1},viewComment(i){if(!i){this.$store.state.alert.info("No comment provided",2e3);return}if(i==="[direct-first-review]"){this.$store.state.alert.info("No comment provided, this request was submitted directly by the first reviewer",3e3);return}this.$store.state.gModal.show({titleText:"Comment",bodyText:i,showCancel:!1})},async unverifySheet(i){try{const e=await this.$refs.inputModal.show({titleText:"Unverify this sheet",guide:"This will remove the verified status of this sheet, it's recommended that you manually notify the reviewers and the creator about the reason. Do not use this function frequently.",placeholder:"Please provide a reason for unverifying",okText:"Unverify",cancelText:"Cancel",type:"warning",requireText:!0});if(!e)return;await y(i,e.text),this.$store.state.alert.success("Success"),await this.getRequests()}catch(e){Logger.error(e),this.$store.state.alert.error("Something went wrong, please try again later",5e3)}},setClipboard(i){d(`${window.location.origin}/admin?request=${i}`,"URL to this request copied to clipboard")}}};var L=function(){var e=this,t=e._self._c;return t("div",[t("div",{staticClass:"max-w-[600px] flex items-center float-right mb-5"},[t("div",{staticClass:"btn-action btn-dark",on:{click:function(s){return e.getRequests()}}},[e._v("Refresh")]),t("Checkbox",{staticClass:"ml-2",attrs:{label:"Show pending only",model:this,modelKey:"showPendingOnly",cbStyle:"form"}})],1),t("table",{staticClass:"w-full my-5"},[e._m(0),e._l(e.requests,function(s){return t("tr",{key:s.id,staticClass:"tr_hover",class:{"opacity-50 pointer-events-none loading-block":e.loading&&!e.loadingNextPage,"border-4 border-gray-500":e.locatedRequestId==s.id},attrs:{id:s.id}},[t("td",{staticClass:"hover_opacity cursor-pointer",on:{click:function(a){return e.openNew(`/menu/?songId=${s.song.id}`)}}},[s.song?t("SongListItem",{attrs:{song:s.song,hideBg:!0}}):e._e(),t("SheetDetailLine",{attrs:{sheet:s.sheet,compact:!0}})],1),t("td",[e._v(" "+e._s(s.commentSubmit=="[direct-first-review]"?"Reviewer":"Charter")+" "),s.submittedBy.uid!=s.firstReviewer.uid?t("div",{staticClass:"btn-action btn-dark text-sm",on:{click:function(a){return e.viewComment(s.commentSubmit)}}},[e._v(" View comment ")]):e._e()]),t("td",[s.firstReviewer&&s.firstReviewer.uid?t("div",[t("UserProfileCard",{attrs:{extend:!0,small:!0,overrideProfile:s.firstReviewer}}),t("div",{staticClass:"btn-action btn-dark text-sm",on:{click:function(a){return e.viewComment(s.commentFirstReview)}}},[e._v(" View comment ")])],1):t("div",[e._v("-")])]),t("td",[s.secondReviewer&&s.secondReviewer.uid?t("div",[t("UserProfileCard",{attrs:{extend:!0,small:!0,overrideProfile:s.secondReviewer}}),t("div",{staticClass:"btn-action btn-dark text-sm",on:{click:function(a){return e.viewComment(s.commentSecondReview)}}},[e._v(" View comment ")])],1):t("div",[e._v("-")])]),t("td",[e._v(e._s(e._f("moment")(s.updatedAt,"from")))]),t("td",[t("span",{class:{"text-red-400":s.status=="reverted","text-orange-400":s.status=="rejected","text-green-400":s.status=="approved","text-blue-400":s.status=="pending"}},[e._v(e._s(s.status))])]),t("td",[e._v(e._s(s.reviewStage))]),t("td",{staticClass:"text-xl cursor-pointer"},[s.status=="pending"?t("div",{staticClass:"text-center"},[t("span",{staticClass:"hover_opacity",attrs:{title:"copy request url"},on:{click:function(a){return e.setClipboard(s.id)}}},[e._v("🔗")]),t("span",{staticClass:"hover_opacity",attrs:{title:"open in editor"},on:{click:function(a){return e.openNew(`/editor/${s.sheet.id}`)}}},[e._v("📝")]),t("span",{staticClass:"hover_opacity",attrs:{title:"play"},on:{click:function(a){return e.openNew(`/game/${s.sheet.id}`)}}},[e._v("▶️")]),t("span",{staticClass:"hover_opacity",attrs:{title:"approve"},on:{click:function(a){return e.mark(s,!0)}}},[e._v("✅")]),t("span",{staticClass:"hover_opacity",attrs:{title:"reject"},on:{click:function(a){return e.mark(s,!1)}}},[e._v("❌")])]):s.sheet.verified&&(e.role=="su"||e.role=="admin")?t("div",[t("div",{staticClass:"btn-action btn-dark text-sm",on:{click:function(a){return e.unverifySheet(s.id)}}},[e._v(" Revert ")])]):e._e()])])})],2),t("InfiniteScroll",{attrs:{loading:e.loading,endReached:e.endReached,"scroll-progress":e.scrollProgress},on:{next:function(s){return e.getRequests(!0)}}}),t("ModalInput",{ref:"inputModal"})],1)},P=[function(){var i=this,e=i._self._c;return e("tr",{staticClass:"text-left leading-loose whitespace-nowrap"},[e("th",[i._v("Song and sheet for review")]),e("th",[i._v("Requested by")]),e("th",[i._v("First Reviewer")]),e("th",[i._v("Second Reviewer")]),e("th",[i._v("Date")]),e("th",[i._v("Status")]),e("th",[i._v("Stage")]),e("th",[i._v("Action")])])}],T=n(k,L,P,!1,null,"24504aa5",null,null);const I=T.exports;const M={props:["role"],components:{UserProfileCard:l,Modal:b},data(){return{staffs:[],selectedRole:"mod",typedUid:"",selectedUser:null,isUpdate:!1,loading:!0}},async mounted(){await this.getStaffs(),Logger.log(this.staffs)},methods:{async getStaffs(){this.loading=!0,this.staffs=await x(),this.loading=!1},openNew(i){window.open(i,"_blank")},async showModal(i){var t;if(this.selectedRole=i?i.role:"mod",this.selectedUser=null,this.typedUid=(i==null?void 0:i.uid)||"",this.isUpdate=!!i,await this.$refs.modal.show()==!0){this.loading=!0;try{await C((t=this.selectedUser)==null?void 0:t.uid,this.selectedRole),this.$store.state.alert.success("Success"),await this.getStaffs()}catch{this.$store.state.alert.error("Something went wrong",3e3)}this.loading=!1}this.typedUid=""}},watch:{async typedUid(){this.typedUid.length==28?this.selectedUser=await R(this.typedUid):this.selectedUser=null}},computed:{adminRole(){return this.role=="su"||this.role=="admin"}}};var N=function(){var e=this,t=e._self._c;return t("div",[e.adminRole?t("div",{staticClass:"max-w-60 flex items-center float-right mb-5"},[t("div",{staticClass:"btn-action btn-dark",on:{click:e.getStaffs}},[e._v("Refresh")]),t("div",{staticClass:"btn-action btn-dark",on:{click:function(s){return e.showModal(null)}}},[e._v("Add Staff")])]):e._e(),t("table",{staticClass:"w-full my-5"},[t("tr",{staticClass:"text-left leading-loose"},[t("th",[e._v("User")]),e.adminRole?t("th",[e._v("Role")]):e._e()]),e._l(e.staffs,function(s){return t("tr",{key:s.uid,staticClass:"tr_hover",class:{"opacity-50 pointer-events-none loading-block":e.loading}},[t("td",[t("UserProfileCard",{attrs:{extend:!0,small:!0,overrideProfile:s}})],1),e.adminRole?t("td",{staticClass:"text-xl cursor-pointer"},[t("span",[e._v(e._s(s.role=="su"?"admin":s.role))]),e.role=="su"||s.role!="admin"&&s.role!="su"?t("span",{staticClass:"hover_opacity",on:{click:function(a){return e.showModal(s)}}},[e._v("✏️")]):e._e()]):e._e()])})],2),e.loading?t("div",{staticClass:"my-10 w-fit blink_me opacity-50 mx-auto"},[e._v(" Loading... ")]):e._e(),t("Modal",{ref:"modal",attrs:{okEnabled:!!e.selectedUser,titleText:e.isUpdate?"Update Role":"Assign Role"}},[t("div",[e._v("User UID")]),t("input",{directives:[{name:"model",rawName:"v-model",value:e.typedUid,expression:"typedUid"}],attrs:{type:"text",placeholder:"Enter the UID to look up",disabled:e.isUpdate},domProps:{value:e.typedUid},on:{input:function(s){s.target.composing||(e.typedUid=s.target.value)}}}),e.selectedUser?t("div",[t("div",{staticClass:"mt-3"},[e._v("User")]),t("UserProfileCard",{attrs:{extend:!0,small:!0,overrideProfile:e.selectedUser}})],1):e._e(),t("div",{staticClass:"mt-3"},[e._v("Role")]),t("select",{directives:[{name:"model",rawName:"v-model",value:e.selectedRole,expression:"selectedRole"}],on:{change:function(s){var a=Array.prototype.filter.call(s.target.options,function(o){return o.selected}).map(function(o){var r="_value"in o?o._value:o.value;return r});e.selectedRole=s.target.multiple?a:a[0]}}},[t("option",{attrs:{value:"admin"}},[e._v(" Admin - can view admin logs, add other staff, plus mod permissions ")]),t("option",{attrs:{value:"mod"}},[e._v("Mod - can verify songs, view song ratings")]),t("option",{attrs:{value:"user",disabled:!e.isUpdate}},[e._v(" User - remove as staff ")])]),e.selectedRole=="admin"&&e.role!="su"?t("div",{staticClass:"text-sm"},[e._v(" CAUTION: You can no longer edit this user's role once you set it to admin. ")]):e._e(),e.selectedRole=="user"?t("div",{staticClass:"text-sm"},[e._v(" CAUTION: This will remove all of the staff ability of the user ")]):e._e()])],1)},V=[],A=n(M,N,V,!1,null,"aa155361",null,null);const D=A.exports;const F={props:[],components:{UserProfileCard:l},data(){return{logs:[]}},async mounted(){this.logs=await $(),Logger.log(this.logs)},methods:{openNew(i){window.open(i,"_blank")},setClipboard(i){d(i,"Log ID copied to clipboard")}}};var O=function(){var e=this,t=e._self._c;return t("div",[t("table",{staticClass:"w-full my-5"},[e._m(0),e._l(e.logs,function(s){return t("tr",{key:s.id,staticClass:"tr_hover"},[t("td",[t("UserProfileCard",{attrs:{extend:!0,small:!0,overrideProfile:s.user}})],1),t("td",[e._v(e._s(s.actionType))]),t("td",[e._v(e._s(e._f("moment")(s.createdAt,"from")))]),t("td",{staticClass:"text-xs"},[e._v(e._s(s.query)),t("br"),e._v(e._s(s.bodyExtracts))]),t("td",{staticClass:"text-xl cursor-pointer"},[t("span",{staticClass:"hover_opacity",on:{click:function(a){return e.setClipboard(s.id)}}},[e._v("🔗")])])])})],2)])},j=[function(){var i=this,e=i._self._c;return e("tr",{staticClass:"text-left leading-loose"},[e("th",[i._v("User")]),e("th",[i._v("Type")]),e("th",[i._v("Date")]),e("th",[i._v("Target")]),e("th",[i._v("Action")])])}],E=n(F,O,j,!1,null,"8717bbd2",null,null);const B=E.exports;const Y={name:"Admin",components:{TabSwitch:S,SongVerify:I,StaffList:D,ModLogs:B},data(){return{tab:"verify",role:null}},mixins:[U],computed:{tabs(){const i=[{id:"verify",name:"Song Verify"},{id:"staff",name:"Staff List"}];return(this.role=="admin"||this.role=="su")&&i.push({id:"logs",name:"Admin Logs"}),i}},watch:{},mounted(){var i;this.role=(i=this.$store.state.userProfile)==null?void 0:i.role,["su","admin","mod"].includes(this.role)||this.$router.replace("/?notfound=true")},methods:{}};var G=function(){var e=this,t=e._self._c;return t("div",[t("v-bar",{ref:"bar",staticClass:"fullPage",on:{"handle-scroll":e.handleScroll,"handle-resize":e.debounceHandleScroll}},[t("div",{staticClass:"max-w-7xl w-11/12 mx-auto mt-32"},[t("div",{staticClass:"pageTitle text-left"},[e._v("Admin Panel")]),t("tab-switch",{attrs:{tabs:e.tabs,selectedTabId:e.tab},on:{"change-tab":function(s){e.tab=s}}}),t("div",{staticClass:"overflow-x-scroll mx-auto"},[t("div",{staticClass:"w-[98%] min-w-[500px]"},[e.tab=="verify"?t("SongVerify",{attrs:{role:e.role,scrollProgress:e.scrollProgress}}):e._e(),e.tab=="staff"?t("StaffList",{attrs:{role:e.role}}):e._e(),e.tab=="logs"?t("ModLogs"):e._e()],1)])],1)])],1)},z=[],H=n(Y,G,z,!1,null,null,null,null);const J=H.exports;export{J as default};
+import {
+  n,
+  S as c,
+  a as u,
+  U as l,
+  M as v,
+  C as h,
+  I as f,
+  m as _,
+  g as m,
+  V as p,
+  b as g,
+  c as w,
+  d as y,
+  s as d,
+  e as b,
+  f as x,
+  h as C,
+  i as R,
+  j as $,
+  T as S,
+  k as U,
+} from "./index-1f029c71.js";
+const k = {
+  props: ["role", "scrollProgress"],
+  components: {
+    SongListItem: c,
+    SheetDetailLine: u,
+    UserProfileCard: l,
+    ModalInput: v,
+    Checkbox: h,
+    InfiniteScroll: f,
+  },
+  data() {
+    return {
+      loading: !0,
+      loadingNextPage: !1,
+      showPendingOnly: !0,
+      endReached: !1,
+      requests: [],
+      locatedRequestId: null,
+    };
+  },
+  async mounted() {
+    (await this.getRequests(),
+      (this.loading = !1),
+      Logger.log(this.requests),
+      this.$route.query.request &&
+        ((this.locatedRequestId = this.$route.query.request),
+        this.$nextTick(() => {
+          document
+            .getElementById(this.locatedRequestId)
+            .scrollIntoView({ behavior: "smooth" });
+        })));
+  },
+  watch: {
+    showPendingOnly() {
+      this.getRequests();
+    },
+  },
+  computed: {
+    adminRole() {
+      return this.role == "su" || this.role == "admin";
+    },
+  },
+  methods: {
+    async getRequests(i) {
+      ((this.loading = !0), (this.loadingNextPage = i));
+      try {
+        const e = await _(
+          i ? this.requests[this.requests.length - 1].createdAt : void 0,
+          void 0,
+          !this.showPendingOnly,
+        );
+        i
+          ? e.length == 0
+            ? (this.endReached = !0)
+            : this.requests.push(...e)
+          : ((this.requests = e), (this.endReached = !1));
+      } catch (e) {
+        (Logger.error(e), this.$store.state.alert.error("Server Error", 3e3));
+      }
+      ((this.loading = !1), (this.loadingNextPage = !1));
+    },
+    openNew(i) {
+      window.open(i, "_blank");
+    },
+    async mark(i, e) {
+      let t = "";
+      const s = i.reviewStage == 1 ? "First Review" : "Second Review";
+      try {
+        if (i.reviewStage == 1) {
+          const r = await m(i.sheet.id);
+          if ((Logger.log(r), !r && this.adminRole && !e))
+            this.$store.state.alert.warn(
+              "To verify, you have to complete this sheet at least once. However, as admin you can still reject the request.",
+              5e3,
+            );
+          else if (!r) {
+            this.$store.state.alert.error(
+              "To verify, you have to complete this sheet at least once",
+              5e3,
+            );
+            return;
+          }
+        } else if (
+          i.reviewStage == 2 &&
+          e &&
+          this.$store.state.currentUser.uid === i.firstReviewer.uid
+        ) {
+          this.$store.state.alert.error(
+            "You cannot approve your own request",
+            5e3,
+          );
+          return;
+        }
+        const a = {
+          titleText: `Verify this sheet? (${s})`,
+          okText: "Submit",
+          placeholder: "(Optional) Reason for approval",
+          guide: p,
+        };
+        e ||
+          ((a.titleText = `Reject this sheet? (${s})`),
+          (a.placeholder = "Reason for rejection"),
+          (a.guide = "You have to provide a reason for rejection."),
+          (a.requireText = !0));
+        const o = await this.$refs.inputModal.show(a);
+        (Logger.log("reason", o, o !== !1),
+          o !== !1 &&
+            ((this.loading = !0),
+            (t = o.text),
+            i.reviewStage == 1
+              ? await g(i.id, e, t)
+              : i.reviewStage == 2 && (await w(i.id, e, t)),
+            this.$store.state.alert.success("Success"),
+            await this.getRequests()));
+      } catch (a) {
+        (Logger.error(a),
+          this.$store.state.alert.error(
+            "Something went wrong, your input is backed up to clipboard, please try again later",
+            5e3,
+          ),
+          t && navigator.clipboard.writeText(t));
+      }
+      this.loading = !1;
+    },
+    viewComment(i) {
+      if (!i) {
+        this.$store.state.alert.info("No comment provided", 2e3);
+        return;
+      }
+      if (i === "[direct-first-review]") {
+        this.$store.state.alert.info(
+          "No comment provided, this request was submitted directly by the first reviewer",
+          3e3,
+        );
+        return;
+      }
+      this.$store.state.gModal.show({
+        titleText: "Comment",
+        bodyText: i,
+        showCancel: !1,
+      });
+    },
+    async unverifySheet(i) {
+      try {
+        const e = await this.$refs.inputModal.show({
+          titleText: "Unverify this sheet",
+          guide:
+            "This will remove the verified status of this sheet, it's recommended that you manually notify the reviewers and the creator about the reason. Do not use this function frequently.",
+          placeholder: "Please provide a reason for unverifying",
+          okText: "Unverify",
+          cancelText: "Cancel",
+          type: "warning",
+          requireText: !0,
+        });
+        if (!e) return;
+        (await y(i, e.text),
+          this.$store.state.alert.success("Success"),
+          await this.getRequests());
+      } catch (e) {
+        (Logger.error(e),
+          this.$store.state.alert.error(
+            "Something went wrong, please try again later",
+            5e3,
+          ));
+      }
+    },
+    setClipboard(i) {
+      d(
+        `${window.location.origin}/admin?request=${i}`,
+        "URL to this request copied to clipboard",
+      );
+    },
+  },
+};
+var L = function () {
+    var e = this,
+      t = e._self._c;
+    return t(
+      "div",
+      [
+        t(
+          "div",
+          { staticClass: "max-w-[600px] flex items-center float-right mb-5" },
+          [
+            t(
+              "div",
+              {
+                staticClass: "btn-action btn-dark",
+                on: {
+                  click: function (s) {
+                    return e.getRequests();
+                  },
+                },
+              },
+              [e._v("Refresh")],
+            ),
+            t("Checkbox", {
+              staticClass: "ml-2",
+              attrs: {
+                label: "Show pending only",
+                model: this,
+                modelKey: "showPendingOnly",
+                cbStyle: "form",
+              },
+            }),
+          ],
+          1,
+        ),
+        t(
+          "table",
+          { staticClass: "w-full my-5" },
+          [
+            e._m(0),
+            e._l(e.requests, function (s) {
+              return t(
+                "tr",
+                {
+                  key: s.id,
+                  staticClass: "tr_hover",
+                  class: {
+                    "opacity-50 pointer-events-none loading-block":
+                      e.loading && !e.loadingNextPage,
+                    "border-4 border-gray-500": e.locatedRequestId == s.id,
+                  },
+                  attrs: { id: s.id },
+                },
+                [
+                  t(
+                    "td",
+                    {
+                      staticClass: "hover_opacity cursor-pointer",
+                      on: {
+                        click: function (a) {
+                          return e.openNew(`/menu/?songId=${s.song.id}`);
+                        },
+                      },
+                    },
+                    [
+                      s.song
+                        ? t("SongListItem", {
+                            attrs: { song: s.song, hideBg: !0 },
+                          })
+                        : e._e(),
+                      t("SheetDetailLine", {
+                        attrs: { sheet: s.sheet, compact: !0 },
+                      }),
+                    ],
+                    1,
+                  ),
+                  t("td", [
+                    e._v(
+                      " " +
+                        e._s(
+                          s.commentSubmit == "[direct-first-review]"
+                            ? "Reviewer"
+                            : "Charter",
+                        ) +
+                        " ",
+                    ),
+                    s.submittedBy.uid != s.firstReviewer.uid
+                      ? t(
+                          "div",
+                          {
+                            staticClass: "btn-action btn-dark text-sm",
+                            on: {
+                              click: function (a) {
+                                return e.viewComment(s.commentSubmit);
+                              },
+                            },
+                          },
+                          [e._v(" View comment ")],
+                        )
+                      : e._e(),
+                  ]),
+                  t("td", [
+                    s.firstReviewer && s.firstReviewer.uid
+                      ? t(
+                          "div",
+                          [
+                            t("UserProfileCard", {
+                              attrs: {
+                                extend: !0,
+                                small: !0,
+                                overrideProfile: s.firstReviewer,
+                              },
+                            }),
+                            t(
+                              "div",
+                              {
+                                staticClass: "btn-action btn-dark text-sm",
+                                on: {
+                                  click: function (a) {
+                                    return e.viewComment(s.commentFirstReview);
+                                  },
+                                },
+                              },
+                              [e._v(" View comment ")],
+                            ),
+                          ],
+                          1,
+                        )
+                      : t("div", [e._v("-")]),
+                  ]),
+                  t("td", [
+                    s.secondReviewer && s.secondReviewer.uid
+                      ? t(
+                          "div",
+                          [
+                            t("UserProfileCard", {
+                              attrs: {
+                                extend: !0,
+                                small: !0,
+                                overrideProfile: s.secondReviewer,
+                              },
+                            }),
+                            t(
+                              "div",
+                              {
+                                staticClass: "btn-action btn-dark text-sm",
+                                on: {
+                                  click: function (a) {
+                                    return e.viewComment(s.commentSecondReview);
+                                  },
+                                },
+                              },
+                              [e._v(" View comment ")],
+                            ),
+                          ],
+                          1,
+                        )
+                      : t("div", [e._v("-")]),
+                  ]),
+                  t("td", [e._v(e._s(e._f("moment")(s.updatedAt, "from")))]),
+                  t("td", [
+                    t(
+                      "span",
+                      {
+                        class: {
+                          "text-red-400": s.status == "reverted",
+                          "text-orange-400": s.status == "rejected",
+                          "text-green-400": s.status == "approved",
+                          "text-blue-400": s.status == "pending",
+                        },
+                      },
+                      [e._v(e._s(s.status))],
+                    ),
+                  ]),
+                  t("td", [e._v(e._s(s.reviewStage))]),
+                  t("td", { staticClass: "text-xl cursor-pointer" }, [
+                    s.status == "pending"
+                      ? t("div", { staticClass: "text-center" }, [
+                          t(
+                            "span",
+                            {
+                              staticClass: "hover_opacity",
+                              attrs: { title: "copy request url" },
+                              on: {
+                                click: function (a) {
+                                  return e.setClipboard(s.id);
+                                },
+                              },
+                            },
+                            [e._v("🔗")],
+                          ),
+                          t(
+                            "span",
+                            {
+                              staticClass: "hover_opacity",
+                              attrs: { title: "open in editor" },
+                              on: {
+                                click: function (a) {
+                                  return e.openNew(`/editor/${s.sheet.id}`);
+                                },
+                              },
+                            },
+                            [e._v("📝")],
+                          ),
+                          t(
+                            "span",
+                            {
+                              staticClass: "hover_opacity",
+                              attrs: { title: "play" },
+                              on: {
+                                click: function (a) {
+                                  return e.openNew(`/game/${s.sheet.id}`);
+                                },
+                              },
+                            },
+                            [e._v("▶️")],
+                          ),
+                          t(
+                            "span",
+                            {
+                              staticClass: "hover_opacity",
+                              attrs: { title: "approve" },
+                              on: {
+                                click: function (a) {
+                                  return e.mark(s, !0);
+                                },
+                              },
+                            },
+                            [e._v("✅")],
+                          ),
+                          t(
+                            "span",
+                            {
+                              staticClass: "hover_opacity",
+                              attrs: { title: "reject" },
+                              on: {
+                                click: function (a) {
+                                  return e.mark(s, !1);
+                                },
+                              },
+                            },
+                            [e._v("❌")],
+                          ),
+                        ])
+                      : s.sheet.verified &&
+                          (e.role == "su" || e.role == "admin")
+                        ? t("div", [
+                            t(
+                              "div",
+                              {
+                                staticClass: "btn-action btn-dark text-sm",
+                                on: {
+                                  click: function (a) {
+                                    return e.unverifySheet(s.id);
+                                  },
+                                },
+                              },
+                              [e._v(" Revert ")],
+                            ),
+                          ])
+                        : e._e(),
+                  ]),
+                ],
+              );
+            }),
+          ],
+          2,
+        ),
+        t("InfiniteScroll", {
+          attrs: {
+            loading: e.loading,
+            endReached: e.endReached,
+            "scroll-progress": e.scrollProgress,
+          },
+          on: {
+            next: function (s) {
+              return e.getRequests(!0);
+            },
+          },
+        }),
+        t("ModalInput", { ref: "inputModal" }),
+      ],
+      1,
+    );
+  },
+  P = [
+    function () {
+      var i = this,
+        e = i._self._c;
+      return e(
+        "tr",
+        { staticClass: "text-left leading-loose whitespace-nowrap" },
+        [
+          e("th", [i._v("Song and sheet for review")]),
+          e("th", [i._v("Requested by")]),
+          e("th", [i._v("First Reviewer")]),
+          e("th", [i._v("Second Reviewer")]),
+          e("th", [i._v("Date")]),
+          e("th", [i._v("Status")]),
+          e("th", [i._v("Stage")]),
+          e("th", [i._v("Action")]),
+        ],
+      );
+    },
+  ],
+  T = n(k, L, P, !1, null, "24504aa5", null, null);
+const I = T.exports;
+const M = {
+  props: ["role"],
+  components: { UserProfileCard: l, Modal: b },
+  data() {
+    return {
+      staffs: [],
+      selectedRole: "mod",
+      typedUid: "",
+      selectedUser: null,
+      isUpdate: !1,
+      loading: !0,
+    };
+  },
+  async mounted() {
+    (await this.getStaffs(), Logger.log(this.staffs));
+  },
+  methods: {
+    async getStaffs() {
+      ((this.loading = !0), (this.staffs = await x()), (this.loading = !1));
+    },
+    openNew(i) {
+      window.open(i, "_blank");
+    },
+    async showModal(i) {
+      var t;
+      if (
+        ((this.selectedRole = i ? i.role : "mod"),
+        (this.selectedUser = null),
+        (this.typedUid = (i == null ? void 0 : i.uid) || ""),
+        (this.isUpdate = !!i),
+        (await this.$refs.modal.show()) == !0)
+      ) {
+        this.loading = !0;
+        try {
+          (await C(
+            (t = this.selectedUser) == null ? void 0 : t.uid,
+            this.selectedRole,
+          ),
+            this.$store.state.alert.success("Success"),
+            await this.getStaffs());
+        } catch {
+          this.$store.state.alert.error("Something went wrong", 3e3);
+        }
+        this.loading = !1;
+      }
+      this.typedUid = "";
+    },
+  },
+  watch: {
+    async typedUid() {
+      this.typedUid.length == 28
+        ? (this.selectedUser = await R(this.typedUid))
+        : (this.selectedUser = null);
+    },
+  },
+  computed: {
+    adminRole() {
+      return this.role == "su" || this.role == "admin";
+    },
+  },
+};
+var N = function () {
+    var e = this,
+      t = e._self._c;
+    return t(
+      "div",
+      [
+        e.adminRole
+          ? t(
+              "div",
+              { staticClass: "max-w-60 flex items-center float-right mb-5" },
+              [
+                t(
+                  "div",
+                  {
+                    staticClass: "btn-action btn-dark",
+                    on: { click: e.getStaffs },
+                  },
+                  [e._v("Refresh")],
+                ),
+                t(
+                  "div",
+                  {
+                    staticClass: "btn-action btn-dark",
+                    on: {
+                      click: function (s) {
+                        return e.showModal(null);
+                      },
+                    },
+                  },
+                  [e._v("Add Staff")],
+                ),
+              ],
+            )
+          : e._e(),
+        t(
+          "table",
+          { staticClass: "w-full my-5" },
+          [
+            t("tr", { staticClass: "text-left leading-loose" }, [
+              t("th", [e._v("User")]),
+              e.adminRole ? t("th", [e._v("Role")]) : e._e(),
+            ]),
+            e._l(e.staffs, function (s) {
+              return t(
+                "tr",
+                {
+                  key: s.uid,
+                  staticClass: "tr_hover",
+                  class: {
+                    "opacity-50 pointer-events-none loading-block": e.loading,
+                  },
+                },
+                [
+                  t(
+                    "td",
+                    [
+                      t("UserProfileCard", {
+                        attrs: { extend: !0, small: !0, overrideProfile: s },
+                      }),
+                    ],
+                    1,
+                  ),
+                  e.adminRole
+                    ? t("td", { staticClass: "text-xl cursor-pointer" }, [
+                        t("span", [
+                          e._v(e._s(s.role == "su" ? "admin" : s.role)),
+                        ]),
+                        e.role == "su" || (s.role != "admin" && s.role != "su")
+                          ? t(
+                              "span",
+                              {
+                                staticClass: "hover_opacity",
+                                on: {
+                                  click: function (a) {
+                                    return e.showModal(s);
+                                  },
+                                },
+                              },
+                              [e._v("✏️")],
+                            )
+                          : e._e(),
+                      ])
+                    : e._e(),
+                ],
+              );
+            }),
+          ],
+          2,
+        ),
+        e.loading
+          ? t(
+              "div",
+              { staticClass: "my-10 w-fit blink_me opacity-50 mx-auto" },
+              [e._v(" Loading... ")],
+            )
+          : e._e(),
+        t(
+          "Modal",
+          {
+            ref: "modal",
+            attrs: {
+              okEnabled: !!e.selectedUser,
+              titleText: e.isUpdate ? "Update Role" : "Assign Role",
+            },
+          },
+          [
+            t("div", [e._v("User UID")]),
+            t("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: e.typedUid,
+                  expression: "typedUid",
+                },
+              ],
+              attrs: {
+                type: "text",
+                placeholder: "Enter the UID to look up",
+                disabled: e.isUpdate,
+              },
+              domProps: { value: e.typedUid },
+              on: {
+                input: function (s) {
+                  s.target.composing || (e.typedUid = s.target.value);
+                },
+              },
+            }),
+            e.selectedUser
+              ? t(
+                  "div",
+                  [
+                    t("div", { staticClass: "mt-3" }, [e._v("User")]),
+                    t("UserProfileCard", {
+                      attrs: {
+                        extend: !0,
+                        small: !0,
+                        overrideProfile: e.selectedUser,
+                      },
+                    }),
+                  ],
+                  1,
+                )
+              : e._e(),
+            t("div", { staticClass: "mt-3" }, [e._v("Role")]),
+            t(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: e.selectedRole,
+                    expression: "selectedRole",
+                  },
+                ],
+                on: {
+                  change: function (s) {
+                    var a = Array.prototype.filter
+                      .call(s.target.options, function (o) {
+                        return o.selected;
+                      })
+                      .map(function (o) {
+                        var r = "_value" in o ? o._value : o.value;
+                        return r;
+                      });
+                    e.selectedRole = s.target.multiple ? a : a[0];
+                  },
+                },
+              },
+              [
+                t("option", { attrs: { value: "admin" } }, [
+                  e._v(
+                    " Admin - can view admin logs, add other staff, plus mod permissions ",
+                  ),
+                ]),
+                t("option", { attrs: { value: "mod" } }, [
+                  e._v("Mod - can verify songs, view song ratings"),
+                ]),
+                t(
+                  "option",
+                  { attrs: { value: "user", disabled: !e.isUpdate } },
+                  [e._v(" User - remove as staff ")],
+                ),
+              ],
+            ),
+            e.selectedRole == "admin" && e.role != "su"
+              ? t("div", { staticClass: "text-sm" }, [
+                  e._v(
+                    " CAUTION: You can no longer edit this user's role once you set it to admin. ",
+                  ),
+                ])
+              : e._e(),
+            e.selectedRole == "user"
+              ? t("div", { staticClass: "text-sm" }, [
+                  e._v(
+                    " CAUTION: This will remove all of the staff ability of the user ",
+                  ),
+                ])
+              : e._e(),
+          ],
+        ),
+      ],
+      1,
+    );
+  },
+  V = [],
+  A = n(M, N, V, !1, null, "aa155361", null, null);
+const D = A.exports;
+const F = {
+  props: [],
+  components: { UserProfileCard: l },
+  data() {
+    return { logs: [] };
+  },
+  async mounted() {
+    ((this.logs = await $()), Logger.log(this.logs));
+  },
+  methods: {
+    openNew(i) {
+      window.open(i, "_blank");
+    },
+    setClipboard(i) {
+      d(i, "Log ID copied to clipboard");
+    },
+  },
+};
+var O = function () {
+    var e = this,
+      t = e._self._c;
+    return t("div", [
+      t(
+        "table",
+        { staticClass: "w-full my-5" },
+        [
+          e._m(0),
+          e._l(e.logs, function (s) {
+            return t("tr", { key: s.id, staticClass: "tr_hover" }, [
+              t(
+                "td",
+                [
+                  t("UserProfileCard", {
+                    attrs: { extend: !0, small: !0, overrideProfile: s.user },
+                  }),
+                ],
+                1,
+              ),
+              t("td", [e._v(e._s(s.actionType))]),
+              t("td", [e._v(e._s(e._f("moment")(s.createdAt, "from")))]),
+              t("td", { staticClass: "text-xs" }, [
+                e._v(e._s(s.query)),
+                t("br"),
+                e._v(e._s(s.bodyExtracts)),
+              ]),
+              t("td", { staticClass: "text-xl cursor-pointer" }, [
+                t(
+                  "span",
+                  {
+                    staticClass: "hover_opacity",
+                    on: {
+                      click: function (a) {
+                        return e.setClipboard(s.id);
+                      },
+                    },
+                  },
+                  [e._v("🔗")],
+                ),
+              ]),
+            ]);
+          }),
+        ],
+        2,
+      ),
+    ]);
+  },
+  j = [
+    function () {
+      var i = this,
+        e = i._self._c;
+      return e("tr", { staticClass: "text-left leading-loose" }, [
+        e("th", [i._v("User")]),
+        e("th", [i._v("Type")]),
+        e("th", [i._v("Date")]),
+        e("th", [i._v("Target")]),
+        e("th", [i._v("Action")]),
+      ]);
+    },
+  ],
+  E = n(F, O, j, !1, null, "8717bbd2", null, null);
+const B = E.exports;
+const Y = {
+  name: "Admin",
+  components: { TabSwitch: S, SongVerify: I, StaffList: D, ModLogs: B },
+  data() {
+    return { tab: "verify", role: null };
+  },
+  mixins: [U],
+  computed: {
+    tabs() {
+      const i = [
+        { id: "verify", name: "Song Verify" },
+        { id: "staff", name: "Staff List" },
+      ];
+      return (
+        (this.role == "admin" || this.role == "su") &&
+          i.push({ id: "logs", name: "Admin Logs" }),
+        i
+      );
+    },
+  },
+  watch: {},
+  mounted() {
+    var i;
+    ((this.role =
+      (i = this.$store.state.userProfile) == null ? void 0 : i.role),
+      ["su", "admin", "mod"].includes(this.role) ||
+        this.$router.replace("/?notfound=true"));
+  },
+  methods: {},
+};
+var G = function () {
+    var e = this,
+      t = e._self._c;
+    return t(
+      "div",
+      [
+        t(
+          "v-bar",
+          {
+            ref: "bar",
+            staticClass: "fullPage",
+            on: {
+              "handle-scroll": e.handleScroll,
+              "handle-resize": e.debounceHandleScroll,
+            },
+          },
+          [
+            t(
+              "div",
+              { staticClass: "max-w-7xl w-11/12 mx-auto mt-32" },
+              [
+                t("div", { staticClass: "pageTitle text-left" }, [
+                  e._v("Admin Panel"),
+                ]),
+                t("tab-switch", {
+                  attrs: { tabs: e.tabs, selectedTabId: e.tab },
+                  on: {
+                    "change-tab": function (s) {
+                      e.tab = s;
+                    },
+                  },
+                }),
+                t("div", { staticClass: "overflow-x-scroll mx-auto" }, [
+                  t(
+                    "div",
+                    { staticClass: "w-[98%] min-w-[500px]" },
+                    [
+                      e.tab == "verify"
+                        ? t("SongVerify", {
+                            attrs: {
+                              role: e.role,
+                              scrollProgress: e.scrollProgress,
+                            },
+                          })
+                        : e._e(),
+                      e.tab == "staff"
+                        ? t("StaffList", { attrs: { role: e.role } })
+                        : e._e(),
+                      e.tab == "logs" ? t("ModLogs") : e._e(),
+                    ],
+                    1,
+                  ),
+                ]),
+              ],
+              1,
+            ),
+          ],
+        ),
+      ],
+      1,
+    );
+  },
+  z = [],
+  H = n(Y, G, z, !1, null, null, null, null);
+const J = H.exports;
+export { J as default };
