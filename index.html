@@ -85,6 +85,28 @@
       window.gtag = function() {};
       window.dataLayer = [];
 
+      // RCade: Stub Sentry for offline mode
+      window.Sentry = {
+        init: function() {},
+        captureException: function() {},
+        captureMessage: function() {},
+        captureEvent: function() {},
+        addBreadcrumb: function() {},
+        setUser: function() {},
+        setTag: function() {},
+        setTags: function() {},
+        setExtra: function() {},
+        setExtras: function() {},
+        setContext: function() {},
+        configureScope: function() {},
+        withScope: function(cb) { cb({ setTag: function(){}, setExtra: function(){}, setUser: function(){} }); },
+        startTransaction: function() { return { finish: function(){}, setStatus: function(){} }; },
+        getCurrentHub: function() { return { getClient: function(){}, getScope: function(){} }; },
+        BrowserTracing: function() {},
+        Replay: function() {}
+      };
+      window.__SENTRY__ = { hub: null, logger: null };
+
       // Logger stub (replaces logger.min.js)
       window.Logger = {
         log: function() {},
