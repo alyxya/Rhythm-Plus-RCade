@@ -42,8 +42,10 @@ function handleInput(inputName, isPressed, key) {
 
   if (isPressed && !wasPressed) {
     activeInputs.add(inputName)
-    simulateKeyEvent(key, 'keydown')
+    // Always dispatch button event for UI handlers
     dispatchRcadeEvent(inputName)
+    // Then handle gameplay input
+    simulateKeyEvent(key, 'keydown')
   } else if (!isPressed && wasPressed) {
     activeInputs.delete(inputName)
     simulateKeyEvent(key, 'keyup')
