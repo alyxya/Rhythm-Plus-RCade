@@ -3,22 +3,33 @@ import { PLAYER_1, PLAYER_2, SYSTEM } from '@rcade/plugin-input-classic'
 
 // RCade input integration for Rhythm+
 // The game's main logic is in the bundled assets/index-*.js file
-// This file provides the bridge between RCade arcade controls and game input
+// This file provides the bridge between RCade arcade controls and keyboard events
 
 // Track which inputs are currently active (to detect press/release)
 const activeInputs = new Set()
 
-// Dispatch custom RCade key events that the game engine listens for
-function dispatchRcadeKeyEvent(key, type) {
-  const event = new CustomEvent(`rcade-${type}`, {
-    detail: { key: key },
-    bubbles: true
+function simulateKeyEvent(key, type) {
+  // Try direct game engine call first (works in RCade sandbox)
+  if (window.__rcadeGameEngine) {
+    if (type === 'keydown') {
+      window.__rcadeGameEngine.onKeyDown(key)
+    } else if (type === 'keyup') {
+      window.__rcadeGameEngine.onKeyUp(key)
+    }
+    return
+  }
+  // Fallback to keyboard event (works in dev mode)
+  const event = new KeyboardEvent(type, {
+    key: key,
+    code: 'Key' + key.toUpperCase(),
+    bubbles: true,
+    cancelable: true
   })
-  window.dispatchEvent(event)
+  document.dispatchEvent(event)
 }
 
 // Dispatch custom RCade button events for UI/menu handling
-function dispatchRcadeButtonEvent(buttonName) {
+function dispatchRcadeEvent(buttonName) {
   const event = new CustomEvent(`rcade-button-${buttonName.toLowerCase()}`, {
     detail: { button: buttonName },
     bubbles: true
@@ -31,11 +42,11 @@ function handleInput(inputName, isPressed, key) {
 
   if (isPressed && !wasPressed) {
     activeInputs.add(inputName)
-    dispatchRcadeKeyEvent(key, 'keydown')
-    dispatchRcadeButtonEvent(inputName)
+    simulateKeyEvent(key, 'keydown')
+    dispatchRcadeEvent(inputName)
   } else if (!isPressed && wasPressed) {
     activeInputs.delete(inputName)
-    dispatchRcadeKeyEvent(key, 'keyup')
+    simulateKeyEvent(key, 'keyup')
   }
 }
 
