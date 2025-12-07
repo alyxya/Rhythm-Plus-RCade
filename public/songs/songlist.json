@@ -5,128 +5,83 @@
     "subtitle": "",
     "artist": "32ki",
     "image": "/songs/EKFRYKMhCzTQTFG992W3SJ/cover.jpg",
-    "difficulties": [6],
-    "keys": [4],
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
     "srcMode": "video",
     "srcRef": "/songs/EKFRYKMhCzTQTFG992W3SJ/video.mp4",
     "verified": false,
-    "tags": ["kasane-teto", "vocaloid", "j-pop", "4-key", "4note", "hatsune-miku"]
+    "tags": [
+      "kasane-teto",
+      "vocaloid",
+      "j-pop",
+      "4-key",
+      "4note",
+      "hatsune-miku"
+    ]
   },
   {
     "id": "8XEf94AFwAiwCNHHyCwR8Z",
     "title": "Bad Apple!!",
     "subtitle": "(from Lovelight Album)",
     "artist": "Alstroemeria Records (ft. nomico)",
-    "image": "https://img.youtube.com/vi/FtutLA63Cp8/mqdefault.jpg",
-    "difficulties": [6, 7],
-    "keys": [4],
-    "srcMode": "youtube",
-    "srcRef": "FtutLA63Cp8",
+    "image": "/songs/8XEf94AFwAiwCNHHyCwR8Z/cover.jpg",
+    "difficulties": [
+      6,
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/8XEf94AFwAiwCNHHyCwR8Z/video.mp4",
     "verified": true,
-    "tags": ["japanese", "ost", "touhou", "electronic", "game", "banger"]
+    "tags": [
+      "japanese",
+      "ost",
+      "touhou",
+      "youtube-video",
+      "electronic",
+      "game",
+      "banger",
+      "actuallygoodmusic",
+      "4note",
+      "animated"
+    ]
   },
   {
     "id": "4prBSKY6jRqjP8wrAqed7f",
-    "title": "(AMV) IDOL / アイドル - Oshi no Ko",
+    "title": "(AMV) IDOL  / アイドル - Oshi no Ko",
     "subtitle": "RPOT 2025) (Credit to 에이드 AID",
     "artist": "Ayase / YOASOBI",
-    "image": "https://img.youtube.com/vi/ZRtdQ81jPUQ/mqdefault.jpg",
-    "difficulties": [4, 5, 6, 7, 8, 10],
-    "keys": [4],
-    "srcMode": "youtube",
-    "srcRef": "ZRtdQ81jPUQ",
+    "image": "/songs/4prBSKY6jRqjP8wrAqed7f/cover.jpg",
+    "difficulties": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/4prBSKY6jRqjP8wrAqed7f/video.mp4",
     "verified": true,
-    "tags": ["japanese", "ost", "amv", "jpop", "anime", "j-pop", "anime-opening"]
-  },
-  {
-    "id": "B2ZU7digp3PkE3G3h1KuKz",
-    "title": "!!ローリンガール",
-    "subtitle": "Rolling Girl",
-    "artist": "wowaka (feat. Hatsune Miku)",
-    "image": "https://img.youtube.com/vi/vPlFkyXY6L0/mqdefault.jpg",
-    "difficulties": [4, 5, 6, 7, 8],
-    "keys": [4],
-    "srcMode": "youtube",
-    "srcRef": "vPlFkyXY6L0",
-    "verified": true,
-    "tags": ["pjsk", "projectdiva", "vocaloid", "banger", "4key", "hatsune-miku"]
-  },
-  {
-    "id": "6rFVier2JJ5bm7bzM3wsWx",
-    "title": "ADO - USSEEWA / うっせぇわ",
-    "subtitle": "Credit to Project Sekai",
-    "artist": "Ado",
-    "image": "https://img.youtube.com/vi/Qp3b-RXtz4w/mqdefault.jpg",
-    "difficulties": [6],
-    "keys": [4],
-    "srcMode": "youtube",
-    "srcRef": "Qp3b-RXtz4w",
-    "verified": true,
-    "tags": ["japanese", "j-rock", "ado", "rock", "metal", "vocaloid", "j-pop"]
-  },
-  {
-    "id": "Y9T2HGzByvPbSFaoyb7iep",
-    "title": "Young Girl A",
-    "subtitle": "",
-    "artist": "Siinamota",
-    "image": "https://img.youtube.com/vi/AqI97zHMoQw/mqdefault.jpg",
-    "difficulties": [2, 5, 7, 10],
-    "keys": [4],
-    "srcMode": "youtube",
-    "srcRef": "AqI97zHMoQw",
-    "verified": false,
-    "tags": ["japanese", "anime"]
-  },
-  {
-    "id": "KUVGgTBhLBAa4auxtBtWTP",
-    "title": "rush e",
-    "subtitle": "",
-    "artist": "music sheet boss",
-    "image": "https://img.youtube.com/vi/AnyMJJ2Ma54/mqdefault.jpg",
-    "difficulties": [7],
-    "keys": [4],
-    "srcMode": "youtube",
-    "srcRef": "AnyMJJ2Ma54",
-    "verified": false,
-    "tags": ["game"]
-  },
-  {
-    "id": "YQwRzUZWEJFWowk2Wnvn8R",
-    "title": "Beethoven - Moonlight Sonata 3rd Movement",
-    "subtitle": "",
-    "artist": "meganeko Remix)",
-    "image": "https://img.youtube.com/vi/j9-0GHeHV7c/mqdefault.jpg",
-    "difficulties": [7],
-    "keys": [4],
-    "srcMode": "youtube",
-    "srcRef": "j9-0GHeHV7c",
-    "verified": false,
-    "tags": []
-  },
-  {
-    "id": "82XYBKUP6ZA8CHdw3XMrER",
-    "title": "Through the Fire and the Flames",
-    "subtitle": "",
-    "artist": "Dragonforce",
-    "image": "https://img.youtube.com/vi/DZyYapMZSec/mqdefault.jpg",
-    "difficulties": [6, 8, 9],
-    "keys": [4],
-    "srcMode": "youtube",
-    "srcRef": "DZyYapMZSec",
-    "verified": false,
-    "tags": []
-  },
-  {
-    "id": "JtXrPHfYkcwbQqo25ERBdm",
-    "title": "Flamewall",
-    "subtitle": "HARD-CHARTED",
-    "artist": "Camellia",
-    "image": "https://img.youtube.com/vi/gwNYGFmo_WY/mqdefault.jpg",
-    "difficulties": [9],
-    "keys": [4],
-    "srcMode": "youtube",
-    "srcRef": "gwNYGFmo_WY",
-    "verified": false,
-    "tags": ["geometry-dash"]
+    "tags": [
+      "japanese",
+      "ost",
+      "amv",
+      "jpop",
+      "youtube-video",
+      "anime",
+      "mv",
+      "j-pop",
+      "anime-opening"
+    ]
   }
 ]
