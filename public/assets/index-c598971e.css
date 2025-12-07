@@ -4257,10 +4257,10 @@ input.firebaseui-input-invalid {
 }
 .sticky[data-v-c6a5eb21] {
   position: sticky;
-  top: 80px;
+  top: 0;
   height: 100%;
   min-width: 350px;
-  max-height: calc(100vh - 230px);
+  max-height: 100vh;
   overflow: scroll;
 }
 .playBtn[data-v-c6a5eb21] {
