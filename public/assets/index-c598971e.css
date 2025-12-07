@@ -4259,7 +4259,7 @@ input.firebaseui-input-invalid {
   position: sticky;
   top: 0;
   height: 100%;
-  min-width: 350px;
+  min-width: 500px;
   max-height: 100vh;
   overflow: scroll;
 }
@@ -4709,7 +4709,8 @@ input.firebaseui-input-invalid {
 }
 .detail[data-v-67a9f2b9] {
   transition: 1s;
-  width: 350px;
+  width: 500px;
+  height: 100vh;
 }
 .btn-more[data-v-67a9f2b9] {
   float: right;
