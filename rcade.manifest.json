@@ -1,0 +1,16 @@
+{
+  "$schema": "https://rcade.dev/manifest.schema.json",
+  "name": "rhythm-plus",
+  "display_name": "Rhythm+",
+  "description": "rhythm-plus",
+  "visibility": "public",
+  "authors": {
+    "display_name": " "
+  },
+  "dependencies": [
+    {
+      "name": "@rcade/input-classic",
+      "version": "1.0.0"
+    }
+  ]
+}
