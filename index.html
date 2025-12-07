@@ -2,24 +2,16 @@
 <html lang="en">
   <head>
     <script>
-      // RCade: In-memory localStorage shim (must be FIRST script to run)
-      // Replaces localStorage entirely to avoid SecurityError in sandboxed environments
-      (function() {
-        var storage = {};
-        var shim = {
-          getItem: function(key) { return storage.hasOwnProperty(key) ? storage[key] : null; },
-          setItem: function(key, value) { storage[key] = String(value); },
-          removeItem: function(key) { delete storage[key]; },
-          clear: function() { storage = {}; },
-          get length() { return Object.keys(storage).length; },
-          key: function(i) { return Object.keys(storage)[i] || null; }
-        };
-        // Delete and redefine before any other code runs
-        delete window.localStorage;
-        delete window.sessionStorage;
-        window.localStorage = shim;
-        window.sessionStorage = shim;
-      })();
+      // RCade: In-memory storage shim for sandboxed environments
+      var __rcadeStorage = {};
+      var __rcadeStorageShim = {
+        getItem: function(key) { return __rcadeStorage.hasOwnProperty(key) ? __rcadeStorage[key] : null; },
+        setItem: function(key, value) { __rcadeStorage[key] = String(value); },
+        removeItem: function(key) { delete __rcadeStorage[key]; },
+        clear: function() { __rcadeStorage = {}; },
+        get length() { return Object.keys(__rcadeStorage).length; },
+        key: function(i) { return Object.keys(__rcadeStorage)[i] || null; }
+      };
     </script>
     <meta charset="UTF-8" />
     <meta
