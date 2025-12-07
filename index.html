@@ -19,6 +19,68 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="stylesheet" href="/fonts.css" />
     <script>
+      // Resolution scaling - render at higher virtual resolution and scale down
+      (function() {
+        var scaleFactor = 2;
+
+        // Store the original getters before overriding
+        var originalInnerWidth = Object.getOwnPropertyDescriptor(window, 'innerWidth') ||
+          { get: function() { return window.outerWidth; } };
+        var originalInnerHeight = Object.getOwnPropertyDescriptor(window, 'innerHeight') ||
+          { get: function() { return window.outerHeight; } };
+
+        // Function to get real dimensions
+        function getRealWidth() {
+          return originalInnerWidth.get ? originalInnerWidth.get.call(window) : window.outerWidth;
+        }
+        function getRealHeight() {
+          return originalInnerHeight.get ? originalInnerHeight.get.call(window) : window.outerHeight;
+        }
+
+        // Override window.innerWidth and window.innerHeight
+        Object.defineProperty(window, 'innerWidth', {
+          get: function() { return getRealWidth() * scaleFactor; },
+          configurable: true
+        });
+        Object.defineProperty(window, 'innerHeight', {
+          get: function() { return getRealHeight() * scaleFactor; },
+          configurable: true
+        });
+
+        // Override document.documentElement dimensions
+        Object.defineProperty(document.documentElement, 'clientWidth', {
+          get: function() { return getRealWidth() * scaleFactor; },
+          configurable: true
+        });
+        Object.defineProperty(document.documentElement, 'clientHeight', {
+          get: function() { return getRealHeight() * scaleFactor; },
+          configurable: true
+        });
+
+        function applyScale() {
+          var w = getRealWidth() * scaleFactor;
+          var h = getRealHeight() * scaleFactor;
+
+          document.body.style.width = w + 'px';
+          document.body.style.height = h + 'px';
+          document.body.style.transformOrigin = '0 0';
+          document.body.style.transform = 'scale(' + (1 / scaleFactor) + ')';
+          document.body.style.overflow = 'hidden';
+        }
+
+        // Apply on load and resize
+        window.addEventListener('load', applyScale);
+        window.addEventListener('resize', applyScale);
+
+        // Also apply immediately for initial render
+        if (document.readyState === 'complete') {
+          applyScale();
+        } else {
+          document.addEventListener('DOMContentLoaded', applyScale);
+        }
+      })();
+    </script>
+    <script>
       // Logger stub (replaces logger.min.js)
       window.Logger = {
         log: function() {},
