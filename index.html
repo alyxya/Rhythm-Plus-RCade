@@ -26,7 +26,17 @@
         error: function() {},
         info: function() {},
         debug: function() {},
-        trace: function() {}
+        trace: function() {},
+        useDefaults: function() {},
+        setLevel: function() {},
+        setHandler: function() {},
+        createDefaultHandler: function() { return function() {}; },
+        get: function() { return window.Logger; },
+        DEBUG: { value: 2, name: 'DEBUG' },
+        INFO: { value: 3, name: 'INFO' },
+        WARN: { value: 5, name: 'WARN' },
+        ERROR: { value: 8, name: 'ERROR' },
+        OFF: { value: 99, name: 'OFF' }
       };
     </script>
     <script type="module" crossorigin src="/assets/index-1f029c71.js"></script>
