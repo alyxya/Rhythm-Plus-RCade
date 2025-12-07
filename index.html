@@ -118,6 +118,11 @@
     <noscript> To play the game, please enable JavaScript. </noscript>
     <script type="module" src="/src/main.js"></script>
     <style>
+      /* RCade: Ensure percentage heights work through the DOM tree */
+      html {
+        height: 100%;
+      }
+
       body {
         padding: 0;
         margin: 0;
@@ -127,6 +132,15 @@
         -webkit-tap-highlight-color: rgba(255, 255, 255, 0.3);
         scrollbar-width: none;
         -ms-overflow-style: none;
+        height: 100%;
+      }
+
+      /* RCade: Ensure #app fills the scaled body */
+      #app {
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        position: relative;
       }
 
       .loading_ph {
