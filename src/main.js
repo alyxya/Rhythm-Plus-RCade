@@ -1,82 +1,61 @@
 import './style.css'
-import { PLAYER_1, SYSTEM } from '@rcade/plugin-input-classic'
+import { PLAYER_1, PLAYER_2, SYSTEM } from '@rcade/plugin-input-classic'
 
 // RCade input integration for Rhythm+
 // The game's main logic is in the bundled assets/index-*.js file
 // This file provides the bridge between RCade arcade controls and keyboard events
 
-// Map RCade controls to keyboard events that Rhythm+ expects
-const keyMap = {
-  up: 'ArrowUp',
-  down: 'ArrowDown',
-  left: 'ArrowLeft',
-  right: 'ArrowRight',
-  A: 'KeyD',      // Primary action
-  B: 'KeyF',      // Secondary action
-}
-
-const activeKeys = new Set()
+// Track which inputs are currently active (to detect press/release)
+const activeInputs = new Set()
 
 function simulateKeyEvent(key, type) {
   const event = new KeyboardEvent(type, {
     key: key,
-    code: key,
+    code: 'Key' + key.toUpperCase(),
     bubbles: true,
     cancelable: true
   })
   document.dispatchEvent(event)
 }
 
+// Dispatch custom RCade button events for UI/menu handling
+function dispatchRcadeEvent(buttonName) {
+  const event = new CustomEvent(`rcade-button-${buttonName.toLowerCase()}`, {
+    detail: { button: buttonName },
+    bubbles: true
+  })
+  window.dispatchEvent(event)
+}
+
+function handleInput(inputName, isPressed, key) {
+  const wasPressed = activeInputs.has(inputName)
+
+  if (isPressed && !wasPressed) {
+    activeInputs.add(inputName)
+    simulateKeyEvent(key, 'keydown')
+    dispatchRcadeEvent(inputName)
+  } else if (!isPressed && wasPressed) {
+    activeInputs.delete(inputName)
+    simulateKeyEvent(key, 'keyup')
+  }
+}
+
 function update() {
-  // D-pad controls
-  const dpadState = {
-    up: PLAYER_1.DPAD.up,
-    down: PLAYER_1.DPAD.down,
-    left: PLAYER_1.DPAD.left,
-    right: PLAYER_1.DPAD.right,
-  }
+  // Gameplay buttons - 4 keys for 4-track rhythm game (D, F, J, K)
+  // P1 controls left side (tracks 1-2), P2 controls right side (tracks 3-4)
+  handleInput('p1-a', PLAYER_1.A, 'd')
+  handleInput('p1-b', PLAYER_1.B, 'f')
+  handleInput('p2-a', PLAYER_2.A, 'j')
+  handleInput('p2-b', PLAYER_2.B, 'k')
 
-  // Button controls
-  const buttonState = {
-    A: PLAYER_1.A,
-    B: PLAYER_1.B,
-  }
+  // D-pad - combine both players for menu navigation
+  handleInput('up', PLAYER_1.DPAD.up || PLAYER_2.DPAD.up, 'ArrowUp')
+  handleInput('down', PLAYER_1.DPAD.down || PLAYER_2.DPAD.down, 'ArrowDown')
+  handleInput('left', PLAYER_1.DPAD.left || PLAYER_2.DPAD.left, 'ArrowLeft')
+  handleInput('right', PLAYER_1.DPAD.right || PLAYER_2.DPAD.right, 'ArrowRight')
 
-  // Handle D-pad
-  for (const [direction, key] of Object.entries(keyMap)) {
-    if (direction === 'A' || direction === 'B') continue
-
-    const isPressed = dpadState[direction]
-    const wasPressed = activeKeys.has(direction)
-
-    if (isPressed && !wasPressed) {
-      activeKeys.add(direction)
-      simulateKeyEvent(key, 'keydown')
-    } else if (!isPressed && wasPressed) {
-      activeKeys.delete(direction)
-      simulateKeyEvent(key, 'keyup')
-    }
-  }
-
-  // Handle buttons
-  for (const button of ['A', 'B']) {
-    const isPressed = buttonState[button]
-    const wasPressed = activeKeys.has(button)
-
-    if (isPressed && !wasPressed) {
-      activeKeys.add(button)
-      simulateKeyEvent(keyMap[button], 'keydown')
-    } else if (!isPressed && wasPressed) {
-      activeKeys.delete(button)
-      simulateKeyEvent(keyMap[button], 'keyup')
-    }
-  }
-
-  // Handle 1P Start (could be used for menu navigation)
-  if (SYSTEM.ONE_PLAYER) {
-    simulateKeyEvent('Enter', 'keydown')
-    setTimeout(() => simulateKeyEvent('Enter', 'keyup'), 100)
-  }
+  // System start buttons
+  handleInput('start', SYSTEM.ONE_PLAYER || SYSTEM.TWO_PLAYER, 'Enter')
 
   requestAnimationFrame(update)
 }
