@@ -41,12 +41,12 @@ function handleInput(inputName, isPressed, key) {
 }
 
 function update() {
-  // Gameplay buttons - 4 keys for 4-track rhythm game (D, F, J, K)
+  // Gameplay buttons - 4 keys for 4-track rhythm game (1, 2, 3, 4)
   // P1 controls left side (tracks 1-2), P2 controls right side (tracks 3-4)
-  handleInput('p1-a', PLAYER_1.A, 'd')
-  handleInput('p1-b', PLAYER_1.B, 'f')
-  handleInput('p2-a', PLAYER_2.A, 'j')
-  handleInput('p2-b', PLAYER_2.B, 'k')
+  handleInput('p1-a', PLAYER_1.A, '1')
+  handleInput('p1-b', PLAYER_1.B, '2')
+  handleInput('p2-a', PLAYER_2.A, '3')
+  handleInput('p2-b', PLAYER_2.B, '4')
 
   // D-pad - combine both players for menu navigation
   handleInput('up', PLAYER_1.DPAD.up || PLAYER_2.DPAD.up, 'ArrowUp')
