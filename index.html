@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="/fonts.css" />
     <script>
       // RCade: Provide in-memory localStorage fallback if disabled
+      // This must run before ANY other code that might access localStorage
       (function() {
         var storage = {};
         var localStorageShim = {
@@ -30,26 +31,24 @@
           get length() { return Object.keys(storage).length; },
           key: function(i) { var keys = Object.keys(storage); return keys[i] || null; }
         };
-        // Expose shim globally for code that accesses localStorage directly
         window.__localStorageShim = localStorageShim;
 
-        // Try to delete and redefine, or use a getter that returns shim on error
-        try {
-          delete window.localStorage;
+        // Override window.localStorage getter to return shim and suppress errors
+        var localStorageDescriptor = Object.getOwnPropertyDescriptor(window, 'localStorage');
+        if (localStorageDescriptor && localStorageDescriptor.get) {
           Object.defineProperty(window, 'localStorage', {
-            get: function() { return localStorageShim; },
+            get: function() {
+              try {
+                var real = localStorageDescriptor.get.call(window);
+                real.setItem('__test__', '1');
+                real.removeItem('__test__');
+                return real;
+              } catch (e) {
+                return localStorageShim;
+              }
+            },
             configurable: true
           });
-        } catch (e1) {
-          // Can't redefine, try to proxy Storage prototype methods
-          try {
-            Storage.prototype.getItem = function(key) { return localStorageShim.getItem(key); };
-            Storage.prototype.setItem = function(key, value) { localStorageShim.setItem(key, value); };
-            Storage.prototype.removeItem = function(key) { localStorageShim.removeItem(key); };
-            Storage.prototype.clear = function() { localStorageShim.clear(); };
-          } catch (e2) {
-            console.warn('RCade: Could not shim localStorage, some features may not work');
-          }
         }
       })();
     </script>
