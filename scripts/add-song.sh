@@ -23,6 +23,7 @@ set -e
 
 SONG_ID="$1"
 API_BASE="https://api.rhythm-plus.com/api/v1"
+MAX_VIDEO_SIZE_MB=10  # Maximum allowed video size in MB
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 SONGS_DIR="$SCRIPT_DIR/../public/songs"
 SONGLIST_FILE="$SONGS_DIR/songlist.json"
@@ -178,6 +179,18 @@ if [ "$SRC_MODE" = "youtube" ]; then
 else
     echo -e "${YELLOW}Warning: srcMode is '$SRC_MODE', not youtube. Skipping video download.${NC}"
     echo -e "${YELLOW}You may need to manually add the video file.${NC}"
+fi
+
+# Check video file size
+if [ -f "$SONG_DIR/video.mp4" ]; then
+    VIDEO_SIZE_BYTES=$(stat -f%z "$SONG_DIR/video.mp4" 2>/dev/null || stat -c%s "$SONG_DIR/video.mp4" 2>/dev/null)
+    VIDEO_SIZE_MB=$((VIDEO_SIZE_BYTES / 1024 / 1024))
+    if [ "$VIDEO_SIZE_MB" -gt "$MAX_VIDEO_SIZE_MB" ]; then
+        echo -e "${RED}Error: Video file is too large (${VIDEO_SIZE_MB}MB > ${MAX_VIDEO_SIZE_MB}MB limit)${NC}"
+        echo -e "${RED}Removing song directory and aborting...${NC}"
+        rm -rf "$SONG_DIR"
+        exit 1
+    fi
 fi
 
 # Download cover image
