@@ -1,0 +1,28 @@
+[
+  {
+    "id": "3anJbRR2VozJp5S1ixvSLu",
+    "songId": "PTTVqoFDuW8exAytyyWnuM",
+    "title": "basu-chan!",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 9,
+    "length": 191.847,
+    "noteCount": 1493,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "97nahqE55sMGdsisUWb8ob",
+    "verified": true,
+    "clonedFrom": "FcobY66vtx6NvbaSeb129Q",
+    "createdAt": 1702449042,
+    "updatedAt": 1752449536
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "PNxcQ3bfrSSymevEoQ6JJ",
+    "songId": "42GoAab1xLpehxWHK8fuis",
+    "title": "Shut Down",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 5,
+    "length": 178.349,
+    "noteCount": 683,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "AfzHhriio3718ZYiHsvxL6",
+    "verified": true,
+    "clonedFrom": "",
+    "createdAt": 1663624770,
+    "updatedAt": 1664217015
+  }
+]

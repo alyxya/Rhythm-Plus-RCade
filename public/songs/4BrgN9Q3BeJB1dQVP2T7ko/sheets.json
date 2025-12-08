@@ -1,0 +1,28 @@
+[
+  {
+    "id": "BwFR6DzABEpAPdWY8FUpUZ",
+    "songId": "4BrgN9Q3BeJB1dQVP2T7ko",
+    "title": "RECHART",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 9,
+    "length": 148.887,
+    "noteCount": 867,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "RWK8T2SqZYzA1J67to4Aba",
+    "verified": true,
+    "clonedFrom": "",
+    "createdAt": 1669149802,
+    "updatedAt": 1669151348
+  }
+]

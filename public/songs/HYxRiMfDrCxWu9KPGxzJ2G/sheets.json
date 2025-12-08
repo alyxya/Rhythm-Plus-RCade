@@ -1,0 +1,28 @@
+[
+  {
+    "id": "MBuq2J5Vo4ECrKVi5nPXpZ",
+    "songId": "HYxRiMfDrCxWu9KPGxzJ2G",
+    "title": "Rush e",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 10,
+    "length": 177.321,
+    "noteCount": 849,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "4SuogumduJuYmonTWeS5mz",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1763314873,
+    "updatedAt": 1763315129
+  }
+]

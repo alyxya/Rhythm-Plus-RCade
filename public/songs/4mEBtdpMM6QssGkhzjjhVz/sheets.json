@@ -1,0 +1,28 @@
+[
+  {
+    "id": "UaCqbohEtbyDt4Rzn3GSko",
+    "songId": "4mEBtdpMM6QssGkhzjjhVz",
+    "title": "KING",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 5,
+    "length": 134.881,
+    "noteCount": 549,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "WamCbWLyeouLx2164uhbK4",
+    "verified": true,
+    "clonedFrom": "",
+    "createdAt": 1670479873,
+    "updatedAt": 1678563466
+  }
+]

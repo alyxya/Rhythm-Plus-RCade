@@ -1,0 +1,28 @@
+[
+  {
+    "id": "b8GxFTuLvTu9XY00zdgy",
+    "songId": "Bad-Liar-Imagine-Dragons-ODE3OTE0O",
+    "title": "",
+    "subtitle": "",
+    "startAt": 10,
+    "endAt": null,
+    "keys": 4,
+    "difficulty": 4,
+    "length": 260.333,
+    "noteCount": 614,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "eP8pRD057pRp5rEJ86Xw",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1610745057,
+    "updatedAt": 1610746732
+  }
+]

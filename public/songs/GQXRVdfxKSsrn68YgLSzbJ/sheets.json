@@ -1,0 +1,28 @@
+[
+  {
+    "id": "TJPAcoJVpQqHFBoWDy3Dsa",
+    "songId": "GQXRVdfxKSsrn68YgLSzbJ",
+    "title": "7 Rings",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 6,
+    "length": 178.641,
+    "noteCount": 600,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "9k4ZjNZ5YqWXSi9zHua7vw",
+    "verified": true,
+    "clonedFrom": "",
+    "createdAt": 1669950976,
+    "updatedAt": 1671302691
+  }
+]

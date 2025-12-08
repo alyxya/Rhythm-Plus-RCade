@@ -1,0 +1,28 @@
+[
+  {
+    "id": "4LyxLYCxJKhHCu8SErnZCo",
+    "songId": "BJyzzGvyhrkGyE5a8wLr1D",
+    "title": "IDOL",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 213.11,
+    "keys": 4,
+    "difficulty": 6,
+    "length": 213.11,
+    "noteCount": 976,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "Ujfvg7vrUXTsGcCD87tCcm",
+    "verified": true,
+    "clonedFrom": "",
+    "createdAt": 1685193487,
+    "updatedAt": 1685301276
+  }
+]

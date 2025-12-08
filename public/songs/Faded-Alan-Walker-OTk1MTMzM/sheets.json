@@ -1,0 +1,28 @@
+[
+  {
+    "id": "XN1bPGNDyqTjkm9kefGo",
+    "songId": "Faded-Alan-Walker-OTk1MTMzM",
+    "title": "Faded",
+    "subtitle": "",
+    "startAt": null,
+    "endAt": null,
+    "keys": 4,
+    "difficulty": 3,
+    "length": 208.512,
+    "noteCount": 601,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "HXU2eB7I6rYDfYGqYOy8",
+    "verified": true,
+    "clonedFrom": "",
+    "createdAt": 1593886145,
+    "updatedAt": 1600771483
+  }
+]

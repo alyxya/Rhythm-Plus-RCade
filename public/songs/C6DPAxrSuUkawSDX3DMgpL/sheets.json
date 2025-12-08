@@ -1,0 +1,28 @@
+[
+  {
+    "id": "KG19auKTL1vrv2zcuuCred",
+    "songId": "C6DPAxrSuUkawSDX3DMgpL",
+    "title": "no escape",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 7,
+    "length": 190,
+    "noteCount": 971,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "4LVqqn1mgUMs4FjX8V92ZJ",
+    "verified": true,
+    "clonedFrom": "",
+    "createdAt": 1742136767,
+    "updatedAt": 1742137181
+  }
+]
