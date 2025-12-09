@@ -698,7 +698,8 @@
 }
 .modal-body[data-v-e3dc6138] {
   position: relative;
-  max-height: 65vh;
+  max-height: 95vh;
+  min-height: 80vh;
   overflow-y: scroll;
 }
 .bodyText[data-v-e3dc6138] {
