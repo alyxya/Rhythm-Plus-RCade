@@ -4160,7 +4160,7 @@ input.firebaseui-input-invalid {
 .level[data-v-046a9c2a] {
   font-size: 5em;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 300px) {
   .flex_hori[data-v-046a9c2a] {
     flex-direction: column;
   }
