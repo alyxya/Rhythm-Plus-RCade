@@ -4118,16 +4118,17 @@ input.firebaseui-input-invalid {
 }
 .song_item_sec[data-v-046a9c2a] {
   position: fixed;
-  top: 10vh;
-  left: 8%;
+  top: 2%;
+  left: 2%;
   opacity: 0.3;
+  max-width: 40%;
 }
 .song_item_sec .detail[data-v-046a9c2a] {
-  line-height: 1.8em;
-  font-size: 1.8em;
+  line-height: 1.2em;
+  font-size: 0.8em;
 }
 .song_item_sec .title[data-v-046a9c2a] {
-  font-size: 2em;
+  font-size: 1em;
   font-weight: 700;
 }
 .user_sec[data-v-046a9c2a] {
