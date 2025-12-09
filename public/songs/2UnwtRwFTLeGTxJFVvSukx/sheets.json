@@ -1,0 +1,28 @@
+[
+  {
+    "id": "EhbafSN2mxaQ6Za6DC1Ldg",
+    "songId": "2UnwtRwFTLeGTxJFVvSukx",
+    "title": "The Love Machine",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 10,
+    "length": 269.421,
+    "noteCount": 1784,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "CUGNj6rpdgmr3QSkpCvAtV",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1682084835,
+    "updatedAt": 1682085488
+  }
+]

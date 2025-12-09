@@ -1,0 +1,28 @@
+[
+  {
+    "id": "GQ6CAbznKtghXFS8r9a5pu",
+    "songId": "ASvuhXqmH1Tkr3XdUXL4To",
+    "title": "survivor",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 190,
+    "keys": 4,
+    "difficulty": 5,
+    "length": 190,
+    "noteCount": 1209,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "QoJ3FrkqhkJLiQ11fRTJbB",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1719666949,
+    "updatedAt": 1719667446
+  }
+]

@@ -6,7 +6,37 @@
     "- Odd Taxi \u2014 Skirt & PUNPEE (unique hip-hop vibe)",
     "- Don't Stop Believin' \u2014 Journey (singalong hook, strong build)",
     "- Mr. Brightside \u2014 The Killers (millennial karaoke staple, driving pace)",
-    "- Knights of Cydonia \u2014 Muse (galloping beat, space-western feel)"
+    "- Knights of Cydonia \u2014 Muse (galloping beat, space-western feel)",
+    "- Africa \u2014 Toto (crowd-pleaser chorus, steady beat)",
+    "- One Summer\u2019s Day \u2014 Joe Hisaishi (Spirited Away) (lyrical piano, gentler chart)",
+    "- The Final Countdown \u2014 Europe (anthemic synth lead)",
+    "- Kernkraft 400 \u2014 Zombie Nation (stadium chant energy)",
+    "- Firework \u2014 Katy Perry (anthem pop, predictable phrasing)",
+    "- Legends Never Die \u2014 League of Legends (stadium feel)",
+    "- Ghosts 'n' Stuff \u2014 Deadmau5 (electro-house classic)",
+    "- Bye Bye Bye \u2014 *NSYNC (syncopated chorus, recognizable)",
+    "- Life Will Change \u2014 Persona 5 (acid-jazz rock, stylish groove)",
+    "- Rasputin \u2014 Boney M. (Euro-disco, BPM for dense patterns)",
+    "- Caramelldansen \u2014 Caramell (speedcore meme, anime culture)",
+    "- Heat Waves \u2014 Glass Animals (chill groove, viral)",
+    "- Paranoid \u2014 Black Sabbath (proto-metal riff, driving tempo)",
+    "- Sweet Dreams (Are Made of This) \u2014 Eurythmics (synth groove, steady beat)",
+    "- Unholy \u2014 Sam Smith & Kim Petras (dark disco-pop)",
+    "- Levitating \u2014 Dua Lipa (modern disco-pop, steady beat)",
+    "- Snake Eater \u2014 Metal Gear Solid 3 (spy-ballad style, dramatic vocals)",
+    "- Inner Universe \u2014 Ghost in the Shell: SAC (electronic + choral)",
+    "- Megalovania \u2014 Undertale (indie dev favorite, relentless groove)",
+    "- Splattack! \u2014 Splatoon (quirky rhythms, percussive vocals)",
+    "- Eye of the Tiger \u2014 Survivor (driving beat, motivational classic)",
+    "- My Only Chance \u2014 Carpenter Brut/Furi OST (synthwave combat)",
+    "- The Only Thing They Fear Is You \u2014 DOOM Eternal (modern metal riff barrage)",
+    "- Anti-Hero \u2014 Taylor Swift (catchy modern pop)",
+    "- Tongue Tied \u2014 Grouplove (high-energy indie pop)",
+    "- We Will Rock You / We Are The Champions \u2014 Queen (stomp-clap rhythm, outro victory lap)",
+    "- God Knows... \u2014 Haruhi Suzumiya (guitar-driven, upbeat)",
+    "- Rivers in the Desert \u2014 Persona 5 (boss energy, vocals)",
+    "- Renai Circulation \u2014 Kana Hanazawa (anime bop, light vibe)",
+    "- Proof of a Hero \u2014 Monster Hunter (triumphant orchestral)"
   ],
   "added": [
     {
@@ -43,12 +73,159 @@
       "title": "Knights of Cydonia",
       "artist": "Muse",
       "song_id": "5oVHzxN7seEFga2wGerMcS"
+    },
+    {
+      "title": "Africa",
+      "artist": "Toto",
+      "song_id": "9FtKqyHN3kS7UE9hBFQoZQ"
+    },
+    {
+      "title": "One Summer\u2019s Day",
+      "artist": "Joe Hisaishi",
+      "song_id": "G9r97MPmtguPHAQSzyR35P"
+    },
+    {
+      "title": "The Final Countdown",
+      "artist": "Europe",
+      "song_id": "NsYpAFeAac1dc5WXNrSGHg"
+    },
+    {
+      "title": "Kernkraft 400",
+      "artist": "Zombie Nation",
+      "song_id": "9WBzHAX46tstxefifNsNYd"
+    },
+    {
+      "title": "Firework",
+      "artist": "Katy Perry",
+      "song_id": "PevCLke4eAkj7o83NLtKXR"
+    },
+    {
+      "title": "Legends Never Die",
+      "artist": "League of Legends",
+      "song_id": "Lwg3xqRcwXfjMfHHjB83H5"
+    },
+    {
+      "title": "Ghosts 'n' Stuff",
+      "artist": "Deadmau5",
+      "song_id": "LrTaE7SpkV1zs3zbZRxxyN"
+    },
+    {
+      "title": "Bye Bye Bye",
+      "artist": "*NSYNC",
+      "song_id": "RTM2pf5sr3UF1CzF3eg8yZ"
+    },
+    {
+      "title": "Life Will Change",
+      "artist": "Persona 5",
+      "song_id": "WeCXngT1UKUHpj7HVmEmUx"
+    },
+    {
+      "title": "Rasputin",
+      "artist": "Boney M.",
+      "song_id": "2UnwtRwFTLeGTxJFVvSukx"
+    },
+    {
+      "title": "Caramelldansen",
+      "artist": "Caramell",
+      "song_id": "TZdSozrnTYN2bgCZVTyYuN"
+    },
+    {
+      "title": "Heat Waves",
+      "artist": "Glass Animals",
+      "song_id": "YPMXB3kmWKdND33qDwbqqQ"
+    },
+    {
+      "title": "Paranoid",
+      "artist": "Black Sabbath",
+      "song_id": "UxkqDTcEyE4CHygvXtAYBb"
+    },
+    {
+      "title": "Sweet Dreams (Are Made of This)",
+      "artist": "Eurythmics",
+      "song_id": "UyFrV2RwtdvQVH4fS6tMHv"
+    },
+    {
+      "title": "Unholy",
+      "artist": "Sam Smith & Kim Petras",
+      "song_id": "FUP8uoVTacAvmAxnvUYwax"
+    },
+    {
+      "title": "Levitating",
+      "artist": "Dua Lipa",
+      "song_id": "HPxJRUVDubqQT9gVGvg3Bk"
+    },
+    {
+      "title": "Snake Eater",
+      "artist": "Metal Gear Solid 3",
+      "song_id": "GbUkd1ECFonKWMM2ZQnpuJ"
+    },
+    {
+      "title": "Inner Universe",
+      "artist": "Ghost in the Shell: SAC",
+      "song_id": "QbyfWoq5f4Yo6naCSivmjw"
+    },
+    {
+      "title": "Megalovania",
+      "artist": "Undertale",
+      "song_id": "EUrutBCbYNv6VeaDkFwNvN"
+    },
+    {
+      "title": "Splattack!",
+      "artist": "Splatoon",
+      "song_id": "RRLbngPMz9hoLk9cWiXs4D"
+    },
+    {
+      "title": "Eye of the Tiger",
+      "artist": "Survivor",
+      "song_id": "ASvuhXqmH1Tkr3XdUXL4To"
+    },
+    {
+      "title": "The Only Thing They Fear Is You",
+      "artist": "DOOM Eternal",
+      "song_id": "K8Y7LXmMmibS7FFLS6EDuk"
+    },
+    {
+      "title": "Anti-Hero",
+      "artist": "Taylor Swift",
+      "song_id": "4mn6U1jEFbnbPmKuDwbgr7"
+    },
+    {
+      "title": "Tongue Tied",
+      "artist": "Grouplove",
+      "song_id": "BNt6vp3MKuqFuBN3q9H1XC"
+    },
+    {
+      "title": "God Knows...",
+      "artist": "Haruhi Suzumiya",
+      "song_id": "2b73eBUvDjsQ9vSeWQXPTm"
+    },
+    {
+      "title": "Rivers in the Desert",
+      "artist": "Persona 5",
+      "song_id": "Jqs2iSC4A4Xjk75JskeY4D"
+    },
+    {
+      "title": "Renai Circulation",
+      "artist": "Kana Hanazawa",
+      "song_id": "YFVPoirM1zaeSuedqLVpfG"
     }
   ],
   "failed": [],
   "skipped": [
-    {"title": "Africa", "artist": "Toto", "reason": "No title match"},
-    {"title": "One Summer's Day", "artist": "Joe Hisaishi", "reason": "No title match"},
-    {"title": "The Final Countdown", "artist": "Europe", "reason": "No title match"}
+    {
+      "title": "My Only Chance",
+      "artist": "Carpenter Brut/Furi OST",
+      "reason": "No title match"
+    },
+    {
+      "title": "We Will Rock You / We Are The Champions",
+      "artist": "Queen",
+      "reason": "No title match"
+    },
+    {
+      "title": "Proof of a Hero",
+      "artist": "Monster Hunter",
+      "reason": "No title match"
+    }
   ]
 }

@@ -1,5 +1,583 @@
 [
   {
+    "id": "YFVPoirM1zaeSuedqLVpfG",
+    "title": "Renai Circulation",
+    "subtitle": "",
+    "artist": "Kana Hanazawa",
+    "image": "/songs/YFVPoirM1zaeSuedqLVpfG/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/YFVPoirM1zaeSuedqLVpfG/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "Jqs2iSC4A4Xjk75JskeY4D",
+    "title": "rivers in the desert",
+    "subtitle": "",
+    "artist": "persona 5 ost",
+    "image": "/songs/Jqs2iSC4A4Xjk75JskeY4D/cover.jpg",
+    "difficulties": [
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Jqs2iSC4A4Xjk75JskeY4D/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "2b73eBUvDjsQ9vSeWQXPTm",
+    "title": "God Knows...",
+    "subtitle": "",
+    "artist": "Aya Hirano",
+    "image": "/songs/2b73eBUvDjsQ9vSeWQXPTm/cover.jpg",
+    "difficulties": [
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/2b73eBUvDjsQ9vSeWQXPTm/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "youtube-video",
+      "anime",
+      "banger",
+      "actuallygoodmusic",
+      "4note"
+    ]
+  },
+  {
+    "id": "BNt6vp3MKuqFuBN3q9H1XC",
+    "title": "Tongue tied (BBH and Skeppy Ver)",
+    "subtitle": ":)",
+    "artist": "Grouplove",
+    "image": "/songs/BNt6vp3MKuqFuBN3q9H1XC/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/BNt6vp3MKuqFuBN3q9H1XC/video.mp4",
+    "verified": false,
+    "tags": [
+      "youtube-video",
+      "4note"
+    ]
+  },
+  {
+    "id": "4mn6U1jEFbnbPmKuDwbgr7",
+    "title": "Anti-hero",
+    "subtitle": "its me! hi?",
+    "artist": "Taylor swift",
+    "image": "/songs/4mn6U1jEFbnbPmKuDwbgr7/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/4mn6U1jEFbnbPmKuDwbgr7/video.mp4",
+    "verified": false,
+    "tags": [
+      "actuallygoodmusic"
+    ]
+  },
+  {
+    "id": "K8Y7LXmMmibS7FFLS6EDuk",
+    "title": "the only thing they fear is you",
+    "subtitle": "doom eternal",
+    "artist": "mick gordon",
+    "image": "/songs/K8Y7LXmMmibS7FFLS6EDuk/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/K8Y7LXmMmibS7FFLS6EDuk/video.mp4",
+    "verified": false,
+    "tags": [
+      "mick-gordon",
+      "doom",
+      "video-game",
+      "rock",
+      "doom-eternal",
+      "Rock",
+      "instrumental",
+      "metal",
+      "heavymetal",
+      "game"
+    ]
+  },
+  {
+    "id": "ASvuhXqmH1Tkr3XdUXL4To",
+    "title": "Eye of the tiger",
+    "subtitle": "Survivor",
+    "artist": "Survivor",
+    "image": "/songs/ASvuhXqmH1Tkr3XdUXL4To/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/ASvuhXqmH1Tkr3XdUXL4To/video.mp4",
+    "verified": false,
+    "tags": [
+      "meme",
+      "j-pop"
+    ]
+  },
+  {
+    "id": "RRLbngPMz9hoLk9cWiXs4D",
+    "title": "Splattack!",
+    "subtitle": "",
+    "artist": "Splatoon, Nintendo",
+    "image": "/songs/RRLbngPMz9hoLk9cWiXs4D/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/RRLbngPMz9hoLk9cWiXs4D/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock",
+      "game"
+    ]
+  },
+  {
+    "id": "EUrutBCbYNv6VeaDkFwNvN",
+    "title": "Megalovania",
+    "subtitle": "Undertale",
+    "artist": "Toby Fox",
+    "image": "/songs/EUrutBCbYNv6VeaDkFwNvN/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/EUrutBCbYNv6VeaDkFwNvN/video.mp4",
+    "verified": false,
+    "tags": [
+      "megalovania",
+      "undertale"
+    ]
+  },
+  {
+    "id": "QbyfWoq5f4Yo6naCSivmjw",
+    "title": "Inner Universe",
+    "subtitle": "GHOST IN THE SHELL STANDALONE COMPLEX",
+    "artist": "Origa/Yoko Hanno",
+    "image": "/songs/QbyfWoq5f4Yo6naCSivmjw/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/QbyfWoq5f4Yo6naCSivmjw/video.mp4",
+    "verified": false,
+    "tags": [
+      "Ghost-in-the-shell",
+      "anime",
+      "idk-what-else-to-tag",
+      "anime-opening"
+    ]
+  },
+  {
+    "id": "GbUkd1ECFonKWMM2ZQnpuJ",
+    "title": "Snake Eater",
+    "subtitle": "MGS3 opening theme",
+    "artist": "Cynthia Harell",
+    "image": "/songs/GbUkd1ECFonKWMM2ZQnpuJ/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/GbUkd1ECFonKWMM2ZQnpuJ/video.mp4",
+    "verified": false,
+    "tags": [
+      "mgs3",
+      "metal-gear",
+      "game"
+    ]
+  },
+  {
+    "id": "HPxJRUVDubqQT9gVGvg3Bk",
+    "title": "Levitating",
+    "subtitle": "",
+    "artist": "Dua Lipa",
+    "image": "/songs/HPxJRUVDubqQT9gVGvg3Bk/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/HPxJRUVDubqQT9gVGvg3Bk/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "FUP8uoVTacAvmAxnvUYwax",
+    "title": "Unholy",
+    "subtitle": "",
+    "artist": "Sam Smith",
+    "image": "/songs/FUP8uoVTacAvmAxnvUYwax/cover.jpg",
+    "difficulties": [
+      2,
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/FUP8uoVTacAvmAxnvUYwax/video.mp4",
+    "verified": false,
+    "tags": [
+      "amv",
+      "youtube-video",
+      "anime",
+      "english",
+      "music"
+    ]
+  },
+  {
+    "id": "UyFrV2RwtdvQVH4fS6tMHv",
+    "title": "Sweet Dreams (Are Made Of This)",
+    "subtitle": "And your screams",
+    "artist": "Marilyn Manson",
+    "image": "/songs/UyFrV2RwtdvQVH4fS6tMHv/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/UyFrV2RwtdvQVH4fS6tMHv/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock"
+    ]
+  },
+  {
+    "id": "UxkqDTcEyE4CHygvXtAYBb",
+    "title": "Paranoid Android",
+    "subtitle": "",
+    "artist": "Radiohead",
+    "image": "/songs/UxkqDTcEyE4CHygvXtAYBb/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/UxkqDTcEyE4CHygvXtAYBb/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock",
+      "banger",
+      "actuallygoodmusic",
+      "4-key",
+      "4note",
+      "alternative"
+    ]
+  },
+  {
+    "id": "YPMXB3kmWKdND33qDwbqqQ",
+    "title": "Heat Waves",
+    "subtitle": "",
+    "artist": "Glass Animals",
+    "image": "/songs/YPMXB3kmWKdND33qDwbqqQ/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/YPMXB3kmWKdND33qDwbqqQ/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "TZdSozrnTYN2bgCZVTyYuN",
+    "title": "Caramelldansen",
+    "subtitle": "",
+    "artist": "Caramell / Caramella Girls",
+    "image": "/songs/TZdSozrnTYN2bgCZVTyYuN/cover.jpg",
+    "difficulties": [
+      3,
+      6,
+      9
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/TZdSozrnTYN2bgCZVTyYuN/video.mp4",
+    "verified": false,
+    "tags": [
+      "cute",
+      "pop"
+    ]
+  },
+  {
+    "id": "2UnwtRwFTLeGTxJFVvSukx",
+    "title": "Rasputin",
+    "subtitle": "",
+    "artist": "Boney M.",
+    "image": "/songs/2UnwtRwFTLeGTxJFVvSukx/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/2UnwtRwFTLeGTxJFVvSukx/video.mp4",
+    "verified": false,
+    "tags": [
+      "banger"
+    ]
+  },
+  {
+    "id": "WeCXngT1UKUHpj7HVmEmUx",
+    "title": "LIfe Will Change",
+    "subtitle": "Instrumental",
+    "artist": "Persona 5",
+    "image": "/songs/WeCXngT1UKUHpj7HVmEmUx/cover.jpg",
+    "difficulties": [
+      9
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/WeCXngT1UKUHpj7HVmEmUx/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "RTM2pf5sr3UF1CzF3eg8yZ",
+    "title": "Bye Bye Bye",
+    "subtitle": "",
+    "artist": "NSYNC",
+    "image": "/songs/RTM2pf5sr3UF1CzF3eg8yZ/cover.jpg",
+    "difficulties": [
+      1,
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/RTM2pf5sr3UF1CzF3eg8yZ/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "LrTaE7SpkV1zs3zbZRxxyN",
+    "title": "Just Dance vs Ghosts n Stuff",
+    "subtitle": "(DJ Hero)",
+    "artist": "Lady Gaga, Deadmau5",
+    "image": "/songs/LrTaE7SpkV1zs3zbZRxxyN/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/LrTaE7SpkV1zs3zbZRxxyN/video.mp4",
+    "verified": false,
+    "tags": [
+      "remix",
+      "random",
+      "dance",
+      "electronic",
+      "4-key",
+      "pop"
+    ]
+  },
+  {
+    "id": "Lwg3xqRcwXfjMfHHjB83H5",
+    "title": "Legends never die",
+    "subtitle": "League of Legends",
+    "artist": "Ft, against the current",
+    "image": "/songs/Lwg3xqRcwXfjMfHHjB83H5/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Lwg3xqRcwXfjMfHHjB83H5/video.mp4",
+    "verified": false,
+    "tags": [
+      "english",
+      "cool",
+      "hyperpop",
+      "electronic",
+      "game",
+      "music",
+      "4-key",
+      "alternative",
+      "goodmusic"
+    ]
+  },
+  {
+    "id": "PevCLke4eAkj7o83NLtKXR",
+    "title": "DAOKO × Kenshi Yonezu “Fireworks”",
+    "subtitle": "",
+    "artist": "idk",
+    "image": "/songs/PevCLke4eAkj7o83NLtKXR/cover.jpg",
+    "difficulties": [
+      9
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/PevCLke4eAkj7o83NLtKXR/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "epic",
+      "video-game",
+      "youtube-video",
+      "anime",
+      "j-pop",
+      "game",
+      "actuallygoodmusic",
+      "4-key",
+      "4note",
+      "youtube",
+      "pop",
+      "goodmusic"
+    ]
+  },
+  {
+    "id": "9WBzHAX46tstxefifNsNYd",
+    "title": "Kernkraft 400",
+    "subtitle": "",
+    "artist": "Zombie Nation",
+    "image": "/songs/9WBzHAX46tstxefifNsNYd/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/9WBzHAX46tstxefifNsNYd/video.mp4",
+    "verified": false,
+    "tags": [
+      "edm",
+      "youtube-video",
+      "music",
+      "4note"
+    ]
+  },
+  {
+    "id": "NsYpAFeAac1dc5WXNrSGHg",
+    "title": "The final countdown",
+    "subtitle": "",
+    "artist": "Europe",
+    "image": "/songs/NsYpAFeAac1dc5WXNrSGHg/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/NsYpAFeAac1dc5WXNrSGHg/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock",
+      "Rock"
+    ]
+  },
+  {
+    "id": "G9r97MPmtguPHAQSzyR35P",
+    "title": "One Summer's Day",
+    "subtitle": "Spirited away OST",
+    "artist": "Joe Hisaishi",
+    "image": "/songs/G9r97MPmtguPHAQSzyR35P/cover.jpg",
+    "difficulties": [
+      3
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/G9r97MPmtguPHAQSzyR35P/video.mp4",
+    "verified": false,
+    "tags": [
+      "ghibli",
+      "hisaishi",
+      "chill",
+      "japanese",
+      "film",
+      "ost",
+      "joe",
+      "anime",
+      "piano",
+      "movie"
+    ]
+  },
+  {
+    "id": "9FtKqyHN3kS7UE9hBFQoZQ",
+    "title": "African guy running away with spongebob music",
+    "subtitle": "",
+    "artist": "african guy",
+    "image": "/songs/9FtKqyHN3kS7UE9hBFQoZQ/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/9FtKqyHN3kS7UE9hBFQoZQ/video.mp4",
+    "verified": false,
+    "tags": [
+      "meme"
+    ]
+  },
+  {
     "id": "5oVHzxN7seEFga2wGerMcS",
     "title": "Knights of Cydonia",
     "subtitle": "",

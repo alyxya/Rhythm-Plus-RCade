@@ -1,0 +1,28 @@
+[
+  {
+    "id": "K7JoHSvXVjSysY4cyvZnHw",
+    "songId": "UxkqDTcEyE4CHygvXtAYBb",
+    "title": "",
+    "subtitle": "",
+    "startAt": null,
+    "endAt": null,
+    "keys": 4,
+    "difficulty": 10,
+    "length": 386.1512819752045,
+    "noteCount": 1001,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "YACeNT5g75pcUn19yVTAFG",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1761579267,
+    "updatedAt": 1761580596
+  }
+]

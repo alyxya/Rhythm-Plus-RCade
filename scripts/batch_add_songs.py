@@ -308,6 +308,8 @@ def process_song(title, artist, original_line, token, progress, dry_run=False):
             print(f"  ✓ Added successfully!")
             progress["added"].append({"title": title, "artist": artist, "song_id": song_id})
             progress["processed"].append(original_line)
+            # Remove from skipped if it was there
+            progress["skipped"] = [s for s in progress["skipped"] if s.get("title") != title]
             save_progress(progress)
             return True
         else:
