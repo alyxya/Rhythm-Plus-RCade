@@ -1163,7 +1163,6 @@
       6
     ],
     "keys": [
-      6,
       4
     ],
     "srcMode": "video",
@@ -1770,8 +1769,7 @@
       6
     ],
     "keys": [
-      4,
-      5
+      4
     ],
     "srcMode": "video",
     "srcRef": "/songs/Xy7FHTti9tubTrk5wTKZen/video.mp4",
@@ -1866,14 +1864,10 @@
     "artist": "LeaF",
     "image": "/songs/Aleph-0-LeaF-OTA4NzUxM/cover.jpg",
     "difficulties": [
-      6,
-      8,
-      10
+      6
     ],
     "keys": [
-      4,
-      8,
-      6
+      4
     ],
     "srcMode": "video",
     "srcRef": "/songs/Aleph-0-LeaF-OTA4NzUxM/video.mp4",
@@ -2001,8 +1995,7 @@
       5
     ],
     "keys": [
-      4,
-      6
+      4
     ],
     "srcMode": "video",
     "srcRef": "/songs/Abnormalize-PSYCHO-PASS--NTA4NzQ3O/video.mp4",

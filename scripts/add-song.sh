@@ -142,13 +142,26 @@ fi
 SHEET_COUNT=$(echo "$SHEETS_DATA" | jq 'length')
 echo -e "  Found ${GREEN}$SHEET_COUNT${NC} sheets"
 
+# Filter to only 4-key sheets
+SHEETS_4KEY=$(echo "$SHEETS_DATA" | jq '[.[] | select(.keys == 4)]')
+SHEET_COUNT_4KEY=$(echo "$SHEETS_4KEY" | jq 'length')
+
+if [ "$SHEET_COUNT_4KEY" -eq 0 ]; then
+    echo -e "${RED}Error: No 4-key sheets found for this song${NC}"
+    echo -e "${RED}Removing song directory and aborting...${NC}"
+    rm -rf "$SONG_DIR"
+    exit 1
+fi
+
+echo -e "  Found ${GREEN}$SHEET_COUNT_4KEY${NC} 4-key sheets (filtered from $SHEET_COUNT total)"
+
 # Save sheets.json (without mapping data - that goes in individual files)
-echo "$SHEETS_DATA" | jq '.' > "$SONG_DIR/sheets.json"
+echo "$SHEETS_4KEY" | jq '.' > "$SONG_DIR/sheets.json"
 
 # Fetch each sheet with full mapping data
 DIFFICULTIES=()
 echo -e "${GREEN}Fetching sheet details...${NC}"
-for SHEET_ID in $(echo "$SHEETS_DATA" | jq -r '.[].id'); do
+for SHEET_ID in $(echo "$SHEETS_4KEY" | jq -r '.[].id'); do
     SHEET_DATA=$(curl -s -H "$AUTH_HEADER" "$API_BASE/sheet/get?sheetId=$SHEET_ID")
     DIFFICULTY=$(echo "$SHEET_DATA" | jq -r '.difficulty')
     TITLE_SHEET=$(echo "$SHEET_DATA" | jq -r '.title')
@@ -214,7 +227,7 @@ NEW_SONG=$(cat <<EOF
   "artist": $(echo "$SONG_DATA" | jq '.artist'),
   "image": "/songs/$SONG_ID/cover.jpg",
   "difficulties": $DIFFICULTIES_JSON,
-  "keys": $(echo "$SONG_DATA" | jq '.keys // [4]'),
+  "keys": [4],
   "srcMode": "video",
   "srcRef": "/songs/$SONG_ID/video.mp4",
   "verified": $(echo "$SONG_DATA" | jq '.verified // false'),

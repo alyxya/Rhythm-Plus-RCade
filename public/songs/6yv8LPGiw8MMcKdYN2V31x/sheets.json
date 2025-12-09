@@ -24,31 +24,5 @@
     "clonedFrom": "",
     "createdAt": 1747222469,
     "updatedAt": 1749413202
-  },
-  {
-    "id": "6K5G2XohdyoEirM8ufUisT",
-    "songId": "6yv8LPGiw8MMcKdYN2V31x",
-    "title": "6 keys",
-    "subtitle": "",
-    "startAt": -0.01,
-    "endAt": 227.86,
-    "keys": 6,
-    "difficulty": 6,
-    "length": 227.87,
-    "noteCount": 892,
-    "bpm": 0,
-    "svCount": 0,
-    "visualizerName": "",
-    "visibility": "public",
-    "isImported": false,
-    "importedFrom": "",
-    "importRef": "",
-    "importIsOriginal": false,
-    "mapping": "",
-    "mapId": "3MxBk3WiVEBMb1nyA43qeW",
-    "verified": false,
-    "clonedFrom": "",
-    "createdAt": 1747221765,
-    "updatedAt": 1747222395
   }
 ]
