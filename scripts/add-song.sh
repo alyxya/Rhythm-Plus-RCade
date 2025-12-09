@@ -241,8 +241,8 @@ if jq -e ".[] | select(.id == \"$SONG_ID\")" "$SONGLIST_FILE" > /dev/null 2>&1; 
     # Update existing entry
     jq "map(if .id == \"$SONG_ID\" then $NEW_SONG else . end)" "$SONGLIST_FILE" > "$SONGLIST_FILE.tmp"
 else
-    # Add new entry
-    jq ". + [$NEW_SONG]" "$SONGLIST_FILE" > "$SONGLIST_FILE.tmp"
+    # Add new entry (at the top of the list)
+    jq "[$NEW_SONG] + ." "$SONGLIST_FILE" > "$SONGLIST_FILE.tmp"
 fi
 mv "$SONGLIST_FILE.tmp" "$SONGLIST_FILE"
 
