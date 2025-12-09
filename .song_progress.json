@@ -1,0 +1,54 @@
+{
+  "processed": [
+    "- My Dearest \u2014 supercell (Guilty Crown OP, soaring chorus)",
+    "- Pumped Up Kicks \u2014 Foster the People (catchy bass line, dark lyrics)",
+    "- Enter Sandman \u2014 Metallica (heavy riff, accessible metal)",
+    "- Odd Taxi \u2014 Skirt & PUNPEE (unique hip-hop vibe)",
+    "- Don't Stop Believin' \u2014 Journey (singalong hook, strong build)",
+    "- Mr. Brightside \u2014 The Killers (millennial karaoke staple, driving pace)",
+    "- Knights of Cydonia \u2014 Muse (galloping beat, space-western feel)"
+  ],
+  "added": [
+    {
+      "title": "My Dearest",
+      "artist": "supercell",
+      "song_id": "Fuxf6x65tLrUEvR7YNFpgq"
+    },
+    {
+      "title": "Pumped Up Kicks",
+      "artist": "Foster the People",
+      "song_id": "8UUJqLHNdgioWfk2QLyUTX"
+    },
+    {
+      "title": "Enter Sandman",
+      "artist": "Metallica",
+      "song_id": "JDG7VC7vJnJMm1udEuFv6J"
+    },
+    {
+      "title": "Odd Taxi",
+      "artist": "Skirt & PUNPEE",
+      "song_id": "BLKSkTM8xJsGwVnPeJHMRx"
+    },
+    {
+      "title": "Don't Stop Believin'",
+      "artist": "Journey",
+      "song_id": "XxKGHF7kWSm677cQpn7E3e"
+    },
+    {
+      "title": "Mr. Brightside",
+      "artist": "The Killers",
+      "song_id": "J3ZNCQXdc63aS1FuzA76KA"
+    },
+    {
+      "title": "Knights of Cydonia",
+      "artist": "Muse",
+      "song_id": "5oVHzxN7seEFga2wGerMcS"
+    }
+  ],
+  "failed": [],
+  "skipped": [
+    {"title": "Africa", "artist": "Toto", "reason": "No title match"},
+    {"title": "One Summer's Day", "artist": "Joe Hisaishi", "reason": "No title match"},
+    {"title": "The Final Countdown", "artist": "Europe", "reason": "No title match"}
+  ]
+}

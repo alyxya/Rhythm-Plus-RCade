@@ -1,5 +1,157 @@
 [
   {
+    "id": "5oVHzxN7seEFga2wGerMcS",
+    "title": "Knights of Cydonia",
+    "subtitle": "",
+    "artist": "Muse",
+    "image": "/songs/5oVHzxN7seEFga2wGerMcS/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/5oVHzxN7seEFga2wGerMcS/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock"
+    ]
+  },
+  {
+    "id": "J3ZNCQXdc63aS1FuzA76KA",
+    "title": "Mr. Brightside",
+    "subtitle": "",
+    "artist": "The killers",
+    "image": "/songs/J3ZNCQXdc63aS1FuzA76KA/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/J3ZNCQXdc63aS1FuzA76KA/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock",
+      "alternative",
+      "pop"
+    ]
+  },
+  {
+    "id": "XxKGHF7kWSm677cQpn7E3e",
+    "title": "Don't Stop Believin'",
+    "subtitle": "",
+    "artist": "Journey",
+    "image": "/songs/XxKGHF7kWSm677cQpn7E3e/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/XxKGHF7kWSm677cQpn7E3e/video.mp4",
+    "verified": false,
+    "tags": [
+      "journey",
+      "rock",
+      "80s",
+      "classic"
+    ]
+  },
+  {
+    "id": "BLKSkTM8xJsGwVnPeJHMRx",
+    "title": "Odd Taxi - スカートとPUNPEE",
+    "subtitle": "",
+    "artist": "ponycanyon",
+    "image": "/songs/BLKSkTM8xJsGwVnPeJHMRx/cover.jpg",
+    "difficulties": [
+      3
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/BLKSkTM8xJsGwVnPeJHMRx/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "JDG7VC7vJnJMm1udEuFv6J",
+    "title": "Enter Sandman",
+    "subtitle": "Updated",
+    "artist": "Metallica",
+    "image": "/songs/JDG7VC7vJnJMm1udEuFv6J/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/JDG7VC7vJnJMm1udEuFv6J/video.mp4",
+    "verified": false,
+    "tags": [
+      "exit-light!",
+      "fast",
+      "the-black-album",
+      "hard",
+      "metal",
+      "4note"
+    ]
+  },
+  {
+    "id": "8UUJqLHNdgioWfk2QLyUTX",
+    "title": "Pumped Up Kicks",
+    "subtitle": "",
+    "artist": "Foster The People",
+    "image": "/songs/8UUJqLHNdgioWfk2QLyUTX/cover.jpg",
+    "difficulties": [
+      6,
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/8UUJqLHNdgioWfk2QLyUTX/video.mp4",
+    "verified": false,
+    "tags": [
+      "pop"
+    ]
+  },
+  {
+    "id": "Fuxf6x65tLrUEvR7YNFpgq",
+    "title": "my dearest",
+    "subtitle": "Guilty Crown OP1",
+    "artist": "supercell",
+    "image": "/songs/Fuxf6x65tLrUEvR7YNFpgq/cover.jpg",
+    "difficulties": [
+      5,
+      6,
+      8,
+      9
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Fuxf6x65tLrUEvR7YNFpgq/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "j-rock",
+      "rock",
+      "Anime",
+      "j-pop",
+      "anime-opening"
+    ]
+  },
+  {
     "id": "EKFRYKMhCzTQTFG992W3SJ",
     "title": "Mesmerizer / メズマライザー",
     "subtitle": "",

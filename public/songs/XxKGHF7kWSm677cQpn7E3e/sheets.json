@@ -1,0 +1,28 @@
+[
+  {
+    "id": "5H96YQ3uEXBnDDCMiH518f",
+    "songId": "XxKGHF7kWSm677cQpn7E3e",
+    "title": "weve all tried to sing this song",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 6,
+    "length": 251.601,
+    "noteCount": 830,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "S1c9E15jPSnVzUwGQnwEXK",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1709502782,
+    "updatedAt": 1709503044
+  }
+]
