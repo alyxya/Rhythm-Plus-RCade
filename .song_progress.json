@@ -119,7 +119,17 @@
     "- As It Was \u2014 Harry Styles",
     "- Call Me Maybe \u2014 Carly Rae Jepsen",
     "- Toxic \u2014 Britney Spears",
-    "- Guns & Roses \u2014 Paradise Lunch (Baccano!)"
+    "- Guns & Roses \u2014 Paradise Lunch (Baccano!)",
+    "- Baba Yetu \u2014 Civilization IV",
+    "- Comedy \u2014 Gen Hoshino (Spy x Family)",
+    "- Cha-La Head-Cha-La \u2014 Dragon Ball Z",
+    "- Hikaru Nara \u2014 Goose House (Your Lie in April)",
+    "- Bad Romance \u2014 Lady Gaga",
+    "- Sono Chi no Sadame \u2014 JoJo's Bizarre Adventure",
+    "- Butterfly \u2014 Smile.dk",
+    "- Proof of a Hero \u2014 Monster Hunter",
+    "- Warriors \u2014 League of Legends",
+    "- Lean On \u2014 Major Lazer"
   ],
   "added": [
     {
@@ -656,6 +666,36 @@
       "title": "Call Me Maybe",
       "artist": "Carly Rae Jepsen",
       "song_id": "Wvj649H7qmhFmhh79Xkpg3"
+    },
+    {
+      "title": "Comedy",
+      "artist": "Gen Hoshino",
+      "song_id": "SYwYg9FesoZk39SVPGq66w"
+    },
+    {
+      "title": "Cha-La Head-Cha-La",
+      "artist": "Dragon Ball Z",
+      "song_id": "Cha-La-Head-Cha-La-NotSoGood-MTMxMjgzM"
+    },
+    {
+      "title": "Hikaru Nara",
+      "artist": "Goose House",
+      "song_id": "GHaNy2nL9RvetNkfaY1Zv6"
+    },
+    {
+      "title": "Bad Romance",
+      "artist": "Lady Gaga",
+      "song_id": "9Gdci38yUKsJqfUGNt6jPb"
+    },
+    {
+      "title": "Sono Chi no Sadame",
+      "artist": "JoJo's Bizarre Adventure",
+      "song_id": "2XpMRyMnegAq21dAYrBRmG"
+    },
+    {
+      "title": "Warriors",
+      "artist": "League of Legends",
+      "song_id": "Warriors-Imagine-Dragons-MzI0NTU4M"
     }
   ],
   "failed": [],
@@ -723,6 +763,26 @@
     {
       "title": "Guns & Roses",
       "artist": "Paradise Lunch",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Baba Yetu",
+      "artist": "Civilization IV",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Butterfly",
+      "artist": "Smile.dk",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Proof of a Hero",
+      "artist": "Monster Hunter",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Lean On",
+      "artist": "Major Lazer",
       "reason": "No selectedId in candidates"
     }
   ],
