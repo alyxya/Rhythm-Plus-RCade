@@ -1,5 +1,158 @@
 [
   {
+    "id": "Wvj649H7qmhFmhh79Xkpg3",
+    "title": "Call Me Maybe",
+    "subtitle": "",
+    "artist": "Carly Rae Jepsen",
+    "image": "/songs/Wvj649H7qmhFmhh79Xkpg3/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Wvj649H7qmhFmhh79Xkpg3/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "TerXjCuztMRuh9JwRuYr18",
+    "title": "As It Was",
+    "subtitle": "",
+    "artist": "Harry Styles",
+    "image": "/songs/TerXjCuztMRuh9JwRuYr18/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/TerXjCuztMRuh9JwRuYr18/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "WpunaGhpMRRGi95osAEU5q",
+    "title": "Kyouran Hey Kids!!",
+    "subtitle": "狂乱 Hey Kids!!",
+    "artist": "THE ORAL CIGARETTES",
+    "image": "/songs/WpunaGhpMRRGi95osAEU5q/cover.jpg",
+    "difficulties": [
+      9
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/WpunaGhpMRRGi95osAEU5q/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "XvR9JFX5qCcM98S4HtvEW6",
+    "title": "blue monday",
+    "subtitle": "",
+    "artist": "new order",
+    "image": "/songs/XvR9JFX5qCcM98S4HtvEW6/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/XvR9JFX5qCcM98S4HtvEW6/video.mp4",
+    "verified": false,
+    "tags": [
+      "newwave",
+      "actuallygoodmusic",
+      "old"
+    ]
+  },
+  {
+    "id": "QkSa3EBbP7Ma4rs6TqiLfB",
+    "title": "Shinunoga E-Wa",
+    "subtitle": "Shinunoga E-Wa",
+    "artist": "Fujii Kaze",
+    "image": "/songs/QkSa3EBbP7Ma4rs6TqiLfB/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/QkSa3EBbP7Ma4rs6TqiLfB/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "tiktok",
+      "4-key",
+      "youtube-video",
+      "anime",
+      "banger",
+      "4note"
+    ]
+  },
+  {
+    "id": "3ezyrwv5AdWcX2g8KxhbSD",
+    "title": "Bangarang",
+    "subtitle": "",
+    "artist": "skrillex",
+    "image": "/songs/3ezyrwv5AdWcX2g8KxhbSD/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/3ezyrwv5AdWcX2g8KxhbSD/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "EhNgegw5ozsTwm9rpFAzpD",
+    "title": "Simple and Clean (Kingdom Hearts)",
+    "subtitle": "",
+    "artist": "Hikaru Utada",
+    "image": "/songs/EhNgegw5ozsTwm9rpFAzpD/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/EhNgegw5ozsTwm9rpFAzpD/video.mp4",
+    "verified": false,
+    "tags": [
+      "Kingdom-Hearts",
+      "Sigma",
+      "Fire"
+    ]
+  },
+  {
+    "id": "BqnYWadb4vza7HTdQRbuvg",
+    "title": "Traitor's Requiem",
+    "subtitle": "no one made one..",
+    "artist": "JOJO SOUND TEAM",
+    "image": "/songs/BqnYWadb4vza7HTdQRbuvg/cover.jpg",
+    "difficulties": [
+      6,
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/BqnYWadb4vza7HTdQRbuvg/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
     "id": "VeEJ4DjLEE4SyE5YdRHozw",
     "title": "Viva la Vida",
     "subtitle": "Kinda hard, have fun!",

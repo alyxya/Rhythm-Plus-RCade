@@ -109,7 +109,17 @@
     "- Whenever, Wherever \u2014 Shakira",
     "- Odd Future \u2014 UVERworld (My Hero Academia)",
     "- The Hero!! \u2014 JAM Project",
-    "- Viva la Vida \u2014 Coldplay"
+    "- Viva la Vida \u2014 Coldplay",
+    "- Traitor's Requiem \u2014 JoJo Part 5",
+    "- Simple and Clean \u2014 Hikaru Utada",
+    "- Bangarang \u2014 Skrillex",
+    "- Shinunoga E-Wa \u2014 Fujii Kaze",
+    "- Blue Monday \u2014 New Order",
+    "- Kyouran Hey Kids!! \u2014 THE ORAL CIGARETTES (Noragami)",
+    "- As It Was \u2014 Harry Styles",
+    "- Call Me Maybe \u2014 Carly Rae Jepsen",
+    "- Toxic \u2014 Britney Spears",
+    "- Guns & Roses \u2014 Paradise Lunch (Baccano!)"
   ],
   "added": [
     {
@@ -606,6 +616,46 @@
       "title": "Viva la Vida",
       "artist": "Coldplay",
       "song_id": "VeEJ4DjLEE4SyE5YdRHozw"
+    },
+    {
+      "title": "Traitor's Requiem",
+      "artist": "JoJo Part 5",
+      "song_id": "BqnYWadb4vza7HTdQRbuvg"
+    },
+    {
+      "title": "Simple and Clean",
+      "artist": "Hikaru Utada",
+      "song_id": "EhNgegw5ozsTwm9rpFAzpD"
+    },
+    {
+      "title": "Bangarang",
+      "artist": "Skrillex",
+      "song_id": "3ezyrwv5AdWcX2g8KxhbSD"
+    },
+    {
+      "title": "Shinunoga E-Wa",
+      "artist": "Fujii Kaze",
+      "song_id": "QkSa3EBbP7Ma4rs6TqiLfB"
+    },
+    {
+      "title": "Blue Monday",
+      "artist": "New Order",
+      "song_id": "XvR9JFX5qCcM98S4HtvEW6"
+    },
+    {
+      "title": "Kyouran Hey Kids!!",
+      "artist": "THE ORAL CIGARETTES",
+      "song_id": "WpunaGhpMRRGi95osAEU5q"
+    },
+    {
+      "title": "As It Was",
+      "artist": "Harry Styles",
+      "song_id": "TerXjCuztMRuh9JwRuYr18"
+    },
+    {
+      "title": "Call Me Maybe",
+      "artist": "Carly Rae Jepsen",
+      "song_id": "Wvj649H7qmhFmhh79Xkpg3"
     }
   ],
   "failed": [],
@@ -663,6 +713,16 @@
     {
       "title": "Blue (Da Ba Dee)",
       "artist": "Eiffel 65",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Toxic",
+      "artist": "Britney Spears",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Guns & Roses",
+      "artist": "Paradise Lunch",
       "reason": "No selectedId in candidates"
     }
   ],
