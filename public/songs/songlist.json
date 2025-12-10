@@ -1,5 +1,179 @@
 [
   {
+    "id": "Fx7EEwMMy9tvsyPZDqW6Si",
+    "title": "Africa",
+    "subtitle": "Wait, this isn't metal",
+    "artist": "Toto",
+    "image": "/songs/Fx7EEwMMy9tvsyPZDqW6Si/cover.jpg",
+    "difficulties": [
+      3
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Fx7EEwMMy9tvsyPZDqW6Si/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock"
+    ]
+  },
+  {
+    "id": "6WxQid3ypbvpt9JW76RJvA",
+    "title": "FLY HIGH!!",
+    "subtitle": "Haikyuu!! S2 OP 2 Full",
+    "artist": "BURNOUT SYNDROMES",
+    "image": "/songs/6WxQid3ypbvpt9JW76RJvA/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/6WxQid3ypbvpt9JW76RJvA/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "Wdsud58RuDyYmrpW4c1EQQ",
+    "title": "Lost One's Weeping",
+    "subtitle": "",
+    "artist": "Neru",
+    "image": "/songs/Wdsud58RuDyYmrpW4c1EQQ/cover.jpg",
+    "difficulties": [
+      9,
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Wdsud58RuDyYmrpW4c1EQQ/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "Fvb56LkD62zctnP6QcszVh",
+    "title": "One More Time",
+    "subtitle": "",
+    "artist": "Daft Punki",
+    "image": "/songs/Fvb56LkD62zctnP6QcszVh/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Fvb56LkD62zctnP6QcszVh/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "KSwNJgpEXomnn7DPzqgpAg",
+    "title": "good 4 u",
+    "subtitle": "",
+    "artist": "Olivia Rodrigo",
+    "image": "/songs/KSwNJgpEXomnn7DPzqgpAg/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/KSwNJgpEXomnn7DPzqgpAg/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "PSDUDoaaCfXmwxXMtnFWqp",
+    "title": "Bailando",
+    "subtitle": "",
+    "artist": "Enrique Iglesias",
+    "image": "/songs/PSDUDoaaCfXmwxXMtnFWqp/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/PSDUDoaaCfXmwxXMtnFWqp/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "WJiXkR3N7GMY2XRe9GsTLE",
+    "title": "we found love <3",
+    "subtitle": "",
+    "artist": "Rihanna ft. Calvin Harris",
+    "image": "/songs/WJiXkR3N7GMY2XRe9GsTLE/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/WJiXkR3N7GMY2XRe9GsTLE/video.mp4",
+    "verified": false,
+    "tags": [
+      "game",
+      "youtube-video",
+      "music",
+      "4note"
+    ]
+  },
+  {
+    "id": "UrFbwANmk5CbTKY8TPLDEu",
+    "title": "Guren no yumiya",
+    "subtitle": "Attack On Titan opening 1",
+    "artist": "Linked Horizon",
+    "image": "/songs/UrFbwANmk5CbTKY8TPLDEu/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/UrFbwANmk5CbTKY8TPLDEu/video.mp4",
+    "verified": false,
+    "tags": [
+      "aot",
+      "anime",
+      "opening"
+    ]
+  },
+  {
+    "id": "FnXLieKx61FZR1NcTMtRn8",
+    "title": "This Game / NO GAME NO LIFE",
+    "subtitle": "Anime Opening",
+    "artist": "Konomi Suzuki",
+    "image": "/songs/FnXLieKx61FZR1NcTMtRn8/cover.jpg",
+    "difficulties": [
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/FnXLieKx61FZR1NcTMtRn8/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "song",
+      "anime",
+      "4k",
+      "idk",
+      "anime-opening",
+      "4key",
+      "4note"
+    ]
+  },
+  {
     "id": "ZnD8vyzjF7mEULBdUsUnv",
     "title": "Master Of Puppets",
     "subtitle": "Remastered",

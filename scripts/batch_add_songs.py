@@ -431,7 +431,7 @@ def preview_searches(count=5):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Add songs from SONG_IDEAS_RANDOMIZED.md")
+    parser = argparse.ArgumentParser(description="Add songs from SONGS_TO_ADD.md")
     parser.add_argument('count', nargs='?', type=int, default=1,
                         help='Number of songs to add (default: 1)')
     parser.add_argument('--status', action='store_true',
@@ -446,6 +446,8 @@ def main():
                         help='Search and save candidates without downloading')
     parser.add_argument('--download-from', metavar='FILE',
                         help='Download using selectedId values from a candidates file created with --search-only')
+    parser.add_argument('--mark-unselected-skipped', action='store_true',
+                        help='When using --download-from, mark entries without selectedId as skipped in progress')
     parser.add_argument('--output', '-o', default=CANDIDATES_FILE_DEFAULT,
                         help='Output file for --search-only (default: .song_candidates.json)')
     parser.add_argument('--top', type=int, default=5,
@@ -555,7 +557,16 @@ def main():
                 continue
 
             if not selected_id:
-                print(f"Skipping {title} — {artist}: no selectedId set.")
+                if args.mark_unselected_skipped:
+                    print(f"Skipping {title} — {artist}: no selectedId set (marking as skipped).")
+                    # Remove any previous skip entry for this title
+                    progress["skipped"] = [s for s in progress["skipped"] if s.get("title") != title]
+                    progress["skipped"].append({"title": title, "artist": artist, "reason": "No selectedId in candidates"})
+                    progress["processed"].append(original_line)
+                    processed_set.add(original_line)
+                    save_progress(progress)
+                else:
+                    print(f"Skipping {title} — {artist}: no selectedId set.")
                 continue
 
             process_selected_song(selected_id, title, artist, original_line, token, progress)

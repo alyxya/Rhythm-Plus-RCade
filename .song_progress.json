@@ -31,7 +31,17 @@
     "- Deal with the Devil \u2014 Tia (Kakegurui)",
     "- Escape from the City \u2014 Sonic Adventure 2",
     "- Want You Gone \u2014 Portal 2",
-    "- Master of Puppets \u2014 Metallica"
+    "- Master of Puppets \u2014 Metallica",
+    "- This Game \u2014 Konomi Suzuki (No Game No Life)",
+    "- Kids \u2014 MGMT",
+    "- Guren no Yumiya \u2014 Linked Horizon",
+    "- We Found Love \u2014 Rihanna & Calvin Harris",
+    "- Bailando \u2014 Enrique Iglesias",
+    "- good 4 u \u2014 Olivia Rodrigo",
+    "- One More Time \u2014 Daft Punk",
+    "- Lost One's Weeping \u2014 Neru ft. Kagamine Rin",
+    "- Fly High!! \u2014 BURNOUT SYNDROMES (Haikyuu!!)",
+    "- Africa \u2014 Toto"
   ],
   "added": [
     {
@@ -188,6 +198,51 @@
       "title": "Master of Puppets",
       "artist": "Metallica",
       "song_id": "ZnD8vyzjF7mEULBdUsUnv"
+    },
+    {
+      "title": "This Game",
+      "artist": "Konomi Suzuki",
+      "song_id": "FnXLieKx61FZR1NcTMtRn8"
+    },
+    {
+      "title": "Guren no Yumiya",
+      "artist": "Linked Horizon",
+      "song_id": "UrFbwANmk5CbTKY8TPLDEu"
+    },
+    {
+      "title": "We Found Love",
+      "artist": "Rihanna & Calvin Harris",
+      "song_id": "WJiXkR3N7GMY2XRe9GsTLE"
+    },
+    {
+      "title": "Bailando",
+      "artist": "Enrique Iglesias",
+      "song_id": "PSDUDoaaCfXmwxXMtnFWqp"
+    },
+    {
+      "title": "good 4 u",
+      "artist": "Olivia Rodrigo",
+      "song_id": "KSwNJgpEXomnn7DPzqgpAg"
+    },
+    {
+      "title": "One More Time",
+      "artist": "Daft Punk",
+      "song_id": "Fvb56LkD62zctnP6QcszVh"
+    },
+    {
+      "title": "Lost One's Weeping",
+      "artist": "Neru ft. Kagamine Rin",
+      "song_id": "Wdsud58RuDyYmrpW4c1EQQ"
+    },
+    {
+      "title": "Fly High!!",
+      "artist": "BURNOUT SYNDROMES",
+      "song_id": "6WxQid3ypbvpt9JW76RJvA"
+    },
+    {
+      "title": "Africa",
+      "artist": "Toto",
+      "song_id": "Fx7EEwMMy9tvsyPZDqW6Si"
     }
   ],
   "failed": [],
@@ -196,6 +251,11 @@
       "title": "Money",
       "artist": "Pink Floyd",
       "reason": "No acceptable match"
+    },
+    {
+      "title": "Kids",
+      "artist": "MGMT",
+      "reason": "No selectedId in candidates"
     }
   ],
   "needs_review": [],
