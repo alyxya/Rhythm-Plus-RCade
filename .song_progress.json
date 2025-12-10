@@ -1,457 +1,28 @@
 {
   "processed": [
-    "- My Dearest \u2014 supercell (Guilty Crown OP, soaring chorus)",
-    "- Pumped Up Kicks \u2014 Foster the People (catchy bass line, dark lyrics)",
-    "- Enter Sandman \u2014 Metallica (heavy riff, accessible metal)",
-    "- Odd Taxi \u2014 Skirt & PUNPEE (unique hip-hop vibe)",
-    "- Don't Stop Believin' \u2014 Journey (singalong hook, strong build)",
-    "- Mr. Brightside \u2014 The Killers (millennial karaoke staple, driving pace)",
-    "- Knights of Cydonia \u2014 Muse (galloping beat, space-western feel)",
-    "- One Summer\u2019s Day \u2014 Joe Hisaishi (Spirited Away) (lyrical piano, gentler chart)",
-    "- The Final Countdown \u2014 Europe (anthemic synth lead)",
-    "- Kernkraft 400 \u2014 Zombie Nation (stadium chant energy)",
-    "- Legends Never Die \u2014 League of Legends (stadium feel)",
-    "- Ghosts 'n' Stuff \u2014 Deadmau5 (electro-house classic)",
-    "- Bye Bye Bye \u2014 *NSYNC (syncopated chorus, recognizable)",
-    "- Life Will Change \u2014 Persona 5 (acid-jazz rock, stylish groove)",
-    "- Rasputin \u2014 Boney M. (Euro-disco, BPM for dense patterns)",
-    "- Caramelldansen \u2014 Caramell (speedcore meme, anime culture)",
-    "- Heat Waves \u2014 Glass Animals (chill groove, viral)",
-    "- Sweet Dreams (Are Made of This) \u2014 Eurythmics (synth groove, steady beat)",
-    "- Unholy \u2014 Sam Smith & Kim Petras (dark disco-pop)",
-    "- Levitating \u2014 Dua Lipa (modern disco-pop, steady beat)",
-    "- Snake Eater \u2014 Metal Gear Solid 3 (spy-ballad style, dramatic vocals)",
-    "- Inner Universe \u2014 Ghost in the Shell: SAC (electronic + choral)",
-    "- Megalovania \u2014 Undertale (indie dev favorite, relentless groove)",
-    "- Splattack! \u2014 Splatoon (quirky rhythms, percussive vocals)",
-    "- Eye of the Tiger \u2014 Survivor (driving beat, motivational classic)",
-    "- My Only Chance \u2014 Carpenter Brut/Furi OST (synthwave combat)",
-    "- The Only Thing They Fear Is You \u2014 DOOM Eternal (modern metal riff barrage)",
-    "- Anti-Hero \u2014 Taylor Swift (catchy modern pop)",
-    "- Tongue Tied \u2014 Grouplove (high-energy indie pop)",
-    "- We Will Rock You / We Are The Champions \u2014 Queen (stomp-clap rhythm, outro victory lap)",
-    "- God Knows... \u2014 Haruhi Suzumiya (guitar-driven, upbeat)",
-    "- Rivers in the Desert \u2014 Persona 5 (boss energy, vocals)",
-    "- Renai Circulation \u2014 Kana Hanazawa (anime bop, light vibe)",
-    "- Proof of a Hero \u2014 Monster Hunter (triumphant orchestral)",
-    "- IDOL \u2014 YOASOBI (Oshi no Ko OP, viral hit)",
-    "- Tetris Theme (Korobeiniki) \u2014 classic game tune (NES nostalgia, clear motif)",
-    "- A Cruel Angel\u2019s Thesis \u2014 Evangelion OP (instant anime classic)",
-    "- September \u2014 Earth, Wind & Fire (disco classic, danceable rhythm)",
-    "- One Winged Angel \u2014 Final Fantasy VII (orchestral/rock crossover, boss energy)",
-    "- Shake It Off \u2014 Taylor Swift (pop universal, bouncy rhythm)",
-    "- Bury the Light \u2014 Devil May Cry 5 (modern devil trigger anthem, dramatic payoff)",
-    "- Believer \u2014 Imagine Dragons (percussive vocal phrasing)",
-    "- Gee \u2014 Girls\u2019 Generation (K-pop classic, bright tempo)",
-    "- Dragonborn \u2014 Skyrim (epic choir, TES anthem)",
-    "- Kill Bill \u2014 SZA (R&B with edge)",
-    "- Gurenge \u2014 LiSA (Demon Slayer OP, anime mainstream)",
-    "- 505 \u2014 Arctic Monkeys (build-up tension, moody riff)",
-    "- YMCA \u2014 Village People (instant recognition, hand-move meme)",
-    "- I Will Survive \u2014 Gloria Gaynor (disco-soul resilience anthem)",
-    "- Misirlou \u2014 Dick Dale (surf rock tremolo, Pulp Fiction)",
-    "- The Less I Know The Better \u2014 Tame Impala (funky bass, disco-psych)",
-    "- Midnight City \u2014 M83 (synth anthem, sax hook)",
-    "- Reptilia \u2014 The Strokes (staccato guitar pulses, tight drums)",
-    "- Chop Suey! \u2014 System of a Down (syncopated, dynamic shifts)",
-    "- Thunderstruck \u2014 AC/DC (guitar tapping challenge)",
-    "- Resurrections \u2014 Celeste OST (chiptune emotion)",
-    "- Sealed Vessel \u2014 Hollow Knight OST (orchestral boss intensity)",
-    "- Song of Storms \u2014 Zelda: Ocarina of Time (looping 3/4, folk feel)",
-    "- Pompeii \u2014 Bastille (chantable \u201ceh-eh-oh\u201d hook)",
-    "- Weight of the World \u2014 NieR: Automata (emotional, multi-language)",
-    "- Still Alive \u2014 Portal OST (programmer in-joke, catchy waltz)",
-    "- Mixed Nuts \u2014 Official HIGE DANdism (Spy x Family OP)",
-    "- Again \u2014 YUI (Fullmetal Alchemist: Brotherhood OP, pop-rock)",
-    "- Under Pressure \u2014 Queen & David Bowie (legendary bass intro)",
-    "- Stayin\u2019 Alive \u2014 Bee Gees (disco beat, falsetto hooks)",
-    "- Tank! \u2014 The Seatbelts (Cowboy Bebop, jazz breaks)",
-    "- Seven Nation Army \u2014 The White Stripes (chantable riff, minimal but punchy)",
-    "- Waka Waka \u2014 Shakira (World Cup energy)",
-    "- Jump Up, Super Star! \u2014 Super Mario Odyssey (big band style, Nintendo joy)",
-    "- Inferno \u2014 Mrs. GREEN APPLE (Fire Force OP, fast tempo)",
-    "- Unravel \u2014 TK from Ling Tosite Sigure (Tokyo Ghoul OP, dramatic vocals)",
-    "- Gerudo Valley \u2014 Zelda: Ocarina of Time (Spanish guitar motif)",
-    "- Peace Sign \u2014 Kenshi Yonezu (My Hero Academia S2 OP)",
-    "- Never Gonna Give You Up \u2014 Rick Astley (the ultimate rickroll)",
-    "- Fluorescent Adolescent \u2014 Arctic Monkeys (upbeat, sharp guitar)",
-    "- The Impression That I Get \u2014 The Mighty Mighty Bosstones (ska bounce)",
-    "- Silhouette \u2014 KANA-BOON (Naruto Shippuden OP, rock anthem)",
-    "- Gas Gas Gas \u2014 Manuel (more eurobeat)",
-    "- He's a Pirate (club remixes) \u2014 Pirates theme EDM variant (for alternative chart)",
-    "- We Are! \u2014 One Piece OP (singalong adventure feel)",
-    "- Lifelight \u2014 Super Smash Bros. Ultimate (modern Nintendo anthem)",
-    "- Bang Bang Bang \u2014 BIGBANG (K-pop hype, crisp hits)",
-    "- Shinzou wo Sasageyo! \u2014 AoT S2 OP (chantable anthem)",
-    "- Flowers \u2014 Miley Cyrus (disco-pop, empowerment anthem)",
-    "- Snake Man Stage \u2014 Mega Man 3 (chip tune hook, Fami nostalgia)",
-    "- Scary Monsters and Nice Sprites \u2014 Skrillex (iconic wobble bass)",
-    "- Can\u2019t Stop \u2014 Red Hot Chili Peppers (funk rock groove, rap-sung verses)",
-    "- Blue Bird \u2014 Ikimono-gakari (Naruto, uplifting)",
-    "- Uptown Funk \u2014 Mark Ronson ft. Bruno Mars (tight funk hits)",
-    "- BFG Division (2016) \u2014 DOOM (heavier variant for expert charts)",
-    "- Counting Stars \u2014 OneRepublic (modern pop-rock, clear rhythm)",
-    "- Back in Black \u2014 AC/DC (iconic guitar intro)",
-    "- Walk Like an Egyptian \u2014 The Bangles (quirky 80s pop)",
-    "- BFG Division \u2014 DOOM (heavy riffing, double-kick challenge)",
-    "- Take Me Out \u2014 Franz Ferdinand (sharp guitar hits, tempo shift drop)",
-    "- All Star \u2014 Smash Mouth (meme-friendly, easy singalong)",
-    "- I Want It That Way \u2014 Backstreet Boys (boy band nostalgia)",
-    "- Despacito \u2014 Luis Fonsi ft. Daddy Yankee (global hit, reggaeton rhythm)",
-    "- Dynamite \u2014 BTS (global pop hit, steady groove)",
-    "- Through the Fire and Flames \u2014 DragonForce (legendary difficulty)",
-    "- Get Lucky \u2014 Daft Punk (disco-funk groove)",
-    "- Enemy \u2014 Imagine Dragons x JID (Arcane tie-in, modern hook)",
-    "- Harder, Better, Faster, Stronger \u2014 Daft Punk (vocoded hook, programmer catnip)",
-    "- Take On Me \u2014 a-ha (iconic synth riff, fun high notes)",
-    "- Billie Jean \u2014 Michael Jackson (tight groove, famous bass line)",
-    "- Clarity \u2014 Zedd ft. Foxes (EDM pop, strong chorus)",
-    "- Bad Guy \u2014 Billie Eilish (offbeat bass, modern minimal pop)",
-    "- Everlong \u2014 Foo Fighters (16th-note drive, stamina-friendly)",
-    "- Smells Like Teen Spirit \u2014 Nirvana (grunge anthem, loud/quiet dynamics)",
-    "- Kick Back \u2014 Kenshi Yonezu (Chainsaw Man OP, chaotic energy)",
-    "- Vampire \u2014 Olivia Rodrigo (dramatic pop)",
-    "- Take Five \u2014 Dave Brubeck (5/4 time, polyrhythm practice)",
-    "- Deja Vu \u2014 Initial D (eurobeat drifting energy)",
-    "- Blinding Lights \u2014 The Weeknd (retro synthwave vibe, steady tempo)",
-    "- Lean On \u2014 Major Lazer (dancehall pop, catchy drop)",
-    "- Running Up That Hill \u2014 Kate Bush (80s drums, long tension arc)",
-    "- Warriors \u2014 League of Legends (Worlds anthem, esports crowd)",
-    "- Electric Feel \u2014 MGMT (groovy synth, laid-back pulse)",
-    "- Rhythm and Police \u2014 Akira Yamaoka (DDR/Beatmania classic, sharp hits)",
-    "- Hysteria \u2014 Muse (driving bass, tight triplets)",
-    "- Personal Jesus \u2014 Depeche Mode (stompy electronic rock)"
+    "- ANTIFRAGILE \u2014 LE SSERAFIM",
+    "- Come On Eileen \u2014 Dexys Midnight Runners",
+    "- Dearly Beloved \u2014 Kingdom Hearts",
+    "- E1M1 (At Doom's Gate) \u2014 DOOM",
+    "- Ghost Rule \u2014 DECO*27 ft. Hatsune Miku",
+    "- Homura \u2014 LiSA (Demon Slayer)",
+    "- Kuusou Mesorogiwi \u2014 Yousei Teikoku (Mirai Nikki)",
+    "- Mephisto \u2014 QUEEN BEE (Oshi no Ko)",
+    "- Money \u2014 Pink Floyd",
+    "- Paradisus-Paradoxum \u2014 MYTH & ROID (Re:Zero)",
+    "- Still Alive \u2014 Portal",
+    "- Unravel \u2014 TK from Ling Tosite Sigure (Tokyo Ghoul)",
+    "- Animals \u2014 Martin Garrix",
+    "- Before My Body Is Dry (Don't Lose Your Way) \u2014 Kill la Kill",
+    "- Paranoid \u2014 Black Sabbath",
+    "- The WORLD \u2014 Nightmare (Death Note)",
+    "- Live and Learn \u2014 Crush 40 (Sonic Adventure 2)"
   ],
   "added": [
-    {
-      "title": "My Dearest",
-      "artist": "supercell",
-      "song_id": "Fuxf6x65tLrUEvR7YNFpgq"
-    },
-    {
-      "title": "Pumped Up Kicks",
-      "artist": "Foster the People",
-      "song_id": "8UUJqLHNdgioWfk2QLyUTX"
-    },
-    {
-      "title": "Enter Sandman",
-      "artist": "Metallica",
-      "song_id": "JDG7VC7vJnJMm1udEuFv6J"
-    },
-    {
-      "title": "Odd Taxi",
-      "artist": "Skirt & PUNPEE",
-      "song_id": "BLKSkTM8xJsGwVnPeJHMRx"
-    },
-    {
-      "title": "Don't Stop Believin'",
-      "artist": "Journey",
-      "song_id": "XxKGHF7kWSm677cQpn7E3e"
-    },
-    {
-      "title": "Mr. Brightside",
-      "artist": "The Killers",
-      "song_id": "J3ZNCQXdc63aS1FuzA76KA"
-    },
-    {
-      "title": "Knights of Cydonia",
-      "artist": "Muse",
-      "song_id": "5oVHzxN7seEFga2wGerMcS"
-    },
-    {
-      "title": "One Summer\u2019s Day",
-      "artist": "Joe Hisaishi",
-      "song_id": "G9r97MPmtguPHAQSzyR35P"
-    },
-    {
-      "title": "The Final Countdown",
-      "artist": "Europe",
-      "song_id": "NsYpAFeAac1dc5WXNrSGHg"
-    },
-    {
-      "title": "Kernkraft 400",
-      "artist": "Zombie Nation",
-      "song_id": "9WBzHAX46tstxefifNsNYd"
-    },
-    {
-      "title": "Legends Never Die",
-      "artist": "League of Legends",
-      "song_id": "Lwg3xqRcwXfjMfHHjB83H5"
-    },
-    {
-      "title": "Ghosts 'n' Stuff",
-      "artist": "Deadmau5",
-      "song_id": "LrTaE7SpkV1zs3zbZRxxyN"
-    },
-    {
-      "title": "Bye Bye Bye",
-      "artist": "*NSYNC",
-      "song_id": "RTM2pf5sr3UF1CzF3eg8yZ"
-    },
-    {
-      "title": "Life Will Change",
-      "artist": "Persona 5",
-      "song_id": "WeCXngT1UKUHpj7HVmEmUx"
-    },
-    {
-      "title": "Rasputin",
-      "artist": "Boney M.",
-      "song_id": "2UnwtRwFTLeGTxJFVvSukx"
-    },
-    {
-      "title": "Caramelldansen",
-      "artist": "Caramell",
-      "song_id": "TZdSozrnTYN2bgCZVTyYuN"
-    },
-    {
-      "title": "Heat Waves",
-      "artist": "Glass Animals",
-      "song_id": "YPMXB3kmWKdND33qDwbqqQ"
-    },
-    {
-      "title": "Sweet Dreams (Are Made of This)",
-      "artist": "Eurythmics",
-      "song_id": "UyFrV2RwtdvQVH4fS6tMHv"
-    },
-    {
-      "title": "Unholy",
-      "artist": "Sam Smith & Kim Petras",
-      "song_id": "FUP8uoVTacAvmAxnvUYwax"
-    },
-    {
-      "title": "Levitating",
-      "artist": "Dua Lipa",
-      "song_id": "HPxJRUVDubqQT9gVGvg3Bk"
-    },
-    {
-      "title": "Snake Eater",
-      "artist": "Metal Gear Solid 3",
-      "song_id": "GbUkd1ECFonKWMM2ZQnpuJ"
-    },
-    {
-      "title": "Inner Universe",
-      "artist": "Ghost in the Shell: SAC",
-      "song_id": "QbyfWoq5f4Yo6naCSivmjw"
-    },
-    {
-      "title": "Megalovania",
-      "artist": "Undertale",
-      "song_id": "EUrutBCbYNv6VeaDkFwNvN"
-    },
-    {
-      "title": "Splattack!",
-      "artist": "Splatoon",
-      "song_id": "RRLbngPMz9hoLk9cWiXs4D"
-    },
-    {
-      "title": "Eye of the Tiger",
-      "artist": "Survivor",
-      "song_id": "ASvuhXqmH1Tkr3XdUXL4To"
-    },
-    {
-      "title": "The Only Thing They Fear Is You",
-      "artist": "DOOM Eternal",
-      "song_id": "K8Y7LXmMmibS7FFLS6EDuk"
-    },
-    {
-      "title": "Anti-Hero",
-      "artist": "Taylor Swift",
-      "song_id": "4mn6U1jEFbnbPmKuDwbgr7"
-    },
-    {
-      "title": "Tongue Tied",
-      "artist": "Grouplove",
-      "song_id": "BNt6vp3MKuqFuBN3q9H1XC"
-    },
-    {
-      "title": "God Knows...",
-      "artist": "Haruhi Suzumiya",
-      "song_id": "2b73eBUvDjsQ9vSeWQXPTm"
-    },
-    {
-      "title": "Rivers in the Desert",
-      "artist": "Persona 5",
-      "song_id": "Jqs2iSC4A4Xjk75JskeY4D"
-    },
-    {
-      "title": "Renai Circulation",
-      "artist": "Kana Hanazawa",
-      "song_id": "YFVPoirM1zaeSuedqLVpfG"
-    },
-    {
-      "title": "IDOL",
-      "artist": "YOASOBI",
-      "song_id": "4prBSKY6jRqjP8wrAqed7f"
-    },
-    {
-      "title": "Tetris Theme (Korobeiniki)",
-      "artist": "classic game tune",
-      "song_id": "5PWJ4cnnEugidrvdwo8d8f"
-    },
-    {
-      "title": "A Cruel Angel\u2019s Thesis",
-      "artist": "Evangelion OP",
-      "song_id": "YMjggmzNiVRi7TzAjXg6Co"
-    },
-    {
-      "title": "September",
-      "artist": "Earth, Wind & Fire",
-      "song_id": "4WpBTfnacwPrRGGZxM2EW4"
-    },
-    {
-      "title": "One Winged Angel",
-      "artist": "Final Fantasy VII",
-      "song_id": "GKecDHaffQV135ZmxrGWar"
-    },
-    {
-      "title": "Shake It Off",
-      "artist": "Taylor Swift",
-      "song_id": "Wv81tGHYhkzXeunWXekiMi"
-    },
-    {
-      "title": "Bury the Light",
-      "artist": "Devil May Cry 5",
-      "song_id": "Ahqn8KSHYBBPuYPXj8xD2v"
-    },
-    {
-      "title": "Believer",
-      "artist": "Imagine Dragons",
-      "song_id": "9KocBGwmJp2woxYfRvwLwv"
-    },
-    {
-      "title": "Dragonborn",
-      "artist": "Skyrim",
-      "song_id": "J48ghUGxs13Egr1k1zKfTW"
-    },
-    {
-      "title": "Kill Bill",
-      "artist": "SZA",
-      "song_id": "GjtMtUJktcDBEMr786zJVM"
-    },
-    {
-      "title": "Gurenge",
-      "artist": "LiSA",
-      "song_id": "Hu2GG3MJAogrmZdgKiVmsm"
-    },
-    {
-      "title": "505",
-      "artist": "Arctic Monkeys",
-      "song_id": "JTvfcXnw6cwCwyjhr9skid"
-    },
-    {
-      "title": "YMCA",
-      "artist": "Village People",
-      "song_id": "7tpYvgq7zpnUVTcBgfF5nb"
-    },
-    {
-      "title": "I Will Survive",
-      "artist": "Gloria Gaynor",
-      "song_id": "9ar8FpfnFARKp28Hgh64DX"
-    },
-    {
-      "title": "Misirlou",
-      "artist": "Dick Dale",
-      "song_id": "DY43hi1kzTzP7BfYJWNMDQ"
-    },
-    {
-      "title": "The Less I Know The Better",
-      "artist": "Tame Impala",
-      "song_id": "U6mNRig8eEwsCgz7FA61vc"
-    },
-    {
-      "title": "Midnight City",
-      "artist": "M83",
-      "song_id": "Midnight-City-M83-NjU5MjAzN"
-    },
-    {
-      "title": "Reptilia",
-      "artist": "The Strokes",
-      "song_id": "2zqjSQBf47sEWiK9pB3AHH"
-    },
-    {
-      "title": "Chop Suey!",
-      "artist": "System of a Down",
-      "song_id": "2QP96BrFnZpHaQ8ym4NheY"
-    },
-    {
-      "title": "Thunderstruck",
-      "artist": "AC/DC",
-      "song_id": "9SvKM7ZzM4WX47d6RvGEHL"
-    },
-    {
-      "title": "Resurrections",
-      "artist": "Celeste OST",
-      "song_id": "9rB1YoAFXFJxSBuWnp7jgw"
-    },
-    {
-      "title": "Sealed Vessel",
-      "artist": "Hollow Knight OST",
-      "song_id": "N84SF8gR5tYnrf3AC8kxnW"
-    },
-    {
-      "title": "Song of Storms",
-      "artist": "Zelda: Ocarina of Time",
-      "song_id": "GDimM4BKddhyhm1xdVihAa"
-    },
-    {
-      "title": "Pompeii",
-      "artist": "Bastille",
-      "song_id": "SV4K12GsFdg2D3J2WNmXP2"
-    },
-    {
-      "title": "Weight of the World",
-      "artist": "NieR: Automata",
-      "song_id": "GfX4yJSBguCv8eEF9FXwJr"
-    },
     {
       "title": "Still Alive",
       "artist": "Portal OST",
       "song_id": "9hyyPzmS6DnFDnd25szin3"
-    },
-    {
-      "title": "Mixed Nuts",
-      "artist": "Official HIGE DANdism",
-      "song_id": "GDBMu6JtBFjEzHM4KamCfq"
-    },
-    {
-      "title": "Again",
-      "artist": "YUI",
-      "song_id": "PLocg8arZ7gTTYW8CCTL4r"
-    },
-    {
-      "title": "Under Pressure",
-      "artist": "Queen & David Bowie",
-      "song_id": "VaB63UXY7KNzK67L3Z7b1g"
-    },
-    {
-      "title": "Stayin\u2019 Alive",
-      "artist": "Bee Gees",
-      "song_id": "Qy1MgTme4AKctYL1XGtLyu"
-    },
-    {
-      "title": "Tank!",
-      "artist": "The Seatbelts",
-      "song_id": "BjzgfuiMyTHNMdsJ29Yp8U"
-    },
-    {
-      "title": "Seven Nation Army",
-      "artist": "The White Stripes",
-      "song_id": "2sQttKsGdQzBGXa2thQvAN"
-    },
-    {
-      "title": "Waka Waka",
-      "artist": "Shakira",
-      "song_id": "9bbqx7VTNhd6dWoK5Udn1r"
-    },
-    {
-      "title": "Jump Up, Super Star!",
-      "artist": "Super Mario Odyssey",
-      "song_id": "REyCytmuLgqzCP7YnbYbNq"
-    },
-    {
-      "title": "Inferno",
-      "artist": "Mrs. GREEN APPLE",
-      "song_id": "3N2uGxfWaqtaguMTFWh6am"
     },
     {
       "title": "Unravel",
@@ -459,387 +30,84 @@
       "song_id": "6EPWGkrffwwcCJ2NzzgUoV"
     },
     {
-      "title": "Gerudo Valley",
-      "artist": "Zelda: Ocarina of Time",
-      "song_id": "WEpWvNF5ADJMNKeSYDmDDS"
+      "title": "Ghost Rule",
+      "artist": "DECO*27 ft. Hatsune Miku",
+      "song_id": "W56RSr5iUQvSv7fpNsxKwd"
     },
     {
-      "title": "Peace Sign",
-      "artist": "Kenshi Yonezu",
-      "song_id": "Mu92B1PDQtFCH8HLvP4QgE"
+      "title": "Come On Eileen",
+      "artist": "Dexys Midnight Runners",
+      "song_id": "RsFwhn4hER39dmCAksspiX"
     },
     {
-      "title": "Never Gonna Give You Up",
-      "artist": "Rick Astley",
-      "song_id": "Ds7S34wtrbX6XPE9V1Y76J"
+      "title": "Homura",
+      "artist": "LiSA",
+      "song_id": "JW7WX3DeQTGPyJwkprEGuX"
     },
     {
-      "title": "Fluorescent Adolescent",
-      "artist": "Arctic Monkeys",
-      "song_id": "Rwu9WYZ1tHx1GteB1K8C8p"
-    },
-    {
-      "title": "The Impression That I Get",
-      "artist": "The Mighty Mighty Bosstones",
-      "song_id": "YPbfPBjmDrhkNCnvczRRJ4"
-    },
-    {
-      "title": "Silhouette",
-      "artist": "KANA-BOON",
-      "song_id": "16vp7nRBEdNXKvvDfGwN7k"
-    },
-    {
-      "title": "Gas Gas Gas",
-      "artist": "Manuel",
-      "song_id": "8LCzaqyf9La6moztxGCE17"
-    },
-    {
-      "title": "Nujabes",
-      "artist": "Feather",
-      "song_id": "J2ndhu9tzEAnwhKSj6EpLs"
-    },
-    {
-      "title": "He's a Pirate (club remixes)",
-      "artist": "Pirates theme EDM variant",
-      "song_id": "QdnGqAYagDvqiVFT2Ytbdg"
-    },
-    {
-      "title": "We Are!",
-      "artist": "One Piece OP",
-      "song_id": "A63QLpAVK2C9UPCnw5JfEA"
-    },
-    {
-      "title": "Lifelight",
-      "artist": "Super Smash Bros. Ultimate",
-      "song_id": "LTmyQzNX7uZHHDkeZFUwsv"
-    },
-    {
-      "title": "Bang Bang Bang",
-      "artist": "BIGBANG",
-      "song_id": "XSnXhS7ED2T97pw823Tgxm"
-    },
-    {
-      "title": "Shinzou wo Sasageyo!",
-      "artist": "AoT S2 OP",
-      "song_id": "NNRnQSbZZtYm1Vs4Qm6Xya"
-    },
-    {
-      "title": "Flowers",
-      "artist": "Miley Cyrus",
-      "song_id": "5Kgiq5B2YoFcRWgihhtYw4"
-    },
-    {
-      "title": "Snake Man Stage",
-      "artist": "Mega Man 3",
-      "song_id": "Akh7AwVMCfCni6G3Epe8Ea"
-    },
-    {
-      "title": "Scary Monsters and Nice Sprites",
-      "artist": "Skrillex",
-      "song_id": "QPKEK25B4bjU9AfQqpRUWu"
-    },
-    {
-      "title": "Can\u2019t Stop",
-      "artist": "Red Hot Chili Peppers",
-      "song_id": "NjTnB4oy3Kjvm9Bpf6AptL"
-    },
-    {
-      "title": "Blue Bird",
-      "artist": "Ikimono-gakari",
-      "song_id": "EDwNV4mi2K5RWa8Riwi5Y3"
-    },
-    {
-      "title": "Uptown Funk",
-      "artist": "Mark Ronson ft. Bruno Mars",
-      "song_id": "JYR4uDaXVurpYnSedyYCpA"
-    },
-    {
-      "title": "BFG Division (2016)",
+      "title": "E1M1 (At Doom's Gate)",
       "artist": "DOOM",
-      "song_id": "BFG-Division-Mick-Gordon-MzMwNjk0N"
+      "song_id": "53G4PJHxxvaPkXnZNfTY4x"
     },
     {
-      "title": "Counting Stars",
-      "artist": "OneRepublic",
-      "song_id": "5weq2BTFcREcGJmMtrJc8n"
+      "title": "Kuusou Mesorogiwi",
+      "artist": "Yousei Teikoku",
+      "song_id": "C6H4sSmqqAgECzTUkCts2X"
     },
     {
-      "title": "Back in Black",
-      "artist": "AC/DC",
-      "song_id": "EtTmLjeRSxgeHwMNAbomM6"
+      "title": "Paradisus-Paradoxum",
+      "artist": "MYTH & ROID",
+      "song_id": "J6coGuEEQMXHmLPmeQ8L8M"
     },
     {
-      "title": "Walk Like an Egyptian",
-      "artist": "The Bangles",
-      "song_id": "F3UCfeZSrJQNRdEGwwqnBa"
+      "title": "ANTIFRAGILE",
+      "artist": "LE SSERAFIM",
+      "song_id": "UmYizsumWEupuJe2Yq84cg"
     },
     {
-      "title": "BFG Division",
-      "artist": "DOOM",
-      "song_id": "BFG-Division-Mick-Gordon-MzMwNjk0N"
+      "title": "Dearly Beloved",
+      "artist": "Kingdom Hearts",
+      "song_id": "Cium9YN2wKQeZBFxYqDNxa"
     },
     {
-      "title": "Take Me Out",
-      "artist": "Franz Ferdinand",
-      "song_id": "KhbZVrtMUjcgz3NueGrmA1"
+      "title": "Mephisto",
+      "artist": "QUEEN BEE",
+      "song_id": "NyLM34UxQT6mEiqvdtzspz"
     },
     {
-      "title": "All Star",
-      "artist": "Smash Mouth",
-      "song_id": "Rqie8VC52DmNqGdbTEbVCA"
+      "title": "Animals",
+      "artist": "Martin Garrix",
+      "song_id": "VjMBnxwEG4kRYdj1CMRoit"
     },
     {
-      "title": "I Want It That Way",
-      "artist": "Backstreet Boys",
-      "song_id": "X3abTqLaiXiYHXniunBvZ5"
-    },
-    {
-      "title": "Despacito",
-      "artist": "Luis Fonsi ft. Daddy Yankee",
-      "song_id": "V54iGhyCHaN2hd2FNec8pv"
-    },
-    {
-      "title": "Dynamite",
-      "artist": "BTS",
-      "song_id": "XSSUPLKoL1J6MM86yAscRk"
-    },
-    {
-      "title": "Through the Fire and Flames",
-      "artist": "DragonForce",
-      "song_id": "WqoWj8r3uMHp1fywRefMDh"
-    },
-    {
-      "title": "Get Lucky",
-      "artist": "Daft Punk",
-      "song_id": "DvNCJBoTq6kQ9k1EnfZh9d"
-    },
-    {
-      "title": "Enemy",
-      "artist": "Imagine Dragons x JID",
-      "song_id": "PQWT4pcMYkeFHtxrHFtj2u"
-    },
-    {
-      "title": "Harder, Better, Faster, Stronger",
-      "artist": "Daft Punk",
-      "song_id": "2zRinU24GGxXzvcikoiFMp"
-    },
-    {
-      "title": "Take On Me",
-      "artist": "a-ha",
-      "song_id": "3CkPDCBQ4ZRpm4mvoWspus"
-    },
-    {
-      "title": "Billie Jean",
-      "artist": "Michael Jackson",
-      "song_id": "7s5ShjuTmSZFGKMxx2NXqU"
-    },
-    {
-      "title": "Clarity",
-      "artist": "Zedd ft. Foxes",
-      "song_id": "F4qXefAU6WMbbToBfh5gWk"
-    },
-    {
-      "title": "Bad Guy",
-      "artist": "Billie Eilish",
-      "song_id": "Bad-Guy-Billie-Elish-ODc5ODQwM"
-    },
-    {
-      "title": "Everlong",
-      "artist": "Foo Fighters",
-      "song_id": "djYcTPiwcLyq9LuitJfcN"
-    },
-    {
-      "title": "Smells Like Teen Spirit",
-      "artist": "Nirvana",
-      "song_id": "FFTALkDerZZbDvjUubZ25c"
-    },
-    {
-      "title": "Kick Back",
-      "artist": "Kenshi Yonezu",
-      "song_id": "5jYzHm31MXnpEFsd8rJsMv"
-    },
-    {
-      "title": "Vampire",
-      "artist": "Olivia Rodrigo",
-      "song_id": "N1WSD3LnQ5PeQ1cZoZBHa9"
-    },
-    {
-      "title": "Take Five",
-      "artist": "Dave Brubeck",
-      "song_id": "DSXZoMEXn7ySsqgK4PCAQi"
-    },
-    {
-      "title": "Blinding Lights",
-      "artist": "The Weeknd",
-      "song_id": "Blinding-Lights-The-Weeknd-Njk0Njg4N",
-      "note": "already existed"
-    }
-  ],
-  "failed": [
-    {
-      "title": "Deja Vu",
-      "artist": "Initial D",
-      "reason": "All candidates failed"
-    },
-    {
-      "title": "Lean On",
-      "artist": "Major Lazer",
-      "reason": "All candidates failed"
-    },
-    {
-      "title": "Running Up That Hill",
-      "artist": "Kate Bush",
-      "reason": "All candidates failed"
-    },
-    {
-      "title": "Warriors",
-      "artist": "League of Legends",
-      "reason": "All candidates failed"
-    },
-    {
-      "title": "Electric Feel",
-      "artist": "MGMT",
-      "reason": "All candidates failed"
-    },
-    {
-      "title": "Rhythm and Police",
-      "artist": "Akira Yamaoka",
-      "reason": "All candidates failed"
-    },
-    {
-      "title": "Hysteria",
-      "artist": "Muse",
-      "reason": "All candidates failed"
-    },
-    {
-      "title": "Personal Jesus",
-      "artist": "Depeche Mode",
-      "reason": "All candidates failed"
-    }
-  ],
-  "skipped": [
-    {
-      "title": "My Only Chance",
-      "artist": "Carpenter Brut/Furi OST",
-      "reason": "No title match"
-    },
-    {
-      "title": "We Will Rock You / We Are The Champions",
-      "artist": "Queen",
-      "reason": "No title match"
-    },
-    {
-      "title": "Proof of a Hero",
-      "artist": "Monster Hunter",
-      "reason": "No title match"
-    }
-  ],
-  "needs_review": [],
-  "needs_manual_add": [
-    {
-      "title": "Africa",
-      "artist": "Toto",
-      "reason": "wrong match - got spongebob meme"
-    },
-    {
-      "title": "Firework",
-      "artist": "Katy Perry",
-      "reason": "wrong match - got DAOKO Fireworks"
+      "title": "Before My Body Is Dry (Don't Lose Your Way)",
+      "artist": "Kill la Kill",
+      "song_id": "8KvsDetKscWTtSoMjtSFyY"
     },
     {
       "title": "Paranoid",
       "artist": "Black Sabbath",
-      "reason": "wrong match - got Radiohead Paranoid Android"
+      "song_id": "55CB2zgoz1M6LjNjEXdn9J"
     },
     {
-      "title": "Gee",
-      "artist": "Girls' Generation",
-      "reason": "wrong match - got Who I Smoke"
+      "title": "The WORLD",
+      "artist": "Nightmare",
+      "song_id": "k3M4YpMCHziHN8yscLNmZ"
     },
     {
-      "title": "Song 2",
-      "artist": "Blur",
-      "reason": "wrong match - got CM Punk WWE"
-    },
-    {
-      "title": "Strobe",
-      "artist": "Deadmau5",
-      "reason": "wrong match - got Strobe Last"
-    },
-    {
-      "title": "Butterfly",
-      "artist": "Smile.dk",
-      "reason": "wrong match - got Psychedelic Butterfly"
-    },
-    {
-      "title": "Crazy in Love",
-      "artist": "Beyonc\u00e9 ft. Jay-Z",
-      "reason": "wrong match - got SEVENTEEN version"
-    },
-    {
-      "title": "Toxic",
-      "artist": "Britney Spears",
-      "reason": "wrong match - got ROS\u00c9 version"
-    },
-    {
-      "title": "Bailando",
-      "artist": "Enrique Iglesias",
-      "reason": "wrong match - got Bailando Solo"
-    },
-    {
-      "title": "Blue (Da Ba Dee)",
-      "artist": "Eiffel 65",
-      "reason": "wrong match - got Nmixx Blue Valentine"
-    },
-    {
-      "title": "Stayin' Alive",
-      "artist": "Bee Gees",
-      "reason": "wrong match - got North Korean Army meme"
-    },
-    {
-      "title": "Kids",
-      "artist": "MGMT",
-      "reason": "wrong match - got Stray Kids"
-    },
-    {
-      "title": "Escapism",
-      "artist": "RAYE",
-      "reason": "wrong match - got Steven Universe"
-    },
-    {
-      "title": "One More Time",
-      "artist": "Daft Punk",
-      "reason": "wrong match - got Baby One More Time"
-    },
-    {
-      "title": "Feather",
-      "artist": "Nujabes",
-      "reason": "wrong match - got Lady Brown"
-    },
-    {
-      "title": "Levels",
-      "artist": "Avicii",
-      "reason": "wrong match - got Spider Dance Levels"
-    },
-    {
-      "title": "Can't Stop",
-      "artist": "Red Hot Chili Peppers",
-      "reason": "wrong match - got TWICE"
-    },
-    {
-      "title": "Sandstorm",
-      "artist": "Darude",
-      "reason": "wrong match - got sunset sandstorm"
-    },
-    {
-      "title": "Somebody That I Used to Know",
-      "artist": "Gotye",
-      "reason": "wrong match - got Miku/Sponge"
-    },
+      "title": "Live and Learn",
+      "artist": "Crush 40",
+      "song_id": "98swqPNi9BJdMKu69csbR2"
+    }
+  ],
+  "failed": [],
+  "skipped": [
     {
       "title": "Money",
       "artist": "Pink Floyd",
-      "reason": "wrong match - got Marine vtuber"
+      "reason": "No acceptable match"
     }
-  ]
+  ],
+  "needs_review": [],
+  "needs_manual_add": []
 }
