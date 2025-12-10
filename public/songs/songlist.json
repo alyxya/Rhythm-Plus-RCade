@@ -1,5 +1,197 @@
 [
   {
+    "id": "CUZfB5QuCmxTMPYHeYh7u8",
+    "title": "Hotel California",
+    "subtitle": "Live 1977",
+    "artist": "Eagles",
+    "image": "/songs/CUZfB5QuCmxTMPYHeYh7u8/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/CUZfB5QuCmxTMPYHeYh7u8/video.mp4",
+    "verified": false,
+    "tags": [
+      "eagles",
+      "hotelcalifornia",
+      "timeless",
+      "4keys",
+      "4key"
+    ]
+  },
+  {
+    "id": "UTmbWb9ZqqhLn3ksuEtJtB",
+    "title": "Killing in the name",
+    "subtitle": "",
+    "artist": "Rage Against The Machine",
+    "image": "/songs/UTmbWb9ZqqhLn3ksuEtJtB/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/UTmbWb9ZqqhLn3ksuEtJtB/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "3BoUeG7gX6YRtwKSSSMTBq",
+    "title": "千本桜 / Senbonzakura",
+    "subtitle": "Credit to Project Sekai",
+    "artist": "Kurousa-P /黒うさP (ft. Hatsune Miku / 初音ミク)",
+    "image": "/songs/3BoUeG7gX6YRtwKSSSMTBq/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/3BoUeG7gX6YRtwKSSSMTBq/video.mp4",
+    "verified": true,
+    "tags": [
+      "electronic",
+      "youtube-video",
+      "Vocaloid",
+      "vocaloid",
+      "j-pop",
+      "4-key",
+      "hatsune-miku"
+    ]
+  },
+  {
+    "id": "PvJTsfRQx1UPsY8XzG3e5J",
+    "title": "Brave Shine",
+    "subtitle": "Opening",
+    "artist": "Aimer",
+    "image": "/songs/PvJTsfRQx1UPsY8XzG3e5J/cover.jpg",
+    "difficulties": [
+      1,
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/PvJTsfRQx1UPsY8XzG3e5J/video.mp4",
+    "verified": false,
+    "tags": [
+      "j-pop"
+    ]
+  },
+  {
+    "id": "ScVH2m6dk7v9fA4Mz22fyL",
+    "title": "reach out to the truth",
+    "subtitle": "",
+    "artist": "persona 4 ost",
+    "image": "/songs/ScVH2m6dk7v9fA4Mz22fyL/cover.jpg",
+    "difficulties": [
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/ScVH2m6dk7v9fA4Mz22fyL/video.mp4",
+    "verified": false,
+    "tags": [
+      "game",
+      "anime"
+    ]
+  },
+  {
+    "id": "LGWga7UxZTMbwEgYgUVZsr",
+    "title": "Strobe",
+    "subtitle": "First mapping, Please excuse if it is off beat.",
+    "artist": "Deadmau5",
+    "image": "/songs/LGWga7UxZTMbwEgYgUVZsr/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/LGWga7UxZTMbwEgYgUVZsr/video.mp4",
+    "verified": false,
+    "tags": [
+      "chill",
+      "electronic",
+      "youtube-video",
+      "4note"
+    ]
+  },
+  {
+    "id": "grXbHsk6SAod3656WrpK1",
+    "title": "SPECIALZ",
+    "subtitle": "고죠 아이시떼루, 스쿠나 아이시떼루, 이타도리 아이시떼루, 게토 아이시떼루, 후시구로 아이시떼루, 토우지 아이시떼루, 쵸소우 아이시떼루.",
+    "artist": "King Gnu",
+    "image": "/songs/grXbHsk6SAod3656WrpK1/cover.jpg",
+    "difficulties": [
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/grXbHsk6SAod3656WrpK1/video.mp4",
+    "verified": false,
+    "tags": [
+      "ost",
+      "anime",
+      "j-pop"
+    ]
+  },
+  {
+    "id": "2i3pCTFrxbU9BeymM7ZDrq",
+    "title": "Sabotage",
+    "subtitle": "",
+    "artist": "Beastie Boys",
+    "image": "/songs/2i3pCTFrxbU9BeymM7ZDrq/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/2i3pCTFrxbU9BeymM7ZDrq/video.mp4",
+    "verified": false,
+    "tags": [
+      "beastieboys",
+      "rock",
+      "classic",
+      "rap"
+    ]
+  },
+  {
+    "id": "2AoN18Xmn524jkSb2WKmiY",
+    "title": "Fighting Gold",
+    "subtitle": "",
+    "artist": "CODA",
+    "image": "/songs/2AoN18Xmn524jkSb2WKmiY/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/2AoN18Xmn524jkSb2WKmiY/video.mp4",
+    "verified": false,
+    "tags": [
+      "bizarre",
+      "jojo",
+      "anime-opening",
+      "actuallygoodmusic"
+    ]
+  },
+  {
     "id": "Fx7EEwMMy9tvsyPZDqW6Si",
     "title": "Africa",
     "subtitle": "Wait, this isn't metal",

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "HsgQw3rtKY4NWtvcVUtmZD",
+    "songId": "3BoUeG7gX6YRtwKSSSMTBq",
+    "title": "Thousand Cherry Blossoms",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 7,
+    "length": 244.101,
+    "noteCount": 1000,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "7FihuD7RcDkDEedmu5vkBb",
+    "verified": true,
+    "clonedFrom": "",
+    "createdAt": 1714803327,
+    "updatedAt": 1726879855
+  }
+]

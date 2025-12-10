@@ -41,7 +41,17 @@
     "- One More Time \u2014 Daft Punk",
     "- Lost One's Weeping \u2014 Neru ft. Kagamine Rin",
     "- Fly High!! \u2014 BURNOUT SYNDROMES (Haikyuu!!)",
-    "- Africa \u2014 Toto"
+    "- Africa \u2014 Toto",
+    "- Fighting Gold \u2014 Coda (JoJo Part 5)",
+    "- Sabotage \u2014 Beastie Boys",
+    "- SPECIALZ \u2014 King Gnu",
+    "- Strobe \u2014 Deadmau5",
+    "- Lion \u2014 May'n & Megumi Nakajima (Macross Frontier)",
+    "- Reach Out to the Truth \u2014 Persona 4",
+    "- Brave Shine \u2014 Aimer (Fate/stay night: UBW)",
+    "- Senbonzakura \u2014 Kurousa-P ft. Hatsune Miku",
+    "- Killing in the Name \u2014 Rage Against the Machine",
+    "- Hotel California \u2014 Eagles"
   ],
   "added": [
     {
@@ -243,6 +253,51 @@
       "title": "Africa",
       "artist": "Toto",
       "song_id": "Fx7EEwMMy9tvsyPZDqW6Si"
+    },
+    {
+      "title": "Fighting Gold",
+      "artist": "Coda",
+      "song_id": "2AoN18Xmn524jkSb2WKmiY"
+    },
+    {
+      "title": "Sabotage",
+      "artist": "Beastie Boys",
+      "song_id": "2i3pCTFrxbU9BeymM7ZDrq"
+    },
+    {
+      "title": "SPECIALZ",
+      "artist": "King Gnu",
+      "song_id": "grXbHsk6SAod3656WrpK1"
+    },
+    {
+      "title": "Strobe",
+      "artist": "Deadmau5",
+      "song_id": "LGWga7UxZTMbwEgYgUVZsr"
+    },
+    {
+      "title": "Reach Out to the Truth",
+      "artist": "Persona 4",
+      "song_id": "ScVH2m6dk7v9fA4Mz22fyL"
+    },
+    {
+      "title": "Brave Shine",
+      "artist": "Aimer",
+      "song_id": "PvJTsfRQx1UPsY8XzG3e5J"
+    },
+    {
+      "title": "Senbonzakura",
+      "artist": "Kurousa-P ft. Hatsune Miku",
+      "song_id": "3BoUeG7gX6YRtwKSSSMTBq"
+    },
+    {
+      "title": "Killing in the Name",
+      "artist": "Rage Against the Machine",
+      "song_id": "UTmbWb9ZqqhLn3ksuEtJtB"
+    },
+    {
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "song_id": "CUZfB5QuCmxTMPYHeYh7u8"
     }
   ],
   "failed": [],
@@ -255,6 +310,11 @@
     {
       "title": "Kids",
       "artist": "MGMT",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Lion",
+      "artist": "May'n & Megumi Nakajima",
       "reason": "No selectedId in candidates"
     }
   ],

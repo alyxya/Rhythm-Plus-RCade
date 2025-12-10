@@ -1,0 +1,28 @@
+[
+  {
+    "id": "TmCJB2FDRsD38YGqzTTpAt",
+    "songId": "2AoN18Xmn524jkSb2WKmiY",
+    "title": "lol",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 7,
+    "length": 255.213,
+    "noteCount": 501,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "Mymdcgkn4K2sSxh7htVepb",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1665094072,
+    "updatedAt": 1679060607
+  }
+]
