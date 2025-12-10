@@ -8,6 +8,53 @@ import { PLAYER_1, PLAYER_2, SYSTEM } from '@rcade/plugin-input-classic'
 // Track which inputs are currently active (to detect press/release)
 const activeInputs = new Set()
 
+// Hold-to-repeat configuration for D-pad navigation
+const holdRepeatConfig = {
+  initialDelay: 400,  // ms before repeat starts
+  repeatInterval: 150 // ms between repeats
+}
+
+// Track hold state for repeatable inputs
+const holdState = {}
+
+function startHoldRepeat(inputName) {
+  if (holdState[inputName]) return
+
+  holdState[inputName] = {
+    startTime: Date.now(),
+    repeatStarted: false,
+    intervalId: null
+  }
+
+  // After initial delay, start repeating
+  holdState[inputName].timeoutId = setTimeout(() => {
+    if (!holdState[inputName]) return
+    holdState[inputName].repeatStarted = true
+
+    // Dispatch immediately when repeat starts
+    dispatchRcadeEvent(inputName)
+
+    // Then continue at repeat interval
+    holdState[inputName].intervalId = setInterval(() => {
+      if (holdState[inputName]) {
+        dispatchRcadeEvent(inputName)
+      }
+    }, holdRepeatConfig.repeatInterval)
+  }, holdRepeatConfig.initialDelay)
+}
+
+function stopHoldRepeat(inputName) {
+  if (!holdState[inputName]) return
+
+  if (holdState[inputName].timeoutId) {
+    clearTimeout(holdState[inputName].timeoutId)
+  }
+  if (holdState[inputName].intervalId) {
+    clearInterval(holdState[inputName].intervalId)
+  }
+  delete holdState[inputName]
+}
+
 function simulateKeyEvent(key, type) {
   // Try direct game engine call first (works in RCade sandbox)
   if (window.__rcadeGameEngine) {
@@ -37,7 +84,7 @@ function dispatchRcadeEvent(buttonName) {
   window.dispatchEvent(event)
 }
 
-function handleInput(inputName, isPressed, key) {
+function handleInput(inputName, isPressed, key, enableHoldRepeat = false) {
   const wasPressed = activeInputs.has(inputName)
 
   if (isPressed && !wasPressed) {
@@ -46,9 +93,17 @@ function handleInput(inputName, isPressed, key) {
     dispatchRcadeEvent(inputName)
     // Then handle gameplay input
     simulateKeyEvent(key, 'keydown')
+    // Start hold-repeat timer if enabled for this input
+    if (enableHoldRepeat) {
+      startHoldRepeat(inputName)
+    }
   } else if (!isPressed && wasPressed) {
     activeInputs.delete(inputName)
     simulateKeyEvent(key, 'keyup')
+    // Stop hold-repeat if it was active
+    if (enableHoldRepeat) {
+      stopHoldRepeat(inputName)
+    }
   }
 }
 
@@ -61,8 +116,9 @@ function update() {
   handleInput('p2-b', PLAYER_2.B, '4')
 
   // D-pad - combine both players for menu navigation
-  handleInput('up', PLAYER_1.DPAD.up || PLAYER_2.DPAD.up, 'ArrowUp')
-  handleInput('down', PLAYER_1.DPAD.down || PLAYER_2.DPAD.down, 'ArrowDown')
+  // Enable hold-repeat for up/down to allow continuous scrolling through song list
+  handleInput('up', PLAYER_1.DPAD.up || PLAYER_2.DPAD.up, 'ArrowUp', true)
+  handleInput('down', PLAYER_1.DPAD.down || PLAYER_2.DPAD.down, 'ArrowDown', true)
   handleInput('left', PLAYER_1.DPAD.left || PLAYER_2.DPAD.left, 'ArrowLeft')
   handleInput('right', PLAYER_1.DPAD.right || PLAYER_2.DPAD.right, 'ArrowRight')
 
