@@ -1,0 +1,28 @@
+[
+  {
+    "id": "8idEQkERvs6vMXy4sWyobi",
+    "songId": "MV2A3M7gppynzrbX3rqbSL",
+    "title": "",
+    "subtitle": "",
+    "startAt": 21,
+    "endAt": 193,
+    "keys": 4,
+    "difficulty": 5,
+    "length": 172,
+    "noteCount": 467,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "NdieeCREs4g5NfkkUqY8db",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1719860745,
+    "updatedAt": 1719861060
+  }
+]

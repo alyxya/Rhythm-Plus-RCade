@@ -1,5 +1,175 @@
 [
   {
+    "id": "JaD6s9qPGELzTB2KeLHTvK",
+    "title": "Titanium",
+    "subtitle": "",
+    "artist": "David Guetta feat. Sia",
+    "image": "/songs/JaD6s9qPGELzTB2KeLHTvK/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/JaD6s9qPGELzTB2KeLHTvK/video.mp4",
+    "verified": false,
+    "tags": [
+      "youtube-video"
+    ]
+  },
+  {
+    "id": "YbigmSmqQusq5Z5wXBNHNu",
+    "title": "Crazy In Love",
+    "subtitle": "",
+    "artist": "Beyoncé ft. JAY-Z",
+    "image": "/songs/YbigmSmqQusq5Z5wXBNHNu/cover.jpg",
+    "difficulties": [
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/YbigmSmqQusq5Z5wXBNHNu/video.mp4",
+    "verified": false,
+    "tags": [
+      "Rap",
+      "youtube-video",
+      "music",
+      "banger",
+      "4note"
+    ]
+  },
+  {
+    "id": "Pk3NgC8S1i2kDLQZYWcvft",
+    "title": "Welcome To The Black Parade",
+    "subtitle": "",
+    "artist": "My Chemical Romance",
+    "image": "/songs/Pk3NgC8S1i2kDLQZYWcvft/cover.jpg",
+    "difficulties": [
+      1,
+      5,
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Pk3NgC8S1i2kDLQZYWcvft/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock"
+    ]
+  },
+  {
+    "id": "SzPAiCuZCFDfUNVjtBydpQ",
+    "title": "Meltdown - ft. Kagamine Rin",
+    "subtitle": "",
+    "artist": "iroha sasaki",
+    "image": "/songs/SzPAiCuZCFDfUNVjtBydpQ/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/SzPAiCuZCFDfUNVjtBydpQ/video.mp4",
+    "verified": false,
+    "tags": [
+      "vocaloid"
+    ]
+  },
+  {
+    "id": "5FC8mggM5DbEJbg8HUYHtH",
+    "title": "Escapism",
+    "subtitle": "(Best Version)",
+    "artist": "Raye",
+    "image": "/songs/5FC8mggM5DbEJbg8HUYHtH/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/5FC8mggM5DbEJbg8HUYHtH/video.mp4",
+    "verified": false,
+    "tags": [
+      "pop"
+    ]
+  },
+  {
+    "id": "MV2A3M7gppynzrbX3rqbSL",
+    "title": "Cupid (Twin Ver.)",
+    "subtitle": "",
+    "artist": "FIFTY FIFTY",
+    "image": "/songs/MV2A3M7gppynzrbX3rqbSL/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/MV2A3M7gppynzrbX3rqbSL/video.mp4",
+    "verified": false,
+    "tags": [
+      "popmusic",
+      "4Key",
+      "actuallygoodmusic",
+      "4-key",
+      "4keys",
+      "KPOP",
+      "pop-music",
+      "4k",
+      "kpop",
+      "4key",
+      "k-pop",
+      "4note",
+      "pop",
+      "goodmusic"
+    ]
+  },
+  {
+    "id": "BF9SW9ptuVia1Ykd28rXZr",
+    "title": "Voracity",
+    "subtitle": "Overlord Op 3",
+    "artist": "MYTH & ROID",
+    "image": "/songs/BF9SW9ptuVia1Ykd28rXZr/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/BF9SW9ptuVia1Ykd28rXZr/video.mp4",
+    "verified": false,
+    "tags": [
+      "4-key"
+    ]
+  },
+  {
+    "id": "RSqkazotuLicZHTv1snBKQ",
+    "title": "Flandre's Theme - U.N. Owen was her?",
+    "subtitle": "Touhou 6: Embodiment of Scarlet Devil",
+    "artist": "ZUN",
+    "image": "/songs/RSqkazotuLicZHTv1snBKQ/cover.jpg",
+    "difficulties": [
+      7,
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/RSqkazotuLicZHTv1snBKQ/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
     "id": "Pj6djYrFpXhnfdo8ypWjcN",
     "title": "Great Days - JJBA OP 7",
     "subtitle": "",
@@ -4620,13 +4790,13 @@
     "verified": true,
     "tags": [
       "japanese",
-      "ost",
       "touhou",
-      "youtube-video",
+      "ost",
       "electronic",
       "game",
-      "banger",
       "actuallygoodmusic",
+      "youtube-video",
+      "banger",
       "4note",
       "animated"
     ]

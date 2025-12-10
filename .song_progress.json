@@ -149,7 +149,19 @@
     "- Can't Stop \u2014 Red Hot Chili Peppers",
     "- Imagination \u2014 SPYAIR (Haikyuu!!)",
     "- Do I Wanna Know? \u2014 Arctic Monkeys",
-    "- Great Days \u2014 JoJo Part 4"
+    "- Great Days \u2014 JoJo Part 4",
+    "- U.N. Owen Was Her? \u2014 Touhou",
+    "- VORACITY \u2014 MYTH & ROID (Overlord)",
+    "- Cupid (Twin Ver.) \u2014 FIFTY FIFTY",
+    "- Bad Apple!! \u2014 Touhou/Alstroemeria Records",
+    "- Escapism \u2014 RAYE",
+    "- Meltdown \u2014 Kagamine Rin",
+    "- Welcome to the Black Parade \u2014 My Chemical Romance",
+    "- Crazy in Love \u2014 Beyonc\u00e9 ft. Jay-Z",
+    "- We Will Rock You / We Are The Champions \u2014 Queen",
+    "- Rain \u2014 SID (Fullmetal Alchemist: Brotherhood)",
+    "- Titanium \u2014 David Guetta ft. Sia",
+    "- My Soul, Your Beats! \u2014 Lia (Angel Beats!)"
   ],
   "added": [
     {
@@ -791,6 +803,51 @@
       "title": "Great Days",
       "artist": "JoJo Part 4",
       "song_id": "Pj6djYrFpXhnfdo8ypWjcN"
+    },
+    {
+      "title": "U.N. Owen Was Her?",
+      "artist": "Touhou",
+      "song_id": "RSqkazotuLicZHTv1snBKQ"
+    },
+    {
+      "title": "VORACITY",
+      "artist": "MYTH & ROID",
+      "song_id": "BF9SW9ptuVia1Ykd28rXZr"
+    },
+    {
+      "title": "Cupid (Twin Ver.)",
+      "artist": "FIFTY FIFTY",
+      "song_id": "MV2A3M7gppynzrbX3rqbSL"
+    },
+    {
+      "title": "Bad Apple!!",
+      "artist": "Touhou/Alstroemeria Records",
+      "song_id": "8XEf94AFwAiwCNHHyCwR8Z"
+    },
+    {
+      "title": "Escapism",
+      "artist": "RAYE",
+      "song_id": "5FC8mggM5DbEJbg8HUYHtH"
+    },
+    {
+      "title": "Meltdown",
+      "artist": "Kagamine Rin",
+      "song_id": "SzPAiCuZCFDfUNVjtBydpQ"
+    },
+    {
+      "title": "Welcome to the Black Parade",
+      "artist": "My Chemical Romance",
+      "song_id": "Pk3NgC8S1i2kDLQZYWcvft"
+    },
+    {
+      "title": "Crazy in Love",
+      "artist": "Beyonc\u00e9 ft. Jay-Z",
+      "song_id": "YbigmSmqQusq5Z5wXBNHNu"
+    },
+    {
+      "title": "Titanium",
+      "artist": "David Guetta ft. Sia",
+      "song_id": "JaD6s9qPGELzTB2KeLHTvK"
     }
   ],
   "failed": [],
@@ -903,6 +960,21 @@
     {
       "title": "Pirates of the Caribbean Theme",
       "artist": "Klaus Badelt/Hans Zimmer",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "We Will Rock You / We Are The Champions",
+      "artist": "Queen",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Rain",
+      "artist": "SID",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "My Soul, Your Beats!",
+      "artist": "Lia",
       "reason": "No selectedId in candidates"
     }
   ],
