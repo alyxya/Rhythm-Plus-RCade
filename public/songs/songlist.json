@@ -1,5 +1,184 @@
 [
   {
+    "id": "Pj6djYrFpXhnfdo8ypWjcN",
+    "title": "Great Days - JJBA OP 7",
+    "subtitle": "",
+    "artist": "Karen Aoki, Daisuke Hasegawa",
+    "image": "/songs/Pj6djYrFpXhnfdo8ypWjcN/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Pj6djYrFpXhnfdo8ypWjcN/video.mp4",
+    "verified": false,
+    "tags": [
+      "4-key",
+      "anime",
+      "j-pop"
+    ]
+  },
+  {
+    "id": "CrGxgvKcKDCucadqkoR6Fm",
+    "title": "Do I Wanna Know?",
+    "subtitle": "",
+    "artist": "Arctic Monkeys",
+    "image": "/songs/CrGxgvKcKDCucadqkoR6Fm/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/CrGxgvKcKDCucadqkoR6Fm/video.mp4",
+    "verified": false,
+    "tags": [
+      "indie",
+      "alternative"
+    ]
+  },
+  {
+    "id": "4Zw8gdwLk1yEBac1F28o1C",
+    "title": "Haikyuu!! OP 1 - Imagination",
+    "subtitle": "",
+    "artist": "SPYAIR",
+    "image": "/songs/4Zw8gdwLk1yEBac1F28o1C/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/4Zw8gdwLk1yEBac1F28o1C/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "ET4cUkshSz2L9arY8geo7L",
+    "title": "Can't Stop",
+    "subtitle": "",
+    "artist": "Red Hot Chili Peppers",
+    "image": "/songs/ET4cUkshSz2L9arY8geo7L/cover.jpg",
+    "difficulties": [
+      2,
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/ET4cUkshSz2L9arY8geo7L/video.mp4",
+    "verified": false,
+    "tags": [
+      "youtube-video"
+    ]
+  },
+  {
+    "id": "SL68ZZuTHQ1dCKVWvLq9gR",
+    "title": "Centimeter",
+    "subtitle": "",
+    "artist": "the peggies",
+    "image": "/songs/SL68ZZuTHQ1dCKVWvLq9gR/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/SL68ZZuTHQ1dCKVWvLq9gR/video.mp4",
+    "verified": false,
+    "tags": [
+      "あにめ",
+      "actuallygoodmusic",
+      "4keys",
+      "anime",
+      "anime-opening",
+      "4key"
+    ]
+  },
+  {
+    "id": "LpWucpDwmVCaKdH6mkQEVY",
+    "title": "PAPERMOON",
+    "subtitle": "soul eater opening two",
+    "artist": "tommyheavenly6",
+    "image": "/songs/LpWucpDwmVCaKdH6mkQEVY/cover.jpg",
+    "difficulties": [
+      4,
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/LpWucpDwmVCaKdH6mkQEVY/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "WiuMVnH799hufqMwDSkzKU",
+    "title": "Last Surprise",
+    "subtitle": "",
+    "artist": "Lyn",
+    "image": "/songs/WiuMVnH799hufqMwDSkzKU/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/WiuMVnH799hufqMwDSkzKU/video.mp4",
+    "verified": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "id": "EszHHH3AXU7gwqA8KUZpNe",
+    "title": "Abcdefu",
+    "subtitle": "",
+    "artist": "GAYLE",
+    "image": "/songs/EszHHH3AXU7gwqA8KUZpNe/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/EszHHH3AXU7gwqA8KUZpNe/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "TuBKbt8ALdswoyrvnoiLj8",
+    "title": "077. ASGORE",
+    "subtitle": "UNDERTALE",
+    "artist": "Toby Fox",
+    "image": "/songs/TuBKbt8ALdswoyrvnoiLj8/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/TuBKbt8ALdswoyrvnoiLj8/video.mp4",
+    "verified": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
     "id": "WZk9qzHWTXKx1QJXb4fj2W",
     "title": "BEASTARS Season 2  | Kaibutsu - YOASOBI",
     "subtitle": "",

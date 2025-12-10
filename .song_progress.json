@@ -139,7 +139,17 @@
     "- Ambiguous \u2014 GARNiDELiA (Kill la Kill)",
     "- Tainted Love \u2014 Soft Cell",
     "- Kaibutsu \u2014 YOASOBI (Beastars)",
-    "- Crossing Field \u2014 LiSA"
+    "- Crossing Field \u2014 LiSA",
+    "- ASGORE \u2014 Undertale",
+    "- abcdefu \u2014 GAYLE",
+    "- Last Surprise \u2014 Persona 5",
+    "- Pirates of the Caribbean Theme \u2014 Klaus Badelt/Hans Zimmer",
+    "- Papermoon \u2014 Tommy Heavenly6 (Soul Eater)",
+    "- Centimeter \u2014 the peggies (Rent-a-Girlfriend)",
+    "- Can't Stop \u2014 Red Hot Chili Peppers",
+    "- Imagination \u2014 SPYAIR (Haikyuu!!)",
+    "- Do I Wanna Know? \u2014 Arctic Monkeys",
+    "- Great Days \u2014 JoJo Part 4"
   ],
   "added": [
     {
@@ -736,6 +746,51 @@
       "title": "Kaibutsu",
       "artist": "YOASOBI",
       "song_id": "WZk9qzHWTXKx1QJXb4fj2W"
+    },
+    {
+      "title": "ASGORE",
+      "artist": "Undertale",
+      "song_id": "TuBKbt8ALdswoyrvnoiLj8"
+    },
+    {
+      "title": "abcdefu",
+      "artist": "GAYLE",
+      "song_id": "EszHHH3AXU7gwqA8KUZpNe"
+    },
+    {
+      "title": "Last Surprise",
+      "artist": "Persona 5",
+      "song_id": "WiuMVnH799hufqMwDSkzKU"
+    },
+    {
+      "title": "Papermoon",
+      "artist": "Tommy Heavenly6",
+      "song_id": "LpWucpDwmVCaKdH6mkQEVY"
+    },
+    {
+      "title": "Centimeter",
+      "artist": "the peggies",
+      "song_id": "SL68ZZuTHQ1dCKVWvLq9gR"
+    },
+    {
+      "title": "Can't Stop",
+      "artist": "Red Hot Chili Peppers",
+      "song_id": "ET4cUkshSz2L9arY8geo7L"
+    },
+    {
+      "title": "Imagination",
+      "artist": "SPYAIR",
+      "song_id": "4Zw8gdwLk1yEBac1F28o1C"
+    },
+    {
+      "title": "Do I Wanna Know?",
+      "artist": "Arctic Monkeys",
+      "song_id": "CrGxgvKcKDCucadqkoR6Fm"
+    },
+    {
+      "title": "Great Days",
+      "artist": "JoJo Part 4",
+      "song_id": "Pj6djYrFpXhnfdo8ypWjcN"
     }
   ],
   "failed": [],
@@ -843,6 +898,11 @@
     {
       "title": "Crossing Field",
       "artist": "LiSA",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Pirates of the Caribbean Theme",
+      "artist": "Klaus Badelt/Hans Zimmer",
       "reason": "No selectedId in candidates"
     }
   ],
