@@ -1,0 +1,28 @@
+[
+  {
+    "id": "H4BZ7BZjrvU3uDXjNwh2iG",
+    "songId": "Q1C3B3oDNgiMhtJ21qksFw",
+    "title": "Ryōiki Tenkai",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 10,
+    "length": 220.798,
+    "noteCount": 1340,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "MYiKZcuZNqavyHvzq8j7EA",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1714512722,
+    "updatedAt": 1714513033
+  }
+]

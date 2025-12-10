@@ -1,0 +1,28 @@
+[
+  {
+    "id": "NzgddoYgGyRKV2wP4R3t7R",
+    "songId": "6iGwjVS6iDeSt9ppjxzBrH",
+    "title": "Easy",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 5,
+    "length": 210.061,
+    "noteCount": 567,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "SLs4zrrF5sEhGPXxzaVkxf",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1738476179,
+    "updatedAt": 1740415359
+  }
+]

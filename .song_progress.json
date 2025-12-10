@@ -51,7 +51,27 @@
     "- Brave Shine \u2014 Aimer (Fate/stay night: UBW)",
     "- Senbonzakura \u2014 Kurousa-P ft. Hatsune Miku",
     "- Killing in the Name \u2014 Rage Against the Machine",
-    "- Hotel California \u2014 Eagles"
+    "- Hotel California \u2014 Eagles",
+    "- Firework \u2014 Katy Perry",
+    "- Flyers \u2014 BRADIO (Death Parade)",
+    "- Love is War \u2014 Hatsune Miku",
+    "- Hysteria \u2014 Muse",
+    "- Kaikai Kitan \u2014 Eve",
+    "- Sweet Child O' Mine \u2014 Guns N' Roses",
+    "- RUMBLING \u2014 SiM (Attack on Titan)",
+    "- Alive \u2014 ClariS",
+    "- Resonance \u2014 T.M.Revolution (Soul Eater)",
+    "- Radioactive \u2014 Imagine Dragons",
+    "- Free Bird \u2014 Lynyrd Skynyrd",
+    "- Butter-Fly \u2014 Koji Wada (Digimon)",
+    "- Sweden \u2014 C418",
+    "- Levels \u2014 Avicii",
+    "- Green Hill Zone \u2014 Sonic",
+    "- Running in the 90s \u2014 Max Coveri",
+    "- Lemon \u2014 Kenshi Yonezu",
+    "- Guile's Theme \u2014 Street Fighter II",
+    "- Feather \u2014 Nujabes",
+    "- Carry On Wayward Son \u2014 Kansas"
   ],
   "added": [
     {
@@ -298,6 +318,86 @@
       "title": "Hotel California",
       "artist": "Eagles",
       "song_id": "CUZfB5QuCmxTMPYHeYh7u8"
+    },
+    {
+      "title": "Flyers",
+      "artist": "BRADIO",
+      "song_id": "6iGwjVS6iDeSt9ppjxzBrH"
+    },
+    {
+      "title": "Love is War",
+      "artist": "Hatsune Miku",
+      "song_id": "L34gv3UBVeW2NCzu2NAz7s"
+    },
+    {
+      "title": "Hysteria",
+      "artist": "Muse",
+      "song_id": "GdXjPBkH5vn14YAbwnvJfh"
+    },
+    {
+      "title": "Kaikai Kitan",
+      "artist": "Eve",
+      "song_id": "Q1C3B3oDNgiMhtJ21qksFw"
+    },
+    {
+      "title": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses",
+      "song_id": "JyjWoiUaoZuZYXARGWAufb"
+    },
+    {
+      "title": "RUMBLING",
+      "artist": "SiM",
+      "song_id": "VL5iW7AHMg4QKr57saNhdm"
+    },
+    {
+      "title": "Resonance",
+      "artist": "T.M.Revolution",
+      "song_id": "DEjvf4Xd6Xei73g4RwoGuT"
+    },
+    {
+      "title": "Radioactive",
+      "artist": "Imagine Dragons",
+      "song_id": "9agiUg4eqmqyA2sdf4Cf2L"
+    },
+    {
+      "title": "Free Bird",
+      "artist": "Lynyrd Skynyrd",
+      "song_id": "WkrShYPQYLBRJWQ3xtyFEM"
+    },
+    {
+      "title": "Butter-Fly",
+      "artist": "Koji Wada",
+      "song_id": "V1bRj59BdgcNj7YKACShMd"
+    },
+    {
+      "title": "Sweden",
+      "artist": "C418",
+      "song_id": "BFMjnWi7WaEFyoQ8XAWZgK"
+    },
+    {
+      "title": "Levels",
+      "artist": "Avicii",
+      "song_id": "CpQsaR3nGYoUSXDBNxQPVg"
+    },
+    {
+      "title": "Green Hill Zone",
+      "artist": "Sonic",
+      "song_id": "8XKeJNzqpX6C1vnbML2Vkc"
+    },
+    {
+      "title": "Running in the 90s",
+      "artist": "Max Coveri",
+      "song_id": "Ed7219yLZj9xHLavGSMiBn"
+    },
+    {
+      "title": "Guile's Theme",
+      "artist": "Street Fighter II",
+      "song_id": "P7KSmZcUwTuDxkogyFZWS7"
+    },
+    {
+      "title": "Carry On Wayward Son",
+      "artist": "Kansas",
+      "song_id": "VW78jUBqQwWAkBG1hSA952"
     }
   ],
   "failed": [],
@@ -315,6 +415,26 @@
     {
       "title": "Lion",
       "artist": "May'n & Megumi Nakajima",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Firework",
+      "artist": "Katy Perry",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Alive",
+      "artist": "ClariS",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Lemon",
+      "artist": "Kenshi Yonezu",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Feather",
+      "artist": "Nujabes",
       "reason": "No selectedId in candidates"
     }
   ],

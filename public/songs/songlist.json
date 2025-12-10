@@ -1,5 +1,319 @@
 [
   {
+    "id": "VW78jUBqQwWAkBG1hSA952",
+    "title": "Carry On Wayward Son",
+    "subtitle": "",
+    "artist": "Kansas",
+    "image": "/songs/VW78jUBqQwWAkBG1hSA952/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/VW78jUBqQwWAkBG1hSA952/video.mp4",
+    "verified": false,
+    "tags": [
+      "kansas",
+      "rock",
+      "classic"
+    ]
+  },
+  {
+    "id": "P7KSmZcUwTuDxkogyFZWS7",
+    "title": "Guile's Theme",
+    "subtitle": "",
+    "artist": "Capcom",
+    "image": "/songs/P7KSmZcUwTuDxkogyFZWS7/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/P7KSmZcUwTuDxkogyFZWS7/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "Ed7219yLZj9xHLavGSMiBn",
+    "title": "Initial D: Running in the 90s",
+    "subtitle": "Charted by Joku",
+    "artist": "Max Coveri",
+    "image": "/songs/Ed7219yLZj9xHLavGSMiBn/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Ed7219yLZj9xHLavGSMiBn/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "8XKeJNzqpX6C1vnbML2Vkc",
+    "title": "Green Hill Zone",
+    "subtitle": "Videogame Theme",
+    "artist": "Masato Nakamura",
+    "image": "/songs/8XKeJNzqpX6C1vnbML2Vkc/cover.jpg",
+    "difficulties": [
+      9
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/8XKeJNzqpX6C1vnbML2Vkc/video.mp4",
+    "verified": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "id": "CpQsaR3nGYoUSXDBNxQPVg",
+    "title": "Levels",
+    "subtitle": "Radio Edit",
+    "artist": "Avicii",
+    "image": "/songs/CpQsaR3nGYoUSXDBNxQPVg/cover.jpg",
+    "difficulties": [
+      7,
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/CpQsaR3nGYoUSXDBNxQPVg/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "BFMjnWi7WaEFyoQ8XAWZgK",
+    "title": "Minecraft: Sweden",
+    "subtitle": "",
+    "artist": "C418",
+    "image": "/songs/BFMjnWi7WaEFyoQ8XAWZgK/cover.jpg",
+    "difficulties": [
+      1,
+      2,
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/BFMjnWi7WaEFyoQ8XAWZgK/video.mp4",
+    "verified": false,
+    "tags": [
+      "ost"
+    ]
+  },
+  {
+    "id": "V1bRj59BdgcNj7YKACShMd",
+    "title": "Butter-Fly～tri.Version～",
+    "subtitle": "Digimon",
+    "artist": "Wada Kouji, AIM, Miyazaki Ayumi",
+    "image": "/songs/V1bRj59BdgcNj7YKACShMd/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/V1bRj59BdgcNj7YKACShMd/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "WkrShYPQYLBRJWQ3xtyFEM",
+    "title": "Free Bird",
+    "subtitle": "",
+    "artist": "Lynyrd Skynyrd",
+    "image": "/songs/WkrShYPQYLBRJWQ3xtyFEM/cover.jpg",
+    "difficulties": [
+      9
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/WkrShYPQYLBRJWQ3xtyFEM/video.mp4",
+    "verified": false,
+    "tags": [
+      "lynyrdskynyrd",
+      "guitarsolo",
+      "70s",
+      "classic"
+    ]
+  },
+  {
+    "id": "9agiUg4eqmqyA2sdf4Cf2L",
+    "title": "Radioactive",
+    "subtitle": "",
+    "artist": "Imagine dragons",
+    "image": "/songs/9agiUg4eqmqyA2sdf4Cf2L/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/9agiUg4eqmqyA2sdf4Cf2L/video.mp4",
+    "verified": false,
+    "tags": [
+      "goodmusic"
+    ]
+  },
+  {
+    "id": "DEjvf4Xd6Xei73g4RwoGuT",
+    "title": "Resonance",
+    "subtitle": "Soul Eater OP 1",
+    "artist": "T.M. Revolution",
+    "image": "/songs/DEjvf4Xd6Xei73g4RwoGuT/cover.jpg",
+    "difficulties": [
+      5,
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/DEjvf4Xd6Xei73g4RwoGuT/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "4keys",
+      "anime",
+      "4note",
+      "pop"
+    ]
+  },
+  {
+    "id": "VL5iW7AHMg4QKr57saNhdm",
+    "title": "The Rumbling",
+    "subtitle": "Kaizen",
+    "artist": "SiM",
+    "image": "/songs/VL5iW7AHMg4QKr57saNhdm/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/VL5iW7AHMg4QKr57saNhdm/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime",
+      "j-pop"
+    ]
+  },
+  {
+    "id": "JyjWoiUaoZuZYXARGWAufb",
+    "title": "Sweet Child O' Mine",
+    "subtitle": "",
+    "artist": "Guns N' Roses",
+    "image": "/songs/JyjWoiUaoZuZYXARGWAufb/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/JyjWoiUaoZuZYXARGWAufb/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "Q1C3B3oDNgiMhtJ21qksFw",
+    "title": "Kaikai Kitan - JJK Op 1",
+    "subtitle": "",
+    "artist": "Eve",
+    "image": "/songs/Q1C3B3oDNgiMhtJ21qksFw/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Q1C3B3oDNgiMhtJ21qksFw/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "GdXjPBkH5vn14YAbwnvJfh",
+    "title": "Hysteria",
+    "subtitle": "",
+    "artist": "Muse",
+    "image": "/songs/GdXjPBkH5vn14YAbwnvJfh/cover.jpg",
+    "difficulties": [
+      6,
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/GdXjPBkH5vn14YAbwnvJfh/video.mp4",
+    "verified": true,
+    "tags": [
+      "alt",
+      "rock",
+      "alternative"
+    ]
+  },
+  {
+    "id": "L34gv3UBVeW2NCzu2NAz7s",
+    "title": "Love is War",
+    "subtitle": "",
+    "artist": "supercell feat. 初音ミク",
+    "image": "/songs/L34gv3UBVeW2NCzu2NAz7s/cover.jpg",
+    "difficulties": [
+      1,
+      2,
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/L34gv3UBVeW2NCzu2NAz7s/video.mp4",
+    "verified": false,
+    "tags": [
+      "vocaloid"
+    ]
+  },
+  {
+    "id": "6iGwjVS6iDeSt9ppjxzBrH",
+    "title": "Flyers",
+    "subtitle": "Death Parade",
+    "artist": "BRADIO",
+    "image": "/songs/6iGwjVS6iDeSt9ppjxzBrH/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/6iGwjVS6iDeSt9ppjxzBrH/video.mp4",
+    "verified": false,
+    "tags": [
+      "jpop",
+      "youtube-video",
+      "anime",
+      "anime-opening"
+    ]
+  },
+  {
     "id": "CUZfB5QuCmxTMPYHeYh7u8",
     "title": "Hotel California",
     "subtitle": "Live 1977",
