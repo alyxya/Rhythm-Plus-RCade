@@ -80,7 +80,17 @@
     "- Paint It, Black \u2014 The Rolling Stones",
     "- Hopes and Dreams \u2014 Undertale",
     "- Deja Vu \u2014 Initial D",
-    "- Bohemian Rhapsody \u2014 Queen"
+    "- Bohemian Rhapsody \u2014 Queen",
+    "- Dr. Wily Stage \u2014 Mega Man 2",
+    "- How You Like That \u2014 BLACKPINK",
+    "- World is Mine \u2014 Hatsune Miku",
+    "- Wake Me Up \u2014 Avicii",
+    "- Rolling Girl \u2014 wowaka ft. Hatsune Miku",
+    "- Thriller \u2014 Michael Jackson",
+    "- 99 \u2014 MOB CHOIR (Mob Psycho 100)",
+    "- Stand Proud \u2014 Jin Hashimoto (JoJo Part 3)",
+    "- Sandstorm \u2014 Darude",
+    "- Running Up That Hill \u2014 Kate Bush"
   ],
   "added": [
     {
@@ -452,6 +462,51 @@
       "title": "Bohemian Rhapsody",
       "artist": "Queen",
       "song_id": "QbvL3v7eMdgtahSxnYFENW"
+    },
+    {
+      "title": "How You Like That",
+      "artist": "BLACKPINK",
+      "song_id": "How-You-Like-That-BLACKPINK-MTE3ODUxM"
+    },
+    {
+      "title": "World is Mine",
+      "artist": "Hatsune Miku",
+      "song_id": "VkQyBuuYkHtS5Y5WyEYDod"
+    },
+    {
+      "title": "Wake Me Up",
+      "artist": "Avicii",
+      "song_id": "EtibDbuU3boVZ58TCGqURn"
+    },
+    {
+      "title": "Rolling Girl",
+      "artist": "wowaka ft. Hatsune Miku",
+      "song_id": "bZcQjj38LJmbsGhf6VJiS"
+    },
+    {
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "song_id": "W6NcfSAXNRgJ8CrKhL1iEL"
+    },
+    {
+      "title": "99",
+      "artist": "MOB CHOIR",
+      "song_id": "QkjBSzBnMrcK9GVRguDqiA"
+    },
+    {
+      "title": "Stand Proud",
+      "artist": "Jin Hashimoto",
+      "song_id": "EKqWg6ydVzsr45LGFnw7DF"
+    },
+    {
+      "title": "Sandstorm",
+      "artist": "Darude",
+      "song_id": "PsV14RaP8kt37QVaARJFBC"
+    },
+    {
+      "title": "Running Up That Hill",
+      "artist": "Kate Bush",
+      "song_id": "32zjeBdQ9pgJTZLdXMbyVG"
     }
   ],
   "failed": [],
@@ -489,6 +544,11 @@
     {
       "title": "Feather",
       "artist": "Nujabes",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Dr. Wily Stage",
+      "artist": "Mega Man 2",
       "reason": "No selectedId in candidates"
     }
   ],

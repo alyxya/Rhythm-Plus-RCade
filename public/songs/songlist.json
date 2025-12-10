@@ -1,5 +1,179 @@
 [
   {
+    "id": "32zjeBdQ9pgJTZLdXMbyVG",
+    "title": "Running Up That Hill",
+    "subtitle": "",
+    "artist": "Kate Bush",
+    "image": "/songs/32zjeBdQ9pgJTZLdXMbyVG/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/32zjeBdQ9pgJTZLdXMbyVG/video.mp4",
+    "verified": false,
+    "tags": [
+      "80s",
+      "classic"
+    ]
+  },
+  {
+    "id": "PsV14RaP8kt37QVaARJFBC",
+    "title": "Sandstorm",
+    "subtitle": "",
+    "artist": "Darude",
+    "image": "/songs/PsV14RaP8kt37QVaARJFBC/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/PsV14RaP8kt37QVaARJFBC/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "EKqWg6ydVzsr45LGFnw7DF",
+    "title": "stand proud",
+    "subtitle": "jjba part 3 opening",
+    "artist": "Jin Hashimoto",
+    "image": "/songs/EKqWg6ydVzsr45LGFnw7DF/cover.jpg",
+    "difficulties": [
+      9,
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/EKqWg6ydVzsr45LGFnw7DF/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "4-key",
+      "youtube-video",
+      "anime",
+      "music"
+    ]
+  },
+  {
+    "id": "QkjBSzBnMrcK9GVRguDqiA",
+    "title": "99",
+    "subtitle": "Mob Psycho 100 OP 1",
+    "artist": "Mob Choir",
+    "image": "/songs/QkjBSzBnMrcK9GVRguDqiA/cover.jpg",
+    "difficulties": [
+      7,
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/QkjBSzBnMrcK9GVRguDqiA/video.mp4",
+    "verified": true,
+    "tags": [
+      "japanese",
+      "j-rock",
+      "fuzzyunicorn",
+      "actuallygoodmusic",
+      "4-key",
+      "anime",
+      "anime-opening"
+    ]
+  },
+  {
+    "id": "W6NcfSAXNRgJ8CrKhL1iEL",
+    "title": "Thriller",
+    "subtitle": "",
+    "artist": "Michael Jackson",
+    "image": "/songs/W6NcfSAXNRgJ8CrKhL1iEL/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/W6NcfSAXNRgJ8CrKhL1iEL/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "bZcQjj38LJmbsGhf6VJiS",
+    "title": "Rolling Girl",
+    "subtitle": "",
+    "artist": "Wowaka",
+    "image": "/songs/bZcQjj38LJmbsGhf6VJiS/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/bZcQjj38LJmbsGhf6VJiS/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "EtibDbuU3boVZ58TCGqURn",
+    "title": "Wake Me Up",
+    "subtitle": "",
+    "artist": "Avicii",
+    "image": "/songs/EtibDbuU3boVZ58TCGqURn/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/EtibDbuU3boVZ58TCGqURn/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "VkQyBuuYkHtS5Y5WyEYDod",
+    "title": "The World Is Mine",
+    "subtitle": "",
+    "artist": "Hatsune Miku",
+    "image": "/songs/VkQyBuuYkHtS5Y5WyEYDod/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/VkQyBuuYkHtS5Y5WyEYDod/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "How-You-Like-That-BLACKPINK-MTE3ODUxM",
+    "title": "How You Like That",
+    "subtitle": "",
+    "artist": "BLACKPINK",
+    "image": "/songs/How-You-Like-That-BLACKPINK-MTE3ODUxM/cover.jpg",
+    "difficulties": [
+      3
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/How-You-Like-That-BLACKPINK-MTE3ODUxM/video.mp4",
+    "verified": false,
+    "tags": [
+      "k-pop"
+    ]
+  },
+  {
     "id": "QbvL3v7eMdgtahSxnYFENW",
     "title": "Bohemian Rhapsody",
     "subtitle": "Updated",
