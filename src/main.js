@@ -18,7 +18,8 @@ const holdRepeatConfig = {
 const holdState = {}
 
 function startHoldRepeat(inputName) {
-  if (holdState[inputName]) return
+  // Always clean up any existing state first to prevent duplicate timers
+  stopHoldRepeat(inputName)
 
   holdState[inputName] = {
     startTime: Date.now(),
