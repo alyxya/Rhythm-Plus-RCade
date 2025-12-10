@@ -1,5 +1,86 @@
 [
   {
+    "id": "53G4PJHxxvaPkXnZNfTY4x",
+    "title": "E1m1 At Doom's Gate",
+    "subtitle": "",
+    "artist": "JimDarkMagic",
+    "image": "/songs/53G4PJHxxvaPkXnZNfTY4x/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/53G4PJHxxvaPkXnZNfTY4x/video.mp4",
+    "verified": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "id": "JW7WX3DeQTGPyJwkprEGuX",
+    "title": "Homura",
+    "subtitle": "Kimetsu no Yaiba",
+    "artist": "LiSA",
+    "image": "/songs/JW7WX3DeQTGPyJwkprEGuX/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/JW7WX3DeQTGPyJwkprEGuX/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "RsFwhn4hER39dmCAksspiX",
+    "title": "Come on Eileen",
+    "subtitle": "",
+    "artist": "Dexy's Midnight Runners",
+    "image": "/songs/RsFwhn4hER39dmCAksspiX/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/RsFwhn4hER39dmCAksspiX/video.mp4",
+    "verified": false,
+    "tags": [
+      "banger"
+    ]
+  },
+  {
+    "id": "W56RSr5iUQvSv7fpNsxKwd",
+    "title": "Ghost Rule",
+    "subtitle": "",
+    "artist": "Deco*27",
+    "image": "/songs/W56RSr5iUQvSv7fpNsxKwd/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/W56RSr5iUQvSv7fpNsxKwd/video.mp4",
+    "verified": false,
+    "tags": [
+      "pjsk",
+      "japanese",
+      "pjsekai",
+      "j-pop",
+      "hatsune-miku",
+      "projectsekai"
+    ]
+  },
+  {
     "id": "DSXZoMEXn7ySsqgK4PCAQi",
     "title": "Take Five",
     "subtitle": "",
@@ -2972,25 +3053,6 @@
       "4note",
       "there's-an-oversaturation-of-fnf-songs",
       "goodmusic"
-    ]
-  },
-  {
-    "id": "Blinding-Lights-The-Weeknd-Njk0Njg4N",
-    "title": "Blinding Lights",
-    "subtitle": "",
-    "artist": "The Weeknd",
-    "image": "/songs/Blinding-Lights-The-Weeknd-Njk0Njg4N/cover.jpg",
-    "difficulties": [
-      6
-    ],
-    "keys": [
-      4
-    ],
-    "srcMode": "video",
-    "srcRef": "/songs/Blinding-Lights-The-Weeknd-Njk0Njg4N/video.mp4",
-    "verified": false,
-    "tags": [
-      "pop"
     ]
   },
   {
