@@ -129,7 +129,17 @@
     "- Butterfly \u2014 Smile.dk",
     "- Proof of a Hero \u2014 Monster Hunter",
     "- Warriors \u2014 League of Legends",
-    "- Lean On \u2014 Major Lazer"
+    "- Lean On \u2014 Major Lazer",
+    "- Bloody Tears \u2014 Castlevania",
+    "- Stayin' Alive \u2014 Bee Gees",
+    "- Fireflies \u2014 Owl City",
+    "- Duel of the Fates \u2014 John Williams",
+    "- Gee \u2014 Girls' Generation",
+    "- Bloody Stream \u2014 Coda (JoJo Part 2)",
+    "- Ambiguous \u2014 GARNiDELiA (Kill la Kill)",
+    "- Tainted Love \u2014 Soft Cell",
+    "- Kaibutsu \u2014 YOASOBI (Beastars)",
+    "- Crossing Field \u2014 LiSA"
   ],
   "added": [
     {
@@ -696,6 +706,36 @@
       "title": "Warriors",
       "artist": "League of Legends",
       "song_id": "Warriors-Imagine-Dragons-MzI0NTU4M"
+    },
+    {
+      "title": "Bloody Tears",
+      "artist": "Castlevania",
+      "song_id": "QNJryaCLe7qwT5SwBE78ci"
+    },
+    {
+      "title": "Stayin' Alive",
+      "artist": "Bee Gees",
+      "song_id": "EZmRcaY5x25MhAnyyr4Hw7"
+    },
+    {
+      "title": "Fireflies",
+      "artist": "Owl City",
+      "song_id": "DfSZCuDHWfhVunJ2JHGLsu"
+    },
+    {
+      "title": "Duel of the Fates",
+      "artist": "John Williams",
+      "song_id": "K7eMgghGQf9TPFKVHXKhiP"
+    },
+    {
+      "title": "Bloody Stream",
+      "artist": "Coda",
+      "song_id": "UohNDx4r1EHqDW1JNFFEgU"
+    },
+    {
+      "title": "Kaibutsu",
+      "artist": "YOASOBI",
+      "song_id": "WZk9qzHWTXKx1QJXb4fj2W"
     }
   ],
   "failed": [],
@@ -783,6 +823,26 @@
     {
       "title": "Lean On",
       "artist": "Major Lazer",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Gee",
+      "artist": "Girls' Generation",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Ambiguous",
+      "artist": "GARNiDELiA",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Tainted Love",
+      "artist": "Soft Cell",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Crossing Field",
+      "artist": "LiSA",
       "reason": "No selectedId in candidates"
     }
   ],

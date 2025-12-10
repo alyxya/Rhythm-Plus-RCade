@@ -1,5 +1,117 @@
 [
   {
+    "id": "WZk9qzHWTXKx1QJXb4fj2W",
+    "title": "BEASTARS Season 2  | Kaibutsu - YOASOBI",
+    "subtitle": "",
+    "artist": "YOASOBI",
+    "image": "/songs/WZk9qzHWTXKx1QJXb4fj2W/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/WZk9qzHWTXKx1QJXb4fj2W/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime",
+      "anime-opening"
+    ]
+  },
+  {
+    "id": "UohNDx4r1EHqDW1JNFFEgU",
+    "title": "Bloody Stream",
+    "subtitle": "JJBA Part 2",
+    "artist": "Coda",
+    "image": "/songs/UohNDx4r1EHqDW1JNFFEgU/cover.jpg",
+    "difficulties": [
+      2
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/UohNDx4r1EHqDW1JNFFEgU/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "K7eMgghGQf9TPFKVHXKhiP",
+    "title": "Duel of the fates",
+    "subtitle": "Star Wars",
+    "artist": "John Williams",
+    "image": "/songs/K7eMgghGQf9TPFKVHXKhiP/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/K7eMgghGQf9TPFKVHXKhiP/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "DfSZCuDHWfhVunJ2JHGLsu",
+    "title": "Fireflies",
+    "subtitle": "You would not believe your eyes",
+    "artist": "Owl City",
+    "image": "/songs/DfSZCuDHWfhVunJ2JHGLsu/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/DfSZCuDHWfhVunJ2JHGLsu/video.mp4",
+    "verified": false,
+    "tags": [
+      "indie",
+      "pop"
+    ]
+  },
+  {
+    "id": "EZmRcaY5x25MhAnyyr4Hw7",
+    "title": "Stayin' Alive",
+    "subtitle": "AH AH AH AH STAYIN ALIVE",
+    "artist": "Bee Gees",
+    "image": "/songs/EZmRcaY5x25MhAnyyr4Hw7/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/EZmRcaY5x25MhAnyyr4Hw7/video.mp4",
+    "verified": false,
+    "tags": [
+      "pop"
+    ]
+  },
+  {
+    "id": "QNJryaCLe7qwT5SwBE78ci",
+    "title": "Bloodlines - Bloody Tears",
+    "subtitle": "",
+    "artist": "Konami",
+    "image": "/songs/QNJryaCLe7qwT5SwBE78ci/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/QNJryaCLe7qwT5SwBE78ci/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
     "id": "Warriors-Imagine-Dragons-MzI0NTU4M",
     "title": "Warriors",
     "subtitle": "League of Legends",
