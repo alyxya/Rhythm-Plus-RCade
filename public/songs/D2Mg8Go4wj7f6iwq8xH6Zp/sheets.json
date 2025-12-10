@@ -1,0 +1,28 @@
+[
+  {
+    "id": "V2SnDegmwqVC3FTk7jPBPf",
+    "songId": "D2Mg8Go4wj7f6iwq8xH6Zp",
+    "title": "Rules Of Nature",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 150,
+    "keys": 4,
+    "difficulty": 10,
+    "length": 150,
+    "noteCount": 581,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "38twmueqWr7pg7qu6dWSi4",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1648082212,
+    "updatedAt": 1648272284
+  }
+]

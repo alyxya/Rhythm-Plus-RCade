@@ -90,7 +90,16 @@
     "- 99 \u2014 MOB CHOIR (Mob Psycho 100)",
     "- Stand Proud \u2014 Jin Hashimoto (JoJo Part 3)",
     "- Sandstorm \u2014 Darude",
-    "- Running Up That Hill \u2014 Kate Bush"
+    "- Running Up That Hill \u2014 Kate Bush",
+    "- Poker Face \u2014 Lady Gaga",
+    "- Battle Against a True Hero \u2014 Undertale",
+    "- Zankyou Sanka \u2014 Aimer (Demon Slayer)",
+    "- Rules of Nature \u2014 Metal Gear Rising",
+    "- Smooth Criminal \u2014 Michael Jackson",
+    "- Ievan Polkka \u2014 Loituma",
+    "- Hitorigoto \u2014 ClariS (Eromanga Sensei)",
+    "- Period \u2014 CHEMISTRY (Fullmetal Alchemist: Brotherhood)",
+    "- Stronger \u2014 Kanye West"
   ],
   "added": [
     {
@@ -507,6 +516,46 @@
       "title": "Running Up That Hill",
       "artist": "Kate Bush",
       "song_id": "32zjeBdQ9pgJTZLdXMbyVG"
+    },
+    {
+      "title": "Poker Face",
+      "artist": "Lady Gaga",
+      "song_id": "Y6rRc7fuxzg5EQUuRZRUg6"
+    },
+    {
+      "title": "Battle Against a True Hero",
+      "artist": "Undertale",
+      "song_id": "5vWixFyW8dM23nGi3gChiN"
+    },
+    {
+      "title": "Zankyou Sanka",
+      "artist": "Aimer",
+      "song_id": "PZGjSEZi1x98jz7Ta1Hf3j"
+    },
+    {
+      "title": "Rules of Nature",
+      "artist": "Metal Gear Rising",
+      "song_id": "D2Mg8Go4wj7f6iwq8xH6Zp"
+    },
+    {
+      "title": "Smooth Criminal",
+      "artist": "Michael Jackson",
+      "song_id": "TPPyMaaKTxk5ZQJkqyBNfs"
+    },
+    {
+      "title": "Ievan Polkka",
+      "artist": "Loituma",
+      "song_id": "SusB271wi3ER1nbRUEZCLh"
+    },
+    {
+      "title": "Hitorigoto",
+      "artist": "ClariS",
+      "song_id": "Ns1unxujExQ2fUd1PnNw34"
+    },
+    {
+      "title": "Period",
+      "artist": "CHEMISTRY",
+      "song_id": "KRSaU1t8fZnSuJnNJ74APX"
     }
   ],
   "failed": [],
@@ -550,6 +599,16 @@
       "title": "Dr. Wily Stage",
       "artist": "Mega Man 2",
       "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Stronger",
+      "artist": "Kanye West",
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Personal Jesus",
+      "artist": "Depeche Mode",
+      "reason": "Blocked/No acceptable match"
     }
   ],
   "needs_review": [],
