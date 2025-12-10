@@ -1,0 +1,28 @@
+[
+  {
+    "id": "SvD4qCLKysYtM6La4WSCDz",
+    "songId": "2drAKzLiiLMPz3UssnAW3h",
+    "title": "ria",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 1,
+    "length": 175.081,
+    "noteCount": 755,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "7JRskn22d7C27mCG8gzoyE",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1717524305,
+    "updatedAt": 1717524543
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "S6vpnRF43Tcbub7jc4mDXF",
+    "songId": "NDAoL1RDtdYoHqWa9TVknK",
+    "title": "Hard",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 7,
+    "length": 156.121,
+    "noteCount": 1092,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "GGocuXLoUQN8DAoHDLRBA6",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1751128230,
+    "updatedAt": 1752591960
+  }
+]

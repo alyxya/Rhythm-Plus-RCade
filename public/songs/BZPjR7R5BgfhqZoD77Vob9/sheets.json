@@ -1,0 +1,28 @@
+[
+  {
+    "id": "YRbVUw1tbe5uZqy2xoqXLL",
+    "songId": "BZPjR7R5BgfhqZoD77Vob9",
+    "title": "ola",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 6,
+    "length": 144.274,
+    "noteCount": 340,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "9YKwnTDWXy5fE2MBeDGiJc",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1725738744,
+    "updatedAt": 1725738909
+  }
+]

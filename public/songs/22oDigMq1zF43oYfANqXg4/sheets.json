@@ -1,0 +1,28 @@
+[
+  {
+    "id": "Dn4mEgBu5whCfHGLTer3qR",
+    "songId": "22oDigMq1zF43oYfANqXg4",
+    "title": "normal 6",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 6,
+    "length": 268.175,
+    "noteCount": 531,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "55zsiwCsZF5Rs82Vio18q7",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1653804411,
+    "updatedAt": 1653805235
+  }
+]

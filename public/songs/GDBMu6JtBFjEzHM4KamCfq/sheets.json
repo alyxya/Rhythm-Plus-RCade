@@ -1,0 +1,28 @@
+[
+  {
+    "id": "UwRTFDRNRyhnN62Heifpwr",
+    "songId": "GDBMu6JtBFjEzHM4KamCfq",
+    "title": "peanuts",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 6,
+    "length": 222.01,
+    "noteCount": 822,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "PTpPQdKaFkj3rzxsHxDk4c",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1723283869,
+    "updatedAt": 1723284587
+  }
+]

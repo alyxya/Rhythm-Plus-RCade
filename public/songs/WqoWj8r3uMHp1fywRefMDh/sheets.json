@@ -1,0 +1,28 @@
+[
+  {
+    "id": "CKJbxA25U2SFgv4SoDY2Ve",
+    "songId": "WqoWj8r3uMHp1fywRefMDh",
+    "title": "Vocals",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 5,
+    "length": 439.221,
+    "noteCount": 506,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "DSUXHemHHSfLKuxDKHkXg5",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1758987594,
+    "updatedAt": 1760992034
+  }
+]

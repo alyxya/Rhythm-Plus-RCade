@@ -1,0 +1,28 @@
+[
+  {
+    "id": "LXr42Vde3hL5AybemaNsvz",
+    "songId": "V54iGhyCHaN2hd2FNec8pv",
+    "title": "Despacito (4 keys)",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 5,
+    "length": 231,
+    "noteCount": 960,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "XsfgjRuEw58qrziK4erdCR",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1722858745,
+    "updatedAt": 1725009500
+  }
+]

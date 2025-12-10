@@ -1,5 +1,1409 @@
 [
   {
+    "id": "DSXZoMEXn7ySsqgK4PCAQi",
+    "title": "Take Five",
+    "subtitle": "",
+    "artist": "Al Jarreau",
+    "image": "/songs/DSXZoMEXn7ySsqgK4PCAQi/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/DSXZoMEXn7ySsqgK4PCAQi/video.mp4",
+    "verified": false,
+    "tags": [
+      "chill"
+    ]
+  },
+  {
+    "id": "N1WSD3LnQ5PeQ1cZoZBHa9",
+    "title": "The Vampire - Hatsune Miku",
+    "subtitle": "",
+    "artist": "DECO*27",
+    "image": "/songs/N1WSD3LnQ5PeQ1cZoZBHa9/cover.jpg",
+    "difficulties": [
+      1,
+      3,
+      5,
+      7,
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/N1WSD3LnQ5PeQ1cZoZBHa9/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "vocaloid",
+      "miku",
+      "j-pop",
+      "4key",
+      "4-key",
+      "actuallygoodmusic",
+      "4note",
+      "hatsune-miku",
+      "pop"
+    ]
+  },
+  {
+    "id": "5jYzHm31MXnpEFsd8rJsMv",
+    "title": "52. KICK BACK",
+    "subtitle": "체인소 맨 (2022) (チェンソーマン, Chainsaw Man)",
+    "artist": "요네즈 켄시 (Yonez Kenshi)",
+    "image": "/songs/5jYzHm31MXnpEFsd8rJsMv/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/5jYzHm31MXnpEFsd8rJsMv/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime",
+      "j-pop"
+    ]
+  },
+  {
+    "id": "FFTALkDerZZbDvjUubZ25c",
+    "title": "SMELLS LIKE TEEN SPIRIT",
+    "subtitle": "hell yeah",
+    "artist": "Nirvana",
+    "image": "/songs/FFTALkDerZZbDvjUubZ25c/cover.jpg",
+    "difficulties": [
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/FFTALkDerZZbDvjUubZ25c/video.mp4",
+    "verified": false,
+    "tags": [
+      "grunge"
+    ]
+  },
+  {
+    "id": "djYcTPiwcLyq9LuitJfcN",
+    "title": "Everlong",
+    "subtitle": "",
+    "artist": "Foo Fighters",
+    "image": "/songs/djYcTPiwcLyq9LuitJfcN/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/djYcTPiwcLyq9LuitJfcN/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "F4qXefAU6WMbbToBfh5gWk",
+    "title": "Clarity Sped Up",
+    "subtitle": "",
+    "artist": "Zedd",
+    "image": "/songs/F4qXefAU6WMbbToBfh5gWk/cover.jpg",
+    "difficulties": [
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/F4qXefAU6WMbbToBfh5gWk/video.mp4",
+    "verified": false,
+    "tags": [
+      "pop"
+    ]
+  },
+  {
+    "id": "7s5ShjuTmSZFGKMxx2NXqU",
+    "title": "BILLIE JEAN",
+    "subtitle": "",
+    "artist": "MICHEAL JACKSON",
+    "image": "/songs/7s5ShjuTmSZFGKMxx2NXqU/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/7s5ShjuTmSZFGKMxx2NXqU/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "3CkPDCBQ4ZRpm4mvoWspus",
+    "title": "Take On Me",
+    "subtitle": "",
+    "artist": "A-ha",
+    "image": "/songs/3CkPDCBQ4ZRpm4mvoWspus/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/3CkPDCBQ4ZRpm4mvoWspus/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "2zRinU24GGxXzvcikoiFMp",
+    "title": "Harder, Better, Faster, Stronger",
+    "subtitle": "",
+    "artist": "Daft Punk",
+    "image": "/songs/2zRinU24GGxXzvcikoiFMp/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/2zRinU24GGxXzvcikoiFMp/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "PQWT4pcMYkeFHtxrHFtj2u",
+    "title": "Enemy |AMV| Anime mix",
+    "subtitle": "",
+    "artist": "TrumpyGFX",
+    "image": "/songs/PQWT4pcMYkeFHtxrHFtj2u/cover.jpg",
+    "difficulties": [
+      8,
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/PQWT4pcMYkeFHtxrHFtj2u/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "DvNCJBoTq6kQ9k1EnfZh9d",
+    "title": "Get lucky",
+    "subtitle": "",
+    "artist": "Daft punk",
+    "image": "/songs/DvNCJBoTq6kQ9k1EnfZh9d/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/DvNCJBoTq6kQ9k1EnfZh9d/video.mp4",
+    "verified": false,
+    "tags": [
+      "Daft-punk",
+      "classic",
+      "banger"
+    ]
+  },
+  {
+    "id": "WqoWj8r3uMHp1fywRefMDh",
+    "title": "Through The Fire And Flames",
+    "subtitle": "",
+    "artist": "DragonForce",
+    "image": "/songs/WqoWj8r3uMHp1fywRefMDh/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/WqoWj8r3uMHp1fywRefMDh/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "XSSUPLKoL1J6MM86yAscRk",
+    "title": "Dynamite",
+    "subtitle": "",
+    "artist": "BTS",
+    "image": "/songs/XSSUPLKoL1J6MM86yAscRk/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/XSSUPLKoL1J6MM86yAscRk/video.mp4",
+    "verified": false,
+    "tags": [
+      "kpopmv",
+      "KPOP",
+      "Kpop",
+      "kpop",
+      "k-pop"
+    ]
+  },
+  {
+    "id": "V54iGhyCHaN2hd2FNec8pv",
+    "title": "Luis Fonsi, Daddy Yankee - Despacito ft. Justin Bieber",
+    "subtitle": "",
+    "artist": "Luis Fonsi",
+    "image": "/songs/V54iGhyCHaN2hd2FNec8pv/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/V54iGhyCHaN2hd2FNec8pv/video.mp4",
+    "verified": false,
+    "tags": [
+      "pop"
+    ]
+  },
+  {
+    "id": "X3abTqLaiXiYHXniunBvZ5",
+    "title": "I Want It That Way",
+    "subtitle": "",
+    "artist": "Backstreet Boys",
+    "image": "/songs/X3abTqLaiXiYHXniunBvZ5/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/X3abTqLaiXiYHXniunBvZ5/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "Rqie8VC52DmNqGdbTEbVCA",
+    "title": "All Star",
+    "subtitle": "",
+    "artist": "Smash Mouth",
+    "image": "/songs/Rqie8VC52DmNqGdbTEbVCA/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Rqie8VC52DmNqGdbTEbVCA/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "id": "KhbZVrtMUjcgz3NueGrmA1",
+    "title": "Take me out",
+    "subtitle": "",
+    "artist": "Franz Ferdinand",
+    "image": "/songs/KhbZVrtMUjcgz3NueGrmA1/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/KhbZVrtMUjcgz3NueGrmA1/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock"
+    ]
+  },
+  {
+    "id": "F3UCfeZSrJQNRdEGwwqnBa",
+    "title": "Walk like an Egyptian (Stardust Crusaders)",
+    "subtitle": "",
+    "artist": "The Bangles",
+    "image": "/songs/F3UCfeZSrJQNRdEGwwqnBa/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/F3UCfeZSrJQNRdEGwwqnBa/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "EtTmLjeRSxgeHwMNAbomM6",
+    "title": "Back in Black",
+    "subtitle": "",
+    "artist": "ACDC",
+    "image": "/songs/EtTmLjeRSxgeHwMNAbomM6/cover.jpg",
+    "difficulties": [
+      6,
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/EtTmLjeRSxgeHwMNAbomM6/video.mp4",
+    "verified": false,
+    "tags": [
+      "music"
+    ]
+  },
+  {
+    "id": "5weq2BTFcREcGJmMtrJc8n",
+    "title": "Counting Stars",
+    "subtitle": "",
+    "artist": "One Republic",
+    "image": "/songs/5weq2BTFcREcGJmMtrJc8n/cover.jpg",
+    "difficulties": [
+      2
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/5weq2BTFcREcGJmMtrJc8n/video.mp4",
+    "verified": false,
+    "tags": [
+      "pop"
+    ]
+  },
+  {
+    "id": "BFG-Division-Mick-Gordon-MzMwNjk0N",
+    "title": "BFG Division",
+    "subtitle": "Doom 2016 OST",
+    "artist": "Mick Gordon",
+    "image": "/songs/BFG-Division-Mick-Gordon-MzMwNjk0N/cover.jpg",
+    "difficulties": [
+      0
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/BFG-Division-Mick-Gordon-MzMwNjk0N/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "JYR4uDaXVurpYnSedyYCpA",
+    "title": "Uptown Funk ft. Bruno Mars",
+    "subtitle": "(YUNO)",
+    "artist": "Mark Ronson",
+    "image": "/songs/JYR4uDaXVurpYnSedyYCpA/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/JYR4uDaXVurpYnSedyYCpA/video.mp4",
+    "verified": false,
+    "tags": [
+      "Mars",
+      "sing-a-long",
+      "bruno-mars",
+      "pop"
+    ]
+  },
+  {
+    "id": "EDwNV4mi2K5RWa8Riwi5Y3",
+    "title": "Blue bird",
+    "subtitle": "Naruto Shippuden OP 3",
+    "artist": "Ikimono Gakari",
+    "image": "/songs/EDwNV4mi2K5RWa8Riwi5Y3/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/EDwNV4mi2K5RWa8Riwi5Y3/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "QPKEK25B4bjU9AfQqpRUWu",
+    "title": "Scary Monsters and Nice Sprites",
+    "subtitle": "",
+    "artist": "Skrillex",
+    "image": "/songs/QPKEK25B4bjU9AfQqpRUWu/cover.jpg",
+    "difficulties": [
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/QPKEK25B4bjU9AfQqpRUWu/video.mp4",
+    "verified": false,
+    "tags": [
+      "skrillex",
+      "dubstep",
+      "english"
+    ]
+  },
+  {
+    "id": "Akh7AwVMCfCni6G3Epe8Ea",
+    "title": "Snake Man Stage",
+    "subtitle": "",
+    "artist": "Mega Man 3 OST",
+    "image": "/songs/Akh7AwVMCfCni6G3Epe8Ea/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Akh7AwVMCfCni6G3Epe8Ea/video.mp4",
+    "verified": false,
+    "tags": [
+      "ost",
+      "game"
+    ]
+  },
+  {
+    "id": "5Kgiq5B2YoFcRWgihhtYw4",
+    "title": "Flowers",
+    "subtitle": "",
+    "artist": "Miley Cyrus",
+    "image": "/songs/5Kgiq5B2YoFcRWgihhtYw4/cover.jpg",
+    "difficulties": [
+      6,
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/5Kgiq5B2YoFcRWgihhtYw4/video.mp4",
+    "verified": false,
+    "tags": [
+      "pop"
+    ]
+  },
+  {
+    "id": "NNRnQSbZZtYm1Vs4Qm6Xya",
+    "title": "Shinzou wo Sasageyo!",
+    "subtitle": "Attack On Titan OP 3",
+    "artist": "Linked Horizon",
+    "image": "/songs/NNRnQSbZZtYm1Vs4Qm6Xya/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/NNRnQSbZZtYm1Vs4Qm6Xya/video.mp4",
+    "verified": false,
+    "tags": [
+      "band",
+      "rock",
+      "anime",
+      "metal",
+      "j-pop",
+      "anime-opening"
+    ]
+  },
+  {
+    "id": "XSnXhS7ED2T97pw823Tgxm",
+    "title": "BANG BANG BANG",
+    "subtitle": "",
+    "artist": "BIGBANG",
+    "image": "/songs/XSnXhS7ED2T97pw823Tgxm/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/XSnXhS7ED2T97pw823Tgxm/video.mp4",
+    "verified": false,
+    "tags": [
+      "k-pop"
+    ]
+  },
+  {
+    "id": "LTmyQzNX7uZHHDkeZFUwsv",
+    "title": "Lifelight (main theme of Super Smash Bros. Ultimate",
+    "subtitle": "",
+    "artist": "Nintendo",
+    "image": "/songs/LTmyQzNX7uZHHDkeZFUwsv/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/LTmyQzNX7uZHHDkeZFUwsv/video.mp4",
+    "verified": false,
+    "tags": [
+      "youtube-video",
+      "game",
+      "4note"
+    ]
+  },
+  {
+    "id": "A63QLpAVK2C9UPCnw5JfEA",
+    "title": "We Are!",
+    "subtitle": "One Piece Opening 1",
+    "artist": "Hiroshi Kitadani",
+    "image": "/songs/A63QLpAVK2C9UPCnw5JfEA/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/A63QLpAVK2C9UPCnw5JfEA/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "QdnGqAYagDvqiVFT2Ytbdg",
+    "title": "He's a pirate",
+    "subtitle": "pirates of the carribean",
+    "artist": "PACIL and Klaus badelt",
+    "image": "/songs/QdnGqAYagDvqiVFT2Ytbdg/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/QdnGqAYagDvqiVFT2Ytbdg/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "8LCzaqyf9La6moztxGCE17",
+    "title": "GAS GAS GAS",
+    "subtitle": "Initial D",
+    "artist": "Manuel",
+    "image": "/songs/8LCzaqyf9La6moztxGCE17/cover.jpg",
+    "difficulties": [
+      9
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/8LCzaqyf9La6moztxGCE17/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "16vp7nRBEdNXKvvDfGwN7k",
+    "title": "Silhouette",
+    "subtitle": "",
+    "artist": "KANA-BOON",
+    "image": "/songs/16vp7nRBEdNXKvvDfGwN7k/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/16vp7nRBEdNXKvvDfGwN7k/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "JROCK",
+      "anime",
+      "hard",
+      "jrock",
+      "anime-opening"
+    ]
+  },
+  {
+    "id": "YPbfPBjmDrhkNCnvczRRJ4",
+    "title": "The Impression That I Get",
+    "subtitle": "",
+    "artist": "The Mighty Mighty Bosstones",
+    "image": "/songs/YPbfPBjmDrhkNCnvczRRJ4/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/YPbfPBjmDrhkNCnvczRRJ4/video.mp4",
+    "verified": false,
+    "tags": [
+      "themightymightybosstones",
+      "rock",
+      "ska"
+    ]
+  },
+  {
+    "id": "Rwu9WYZ1tHx1GteB1K8C8p",
+    "title": "Fluorescent Adolescent",
+    "subtitle": "",
+    "artist": "Arctic Monkeys",
+    "image": "/songs/Rwu9WYZ1tHx1GteB1K8C8p/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Rwu9WYZ1tHx1GteB1K8C8p/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "Ds7S34wtrbX6XPE9V1Y76J",
+    "title": "Never Gonna Give You Up",
+    "subtitle": "haha rickroll",
+    "artist": "Rick Astley",
+    "image": "/songs/Ds7S34wtrbX6XPE9V1Y76J/cover.jpg",
+    "difficulties": [
+      1,
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Ds7S34wtrbX6XPE9V1Y76J/video.mp4",
+    "verified": false,
+    "tags": [
+      "random",
+      "idk-what-else-to-tag",
+      "banger",
+      "pop"
+    ]
+  },
+  {
+    "id": "Mu92B1PDQtFCH8HLvP4QgE",
+    "title": "Peace Sign",
+    "subtitle": "(YUNO)",
+    "artist": "Kenshi Yonezu",
+    "image": "/songs/Mu92B1PDQtFCH8HLvP4QgE/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Mu92B1PDQtFCH8HLvP4QgE/video.mp4",
+    "verified": false,
+    "tags": [
+      "My-hero-academia",
+      "Boku-no-Hero",
+      "Midoriya",
+      "All-might",
+      "Quirk",
+      "4-keys",
+      "MHA",
+      "anime",
+      "4keys",
+      "anime-opening"
+    ]
+  },
+  {
+    "id": "WEpWvNF5ADJMNKeSYDmDDS",
+    "title": "Gerudo Valley",
+    "subtitle": "",
+    "artist": "The Legend of Zelda Ocarina of Time",
+    "image": "/songs/WEpWvNF5ADJMNKeSYDmDDS/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/WEpWvNF5ADJMNKeSYDmDDS/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "6EPWGkrffwwcCJ2NzzgUoV",
+    "title": "Ado Unravel",
+    "subtitle": "",
+    "artist": "Ado",
+    "image": "/songs/6EPWGkrffwwcCJ2NzzgUoV/cover.jpg",
+    "difficulties": [
+      8,
+      9
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/6EPWGkrffwwcCJ2NzzgUoV/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "3N2uGxfWaqtaguMTFWh6am",
+    "title": "Inferno",
+    "subtitle": "",
+    "artist": "Mrs. GREEN APPLE",
+    "image": "/songs/3N2uGxfWaqtaguMTFWh6am/cover.jpg",
+    "difficulties": [
+      4,
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/3N2uGxfWaqtaguMTFWh6am/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "REyCytmuLgqzCP7YnbYbNq",
+    "title": "Jump up, Super Star!",
+    "subtitle": "Super Mario Odyssey",
+    "artist": "Nintendo (mayor pauline)",
+    "image": "/songs/REyCytmuLgqzCP7YnbYbNq/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/REyCytmuLgqzCP7YnbYbNq/video.mp4",
+    "verified": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "id": "9bbqx7VTNhd6dWoK5Udn1r",
+    "title": "Waka Waka (This Time For Africa)",
+    "subtitle": "",
+    "artist": "Shakira",
+    "image": "/songs/9bbqx7VTNhd6dWoK5Udn1r/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/9bbqx7VTNhd6dWoK5Udn1r/video.mp4",
+    "verified": false,
+    "tags": [
+      "World-Cup",
+      "pop"
+    ]
+  },
+  {
+    "id": "2sQttKsGdQzBGXa2thQvAN",
+    "title": "Seven Nation Army",
+    "subtitle": "better than feel good imo",
+    "artist": "The White Stripes",
+    "image": "/songs/2sQttKsGdQzBGXa2thQvAN/cover.jpg",
+    "difficulties": [
+      3,
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/2sQttKsGdQzBGXa2thQvAN/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock"
+    ]
+  },
+  {
+    "id": "BjzgfuiMyTHNMdsJ29Yp8U",
+    "title": "Tank!",
+    "subtitle": "Cowboy Bepop Op",
+    "artist": "Yoko Kanno",
+    "image": "/songs/BjzgfuiMyTHNMdsJ29Yp8U/cover.jpg",
+    "difficulties": [
+      3
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/BjzgfuiMyTHNMdsJ29Yp8U/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "anime",
+      "jazz",
+      "anime-opening",
+      "banger"
+    ]
+  },
+  {
+    "id": "VaB63UXY7KNzK67L3Z7b1g",
+    "title": "Under Pressure (feat. David Bowie)",
+    "subtitle": "",
+    "artist": "Queen",
+    "image": "/songs/VaB63UXY7KNzK67L3Z7b1g/cover.jpg",
+    "difficulties": [
+      2
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/VaB63UXY7KNzK67L3Z7b1g/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock",
+      "youtube-video",
+      "4key",
+      "actuallygoodmusic",
+      "4-key",
+      "4note",
+      "goodmusic"
+    ]
+  },
+  {
+    "id": "PLocg8arZ7gTTYW8CCTL4r",
+    "title": "Again",
+    "subtitle": "Fullmetal Alchemist OP 1",
+    "artist": "Yui",
+    "image": "/songs/PLocg8arZ7gTTYW8CCTL4r/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/PLocg8arZ7gTTYW8CCTL4r/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "GDBMu6JtBFjEzHM4KamCfq",
+    "title": "MIxed Nuts",
+    "subtitle": "(spy x family op 1)",
+    "artist": "Official Hige Dandism",
+    "image": "/songs/GDBMu6JtBFjEzHM4KamCfq/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/GDBMu6JtBFjEzHM4KamCfq/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime",
+      "j-pop",
+      "pop"
+    ]
+  },
+  {
+    "id": "9hyyPzmS6DnFDnd25szin3",
+    "title": "still alive",
+    "subtitle": "",
+    "artist": "glados",
+    "image": "/songs/9hyyPzmS6DnFDnd25szin3/cover.jpg",
+    "difficulties": [
+      3,
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/9hyyPzmS6DnFDnd25szin3/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "GfX4yJSBguCv8eEF9FXwJr",
+    "title": "Weight of the World (End of YoRHa)",
+    "subtitle": "",
+    "artist": "SQUARE ENIX MUSIC",
+    "image": "/songs/GfX4yJSBguCv8eEF9FXwJr/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/GfX4yJSBguCv8eEF9FXwJr/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "SV4K12GsFdg2D3J2WNmXP2",
+    "title": "pompeii",
+    "subtitle": "idk",
+    "artist": "me?",
+    "image": "/songs/SV4K12GsFdg2D3J2WNmXP2/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/SV4K12GsFdg2D3J2WNmXP2/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "GDimM4BKddhyhm1xdVihAa",
+    "title": "Song of Storms",
+    "subtitle": "",
+    "artist": "Zelda",
+    "image": "/songs/GDimM4BKddhyhm1xdVihAa/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/GDimM4BKddhyhm1xdVihAa/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "N84SF8gR5tYnrf3AC8kxnW",
+    "title": "Sealed Vessel",
+    "subtitle": "Hollow Knight",
+    "artist": "Christopher Larkin",
+    "image": "/songs/N84SF8gR5tYnrf3AC8kxnW/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/N84SF8gR5tYnrf3AC8kxnW/video.mp4",
+    "verified": false,
+    "tags": [
+      "Hollow-Knight",
+      "actuallygoodmusic"
+    ]
+  },
+  {
+    "id": "9rB1YoAFXFJxSBuWnp7jgw",
+    "title": "Resurrections (Track 03) [Celeste OST]",
+    "subtitle": "Oh, I'm simply a concerned observer.",
+    "artist": "Lena Raine",
+    "image": "/songs/9rB1YoAFXFJxSBuWnp7jgw/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/9rB1YoAFXFJxSBuWnp7jgw/video.mp4",
+    "verified": false,
+    "tags": [
+      "celeste",
+      "ost",
+      "game",
+      "electronic",
+      "indie",
+      "music",
+      "actuallygoodmusic"
+    ]
+  },
+  {
+    "id": "9SvKM7ZzM4WX47d6RvGEHL",
+    "title": "Thunderstruck",
+    "subtitle": "",
+    "artist": "ACDC",
+    "image": "/songs/9SvKM7ZzM4WX47d6RvGEHL/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/9SvKM7ZzM4WX47d6RvGEHL/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "2QP96BrFnZpHaQ8ym4NheY",
+    "title": "chop suey!",
+    "subtitle": "",
+    "artist": "system of a down",
+    "image": "/songs/2QP96BrFnZpHaQ8ym4NheY/cover.jpg",
+    "difficulties": [
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/2QP96BrFnZpHaQ8ym4NheY/video.mp4",
+    "verified": false,
+    "tags": [
+      "metal",
+      "4keys"
+    ]
+  },
+  {
+    "id": "2zqjSQBf47sEWiK9pB3AHH",
+    "title": "Reptilia",
+    "subtitle": "",
+    "artist": "The Strokes",
+    "image": "/songs/2zqjSQBf47sEWiK9pB3AHH/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/2zqjSQBf47sEWiK9pB3AHH/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "Midnight-City-M83-NjU5MjAzN",
+    "title": "Midnight City",
+    "subtitle": "",
+    "artist": "M83",
+    "image": "/songs/Midnight-City-M83-NjU5MjAzN/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Midnight-City-M83-NjU5MjAzN/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "DY43hi1kzTzP7BfYJWNMDQ",
+    "title": "Misirlou",
+    "subtitle": "King Of the Surf Guitar",
+    "artist": "Dick Dale",
+    "image": "/songs/DY43hi1kzTzP7BfYJWNMDQ/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/DY43hi1kzTzP7BfYJWNMDQ/video.mp4",
+    "verified": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "id": "9ar8FpfnFARKp28Hgh64DX",
+    "title": "I Will Survive",
+    "subtitle": "",
+    "artist": "Gloria Gaynor",
+    "image": "/songs/9ar8FpfnFARKp28Hgh64DX/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/9ar8FpfnFARKp28Hgh64DX/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "7tpYvgq7zpnUVTcBgfF5nb",
+    "title": "YMCA in Minor Key",
+    "subtitle": "",
+    "artist": "Village People",
+    "image": "/songs/7tpYvgq7zpnUVTcBgfF5nb/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/7tpYvgq7zpnUVTcBgfF5nb/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "JTvfcXnw6cwCwyjhr9skid",
+    "title": "505",
+    "subtitle": "",
+    "artist": "Arctic Monkeys",
+    "image": "/songs/JTvfcXnw6cwCwyjhr9skid/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/JTvfcXnw6cwCwyjhr9skid/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "Hu2GG3MJAogrmZdgKiVmsm",
+    "title": "Gurenge (Demon Slayer: Kimetsu no Yaiba Opening 1)",
+    "subtitle": "",
+    "artist": "LISA",
+    "image": "/songs/Hu2GG3MJAogrmZdgKiVmsm/cover.jpg",
+    "difficulties": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Hu2GG3MJAogrmZdgKiVmsm/video.mp4",
+    "verified": false,
+    "tags": [
+      "j-rock",
+      "anime",
+      "j-pop"
+    ]
+  },
+  {
+    "id": "GjtMtUJktcDBEMr786zJVM",
+    "title": "KIll BIll",
+    "subtitle": "",
+    "artist": "SZA",
+    "image": "/songs/GjtMtUJktcDBEMr786zJVM/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/GjtMtUJktcDBEMr786zJVM/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "J48ghUGxs13Egr1k1zKfTW",
+    "title": "Elder scrolls V: Skyrim-Dragonborn",
+    "subtitle": "",
+    "artist": "Bethesda studios",
+    "image": "/songs/J48ghUGxs13Egr1k1zKfTW/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/J48ghUGxs13Egr1k1zKfTW/video.mp4",
+    "verified": false,
+    "tags": [
+      "Skyrim",
+      "ElderscrollsV",
+      "game"
+    ]
+  },
+  {
+    "id": "9KocBGwmJp2woxYfRvwLwv",
+    "title": "BELIEVER",
+    "subtitle": "Hi",
+    "artist": "Imagine Dragons",
+    "image": "/songs/9KocBGwmJp2woxYfRvwLwv/cover.jpg",
+    "difficulties": [
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/9KocBGwmJp2woxYfRvwLwv/video.mp4",
+    "verified": false,
+    "tags": [
+      "phonk"
+    ]
+  },
+  {
+    "id": "Ahqn8KSHYBBPuYPXj8xD2v",
+    "title": "Bury The Light",
+    "subtitle": "",
+    "artist": "Casey Edwards",
+    "image": "/songs/Ahqn8KSHYBBPuYPXj8xD2v/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Ahqn8KSHYBBPuYPXj8xD2v/video.mp4",
+    "verified": false,
+    "tags": [
+      "fast",
+      "I-AM-THE-STORM-THAT-IS-APPROACHING!",
+      "hard",
+      "Metal",
+      "4note"
+    ]
+  },
+  {
+    "id": "Wv81tGHYhkzXeunWXekiMi",
+    "title": "Shake It Off",
+    "subtitle": "",
+    "artist": "Taylor Swift",
+    "image": "/songs/Wv81tGHYhkzXeunWXekiMi/cover.jpg",
+    "difficulties": [
+      3,
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Wv81tGHYhkzXeunWXekiMi/video.mp4",
+    "verified": false,
+    "tags": [
+      "youtube-video",
+      "music",
+      "4-key"
+    ]
+  },
+  {
+    "id": "GKecDHaffQV135ZmxrGWar",
+    "title": "one winged angel",
+    "subtitle": "",
+    "artist": "kingdom hearts",
+    "image": "/songs/GKecDHaffQV135ZmxrGWar/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/GKecDHaffQV135ZmxrGWar/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "4WpBTfnacwPrRGGZxM2EW4",
+    "title": "September",
+    "subtitle": "RPOT 2025",
+    "artist": "Earth, Wind & Fire",
+    "image": "/songs/4WpBTfnacwPrRGGZxM2EW4/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/4WpBTfnacwPrRGGZxM2EW4/video.mp4",
+    "verified": true,
+    "tags": [
+      "zzzagon",
+      "4note",
+      "pop"
+    ]
+  },
+  {
+    "id": "YMjggmzNiVRi7TzAjXg6Co",
+    "title": "A Cruel Angels Thesis",
+    "subtitle": "",
+    "artist": "Toko Takahashi",
+    "image": "/songs/YMjggmzNiVRi7TzAjXg6Co/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/YMjggmzNiVRi7TzAjXg6Co/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "5PWJ4cnnEugidrvdwo8d8f",
+    "title": "Tetris Theme",
+    "subtitle": "Main Theme",
+    "artist": "Tetris",
+    "image": "/songs/5PWJ4cnnEugidrvdwo8d8f/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/5PWJ4cnnEugidrvdwo8d8f/video.mp4",
+    "verified": false,
+    "tags": [
+      "tetris",
+      "video-game",
+      "game"
+    ]
+  },
+  {
     "id": "YFVPoirM1zaeSuedqLVpfG",
     "title": "Renai Circulation",
     "subtitle": "",
@@ -290,30 +1694,6 @@
     ]
   },
   {
-    "id": "UxkqDTcEyE4CHygvXtAYBb",
-    "title": "Paranoid Android",
-    "subtitle": "",
-    "artist": "Radiohead",
-    "image": "/songs/UxkqDTcEyE4CHygvXtAYBb/cover.jpg",
-    "difficulties": [
-      10
-    ],
-    "keys": [
-      4
-    ],
-    "srcMode": "video",
-    "srcRef": "/songs/UxkqDTcEyE4CHygvXtAYBb/video.mp4",
-    "verified": false,
-    "tags": [
-      "rock",
-      "banger",
-      "actuallygoodmusic",
-      "4-key",
-      "4note",
-      "alternative"
-    ]
-  },
-  {
     "id": "YPMXB3kmWKdND33qDwbqqQ",
     "title": "Heat Waves",
     "subtitle": "",
@@ -458,37 +1838,6 @@
     ]
   },
   {
-    "id": "PevCLke4eAkj7o83NLtKXR",
-    "title": "DAOKO × Kenshi Yonezu “Fireworks”",
-    "subtitle": "",
-    "artist": "idk",
-    "image": "/songs/PevCLke4eAkj7o83NLtKXR/cover.jpg",
-    "difficulties": [
-      9
-    ],
-    "keys": [
-      4
-    ],
-    "srcMode": "video",
-    "srcRef": "/songs/PevCLke4eAkj7o83NLtKXR/video.mp4",
-    "verified": false,
-    "tags": [
-      "japanese",
-      "epic",
-      "video-game",
-      "youtube-video",
-      "anime",
-      "j-pop",
-      "game",
-      "actuallygoodmusic",
-      "4-key",
-      "4note",
-      "youtube",
-      "pop",
-      "goodmusic"
-    ]
-  },
-  {
     "id": "9WBzHAX46tstxefifNsNYd",
     "title": "Kernkraft 400",
     "subtitle": "",
@@ -556,25 +1905,6 @@
       "anime",
       "piano",
       "movie"
-    ]
-  },
-  {
-    "id": "9FtKqyHN3kS7UE9hBFQoZQ",
-    "title": "African guy running away with spongebob music",
-    "subtitle": "",
-    "artist": "african guy",
-    "image": "/songs/9FtKqyHN3kS7UE9hBFQoZQ/cover.jpg",
-    "difficulties": [
-      4
-    ],
-    "keys": [
-      4
-    ],
-    "srcMode": "video",
-    "srcRef": "/songs/9FtKqyHN3kS7UE9hBFQoZQ/video.mp4",
-    "verified": false,
-    "tags": [
-      "meme"
     ]
   },
   {

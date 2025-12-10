@@ -1,0 +1,28 @@
+[
+  {
+    "id": "CCut1R5u5w6qtCiaqz2Eme",
+    "songId": "QPKEK25B4bjU9AfQqpRUWu",
+    "title": "The Monster",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 8,
+    "length": 243.381,
+    "noteCount": 1030,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": true,
+    "importedFrom": "osu-mania",
+    "importRef": "",
+    "importIsOriginal": true,
+    "mapping": "",
+    "mapId": "LRikcYxrHbxgaPrbs3qC4",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1751697866,
+    "updatedAt": 1751697978
+  }
+]

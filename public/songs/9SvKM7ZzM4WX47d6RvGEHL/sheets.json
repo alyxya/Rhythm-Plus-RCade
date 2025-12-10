@@ -1,0 +1,28 @@
+[
+  {
+    "id": "3uDcvxtNvesRhCt4xyVZoQ",
+    "songId": "9SvKM7ZzM4WX47d6RvGEHL",
+    "title": "really hard",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 10,
+    "length": 292.901,
+    "noteCount": 1230,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "9eEzFvpw9DKLNymkRFTbsX",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1704744067,
+    "updatedAt": 1704744672
+  }
+]

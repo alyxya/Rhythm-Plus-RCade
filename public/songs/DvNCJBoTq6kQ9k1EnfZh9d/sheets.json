@@ -1,0 +1,28 @@
+[
+  {
+    "id": "FMUrEX9VDbp7ybsYvcEs6t",
+    "songId": "DvNCJBoTq6kQ9k1EnfZh9d",
+    "title": "",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 6,
+    "length": 248.661,
+    "noteCount": 734,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "PFzJWxyJssP5tbwMZoKNTL",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1678970525,
+    "updatedAt": 1678970789
+  }
+]

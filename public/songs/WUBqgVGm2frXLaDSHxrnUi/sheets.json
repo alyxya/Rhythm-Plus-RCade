@@ -1,0 +1,28 @@
+[
+  {
+    "id": "MWRwWUeNd81dbAK3tNrUaq",
+    "songId": "WUBqgVGm2frXLaDSHxrnUi",
+    "title": "Deja Vu",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 8,
+    "length": 262.001,
+    "noteCount": 1267,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "MEYQ1qkh3YdL96VMRvs5zD",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1747557843,
+    "updatedAt": 1747558538
+  }
+]

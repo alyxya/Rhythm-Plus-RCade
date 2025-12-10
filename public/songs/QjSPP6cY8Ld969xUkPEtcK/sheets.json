@@ -1,0 +1,28 @@
+[
+  {
+    "id": "5SSqYwp3y2xaxVThv3uWYT",
+    "songId": "QjSPP6cY8Ld969xUkPEtcK",
+    "title": "Demise",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 8,
+    "length": 106.821,
+    "noteCount": 424,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "7gwtzXFX5hdgJ8s6ksHLQ9",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1737233571,
+    "updatedAt": 1737233960
+  }
+]

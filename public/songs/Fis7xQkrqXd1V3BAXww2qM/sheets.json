@@ -1,0 +1,28 @@
+[
+  {
+    "id": "6AAeL5g1xmZETRQmBPneyC",
+    "songId": "Fis7xQkrqXd1V3BAXww2qM",
+    "title": "",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 7,
+    "length": 214,
+    "noteCount": 1412,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "purpleSpace",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "UravwZARzEoYgsyLjipFcA",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1703279669,
+    "updatedAt": 1703364131
+  }
+]

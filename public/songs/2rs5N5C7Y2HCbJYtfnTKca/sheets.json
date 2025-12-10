@@ -1,0 +1,28 @@
+[
+  {
+    "id": "KroesEWHGwuYYq4X21tG9T",
+    "songId": "2rs5N5C7Y2HCbJYtfnTKca",
+    "title": "GREY",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 6,
+    "length": 107.861,
+    "noteCount": 413,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "6BNmPeB7rCZJbfUCxW1y3v",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1727229370,
+    "updatedAt": 1727829100
+  }
+]

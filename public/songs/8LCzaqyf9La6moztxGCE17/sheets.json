@@ -1,0 +1,28 @@
+[
+  {
+    "id": "7gLeaxqri3FjvKH2aeutXq",
+    "songId": "8LCzaqyf9La6moztxGCE17",
+    "title": "Shall I go now?",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 9,
+    "length": 49.821,
+    "noteCount": 328,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "E6GET4m2R6Bta7Fcj5HcLr",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1700931536,
+    "updatedAt": 1700931671
+  }
+]
