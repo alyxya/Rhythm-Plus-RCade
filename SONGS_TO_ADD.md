@@ -75,7 +75,6 @@
 73. House of the Rising Sun — The Animals
 74. Song 2 — Blur
 75. Connect — ClariS (Madoka Magica)
-76. My Soul, Your Beats! — Lia (Angel Beats!)
 77. Gangnam Style — PSY
 78. Departure! — Hunter x Hunter
 79. Paint It, Black — The Rolling Stones
@@ -162,3 +161,4 @@
 160. We Will Rock You / We Are The Champions — Queen
 161. Rain — SID (Fullmetal Alchemist: Brotherhood)
 162. Titanium — David Guetta ft. Sia
+76. My Soul, Your Beats! — Lia (Angel Beats!)

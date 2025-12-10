@@ -1,5 +1,194 @@
 [
   {
+    "id": "QbvL3v7eMdgtahSxnYFENW",
+    "title": "Bohemian Rhapsody",
+    "subtitle": "Updated",
+    "artist": "Queen",
+    "image": "/songs/QbvL3v7eMdgtahSxnYFENW/cover.jpg",
+    "difficulties": [
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/QbvL3v7eMdgtahSxnYFENW/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock",
+      "youtube-video",
+      "hard",
+      "idk-what-else-to-tag",
+      "actuallygoodmusic",
+      "4-key",
+      "4note",
+      "goodmusic"
+    ]
+  },
+  {
+    "id": "4cS51uAoQ8mVy55wFH6kHX",
+    "title": "Initial D - Deja Vu",
+    "subtitle": "Charted by Joku",
+    "artist": "Dave Rodgers",
+    "image": "/songs/4cS51uAoQ8mVy55wFH6kHX/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/4cS51uAoQ8mVy55wFH6kHX/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "8wSCaPojyqzf3XAne3bPvW",
+    "title": "Hopes and Dreams",
+    "subtitle": "from Undertale",
+    "artist": "Toby Fox",
+    "image": "/songs/8wSCaPojyqzf3XAne3bPvW/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/8wSCaPojyqzf3XAne3bPvW/video.mp4",
+    "verified": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "id": "KLuhUaAQkmV5KUQhknuytB",
+    "title": "Paint It, Black",
+    "subtitle": "",
+    "artist": "The Rolling Stones",
+    "image": "/songs/KLuhUaAQkmV5KUQhknuytB/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/KLuhUaAQkmV5KUQhknuytB/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock",
+      "idk-what-else-to-tag",
+      "banger",
+      "4-key",
+      "youtube",
+      "goodmusic"
+    ]
+  },
+  {
+    "id": "FdW2DgvLL9HreMESZnvwwb",
+    "title": "departure!",
+    "subtitle": "",
+    "artist": "Masatoshi Ono",
+    "image": "/songs/FdW2DgvLL9HreMESZnvwwb/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/FdW2DgvLL9HreMESZnvwwb/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "RGu467ZrDRJfj4KUBPqzan",
+    "title": "Gangnam Style",
+    "subtitle": "",
+    "artist": "PSY",
+    "image": "/songs/RGu467ZrDRJfj4KUBPqzan/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/RGu467ZrDRJfj4KUBPqzan/video.mp4",
+    "verified": false,
+    "tags": [
+      "fun",
+      "k-pop"
+    ]
+  },
+  {
+    "id": "QAgSzBHsLtX37wBE4wpbvQ",
+    "title": "connect",
+    "subtitle": "puella magi madoka magica op",
+    "artist": "ClariS i think",
+    "image": "/songs/QAgSzBHsLtX37wBE4wpbvQ/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/QAgSzBHsLtX37wBE4wpbvQ/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "anime",
+      "anime-opening",
+      "music",
+      "4note"
+    ]
+  },
+  {
+    "id": "NPsoenqhJHxUKeCrFmSA1x",
+    "title": "Song 2",
+    "subtitle": "",
+    "artist": "Blur",
+    "image": "/songs/NPsoenqhJHxUKeCrFmSA1x/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/NPsoenqhJHxUKeCrFmSA1x/video.mp4",
+    "verified": false,
+    "tags": [
+      "blur",
+      "rock",
+      "classic",
+      "actuallygoodmusic"
+    ]
+  },
+  {
+    "id": "NMcLDVUvpjQixApbRmjbFx",
+    "title": "The Animals - House Of The Rising Sun",
+    "subtitle": "",
+    "artist": "The Animals",
+    "image": "/songs/NMcLDVUvpjQixApbRmjbFx/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/NMcLDVUvpjQixApbRmjbFx/video.mp4",
+    "verified": false,
+    "tags": [
+      "chill"
+    ]
+  },
+  {
     "id": "VW78jUBqQwWAkBG1hSA952",
     "title": "Carry On Wayward Son",
     "subtitle": "",

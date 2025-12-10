@@ -71,7 +71,16 @@
     "- Lemon \u2014 Kenshi Yonezu",
     "- Guile's Theme \u2014 Street Fighter II",
     "- Feather \u2014 Nujabes",
-    "- Carry On Wayward Son \u2014 Kansas"
+    "- Carry On Wayward Son \u2014 Kansas",
+    "- House of the Rising Sun \u2014 The Animals",
+    "- Song 2 \u2014 Blur",
+    "- Connect \u2014 ClariS (Madoka Magica)",
+    "- Gangnam Style \u2014 PSY",
+    "- Departure! \u2014 Hunter x Hunter",
+    "- Paint It, Black \u2014 The Rolling Stones",
+    "- Hopes and Dreams \u2014 Undertale",
+    "- Deja Vu \u2014 Initial D",
+    "- Bohemian Rhapsody \u2014 Queen"
   ],
   "added": [
     {
@@ -398,6 +407,51 @@
       "title": "Carry On Wayward Son",
       "artist": "Kansas",
       "song_id": "VW78jUBqQwWAkBG1hSA952"
+    },
+    {
+      "title": "House of the Rising Sun",
+      "artist": "The Animals",
+      "song_id": "NMcLDVUvpjQixApbRmjbFx"
+    },
+    {
+      "title": "Song 2",
+      "artist": "Blur",
+      "song_id": "NPsoenqhJHxUKeCrFmSA1x"
+    },
+    {
+      "title": "Connect",
+      "artist": "ClariS",
+      "song_id": "QAgSzBHsLtX37wBE4wpbvQ"
+    },
+    {
+      "title": "Gangnam Style",
+      "artist": "PSY",
+      "song_id": "RGu467ZrDRJfj4KUBPqzan"
+    },
+    {
+      "title": "Departure!",
+      "artist": "Hunter x Hunter",
+      "song_id": "FdW2DgvLL9HreMESZnvwwb"
+    },
+    {
+      "title": "Paint It, Black",
+      "artist": "The Rolling Stones",
+      "song_id": "KLuhUaAQkmV5KUQhknuytB"
+    },
+    {
+      "title": "Hopes and Dreams",
+      "artist": "Undertale",
+      "song_id": "8wSCaPojyqzf3XAne3bPvW"
+    },
+    {
+      "title": "Deja Vu",
+      "artist": "Initial D",
+      "song_id": "4cS51uAoQ8mVy55wFH6kHX"
+    },
+    {
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "song_id": "QbvL3v7eMdgtahSxnYFENW"
     }
   ],
   "failed": [],
