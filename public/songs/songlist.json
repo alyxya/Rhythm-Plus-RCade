@@ -1,5 +1,201 @@
 [
   {
+    "id": "98swqPNi9BJdMKu69csbR2",
+    "title": "Live And Learn",
+    "subtitle": "Main theme of Sonic Adventure 2.",
+    "artist": "Crush 40",
+    "image": "/songs/98swqPNi9BJdMKu69csbR2/cover.jpg",
+    "difficulties": [
+      9
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/98swqPNi9BJdMKu69csbR2/video.mp4",
+    "verified": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "id": "k3M4YpMCHziHN8yscLNmZ",
+    "title": "The World (Death Note Op. 1)",
+    "subtitle": "",
+    "artist": "NIghtmare",
+    "image": "/songs/k3M4YpMCHziHN8yscLNmZ/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/k3M4YpMCHziHN8yscLNmZ/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock",
+      "anime",
+      "pop"
+    ]
+  },
+  {
+    "id": "55CB2zgoz1M6LjNjEXdn9J",
+    "title": "Paranoid",
+    "subtitle": "",
+    "artist": "Black Sabbath",
+    "image": "/songs/55CB2zgoz1M6LjNjEXdn9J/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/55CB2zgoz1M6LjNjEXdn9J/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "8KvsDetKscWTtSoMjtSFyY",
+    "title": "Before My Body Is Dry",
+    "subtitle": "Kill la kill original soundtrack Ruyko ost (full)",
+    "artist": "Hiroyuki Sawano",
+    "image": "/songs/8KvsDetKscWTtSoMjtSFyY/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/8KvsDetKscWTtSoMjtSFyY/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime",
+      "j-pop",
+      "4key"
+    ]
+  },
+  {
+    "id": "VjMBnxwEG4kRYdj1CMRoit",
+    "title": "Animals",
+    "subtitle": "si volaaaaaaa",
+    "artist": "Martin Garrix",
+    "image": "/songs/VjMBnxwEG4kRYdj1CMRoit/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/VjMBnxwEG4kRYdj1CMRoit/video.mp4",
+    "verified": false,
+    "tags": [
+      "meme",
+      "nostalgia"
+    ]
+  },
+  {
+    "id": "NyLM34UxQT6mEiqvdtzspz",
+    "title": "Mephisto",
+    "subtitle": "Oshi No Ko Ending",
+    "artist": "Queen Bee",
+    "image": "/songs/NyLM34UxQT6mEiqvdtzspz/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/NyLM34UxQT6mEiqvdtzspz/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "Cium9YN2wKQeZBFxYqDNxa",
+    "title": "Dearly Beloved",
+    "subtitle": "Kindom Heart Main Theme",
+    "artist": "Yoko Shimomura",
+    "image": "/songs/Cium9YN2wKQeZBFxYqDNxa/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Cium9YN2wKQeZBFxYqDNxa/video.mp4",
+    "verified": false,
+    "tags": [
+      "game",
+      "piano"
+    ]
+  },
+  {
+    "id": "UmYizsumWEupuJe2Yq84cg",
+    "title": "antifragile",
+    "subtitle": "",
+    "artist": "le sserafim",
+    "image": "/songs/UmYizsumWEupuJe2Yq84cg/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/UmYizsumWEupuJe2Yq84cg/video.mp4",
+    "verified": false,
+    "tags": [
+      "k-pop"
+    ]
+  },
+  {
+    "id": "J6coGuEEQMXHmLPmeQ8L8M",
+    "title": "Paradisus-Paradoxum",
+    "subtitle": "",
+    "artist": "MYTH&ROID",
+    "image": "/songs/J6coGuEEQMXHmLPmeQ8L8M/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/J6coGuEEQMXHmLPmeQ8L8M/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime",
+      "j-pop"
+    ]
+  },
+  {
+    "id": "C6H4sSmqqAgECzTUkCts2X",
+    "title": "Kuusou Mesorogiwi",
+    "subtitle": "",
+    "artist": "Yousei Teikoku",
+    "image": "/songs/C6H4sSmqqAgECzTUkCts2X/cover.jpg",
+    "difficulties": [
+      9
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/C6H4sSmqqAgECzTUkCts2X/video.mp4",
+    "verified": false,
+    "tags": [
+      "j-rock",
+      "j-pop"
+    ]
+  },
+  {
     "id": "53G4PJHxxvaPkXnZNfTY4x",
     "title": "E1m1 At Doom's Gate",
     "subtitle": "",
