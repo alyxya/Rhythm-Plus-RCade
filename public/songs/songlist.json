@@ -1,5 +1,315 @@
 [
   {
+    "id": "ZnD8vyzjF7mEULBdUsUnv",
+    "title": "Master Of Puppets",
+    "subtitle": "Remastered",
+    "artist": "Metallica",
+    "image": "/songs/ZnD8vyzjF7mEULBdUsUnv/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/ZnD8vyzjF7mEULBdUsUnv/video.mp4",
+    "verified": false,
+    "tags": [
+      "rock"
+    ]
+  },
+  {
+    "id": "CXq8Nfdp1T6U276kSbKUvw",
+    "title": "Portal 2 : Want you Gone",
+    "subtitle": "",
+    "artist": "Jonathan Coulton",
+    "image": "/songs/CXq8Nfdp1T6U276kSbKUvw/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/CXq8Nfdp1T6U276kSbKUvw/video.mp4",
+    "verified": false,
+    "tags": [
+      "game",
+      "music"
+    ]
+  },
+  {
+    "id": "PoAghuZperQj2Ei3atEVaf",
+    "title": "Escape from the city",
+    "subtitle": "ZenkuFN",
+    "artist": "Sega",
+    "image": "/songs/PoAghuZperQj2Ei3atEVaf/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/PoAghuZperQj2Ei3atEVaf/video.mp4",
+    "verified": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "id": "AG9bz6zBiYWVV21FUe1FQw",
+    "title": "Deal With The Devil (Kakegurui op1)",
+    "subtitle": "",
+    "artist": "Tia",
+    "image": "/songs/AG9bz6zBiYWVV21FUe1FQw/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/AG9bz6zBiYWVV21FUe1FQw/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "4Key",
+      "4keys",
+      "anime",
+      "4k",
+      "j-pop",
+      "banger",
+      "4key",
+      "4-key",
+      "4note"
+    ]
+  },
+  {
+    "id": "3roqqvHUocsJsGMTpDHdTV",
+    "title": "Livin' On A Prayer",
+    "subtitle": "",
+    "artist": "Bon Jovi",
+    "image": "/songs/3roqqvHUocsJsGMTpDHdTV/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/3roqqvHUocsJsGMTpDHdTV/video.mp4",
+    "verified": false,
+    "tags": [
+      "electronic",
+      "rock",
+      "actuallygoodmusic"
+    ]
+  },
+  {
+    "id": "X1mVV9wNyPMkFrFPjSjtqM",
+    "title": "Somebody That I Used To Know",
+    "subtitle": "",
+    "artist": "Gotye ft. Kimbra",
+    "image": "/songs/X1mVV9wNyPMkFrFPjSjtqM/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/X1mVV9wNyPMkFrFPjSjtqM/video.mp4",
+    "verified": false,
+    "tags": [
+      "pop"
+    ]
+  },
+  {
+    "id": "AsqmrPeQBHUKMqK4yBYKjJ",
+    "title": "city escape",
+    "subtitle": "game sonic adventure 2 battle",
+    "artist": "sonic team",
+    "image": "/songs/AsqmrPeQBHUKMqK4yBYKjJ/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/AsqmrPeQBHUKMqK4yBYKjJ/video.mp4",
+    "verified": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "id": "RqrGW7bZ2W6wMB78QGXhNd",
+    "title": "Cry Baby",
+    "subtitle": "",
+    "artist": "Offical Hige Danism",
+    "image": "/songs/RqrGW7bZ2W6wMB78QGXhNd/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/RqrGW7bZ2W6wMB78QGXhNd/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "QfofJwX3PGxVbJspepX4Dc",
+    "title": "Pretender",
+    "subtitle": "",
+    "artist": "Official hige dandism",
+    "image": "/songs/QfofJwX3PGxVbJspepX4Dc/cover.jpg",
+    "difficulties": [
+      1
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/QfofJwX3PGxVbJspepX4Dc/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "8MbUfcz5sQMSU23zrdoBvt",
+    "title": "COLORS",
+    "subtitle": "Code Geass Op 1",
+    "artist": "Flow",
+    "image": "/songs/8MbUfcz5sQMSU23zrdoBvt/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/8MbUfcz5sQMSU23zrdoBvt/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "2HpYnMyLcYL2wTtgRsGBZ7",
+    "title": "Only My Railgun",
+    "subtitle": "A Certain Scientific Railgun opening 1",
+    "artist": "fripSide",
+    "image": "/songs/2HpYnMyLcYL2wTtgRsGBZ7/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/2HpYnMyLcYL2wTtgRsGBZ7/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "anime",
+      "j-pop",
+      "4key"
+    ]
+  },
+  {
+    "id": "VzNbHehYNMq45R999egtNo",
+    "title": "Hey Ya!",
+    "subtitle": "",
+    "artist": "OutKast",
+    "image": "/songs/VzNbHehYNMq45R999egtNo/cover.jpg",
+    "difficulties": [
+      9
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/VzNbHehYNMq45R999egtNo/video.mp4",
+    "verified": false,
+    "tags": [
+      "music"
+    ]
+  },
+  {
+    "id": "XPo2Xk1CyDYzYANCWpAtaL",
+    "title": "Haruka Kanata",
+    "subtitle": "Naruto: Opening 2 (Opening ver.)",
+    "artist": "ASIAN KUNG-FU GENERATION",
+    "image": "/songs/XPo2Xk1CyDYzYANCWpAtaL/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/XPo2Xk1CyDYzYANCWpAtaL/video.mp4",
+    "verified": false,
+    "tags": [
+      "j-rock",
+      "anime",
+      "anime-opening"
+    ]
+  },
+  {
+    "id": "NT6hu4ygEMLbGLupbRWx7A",
+    "title": "Seishun Complex",
+    "subtitle": "Bocchi op",
+    "artist": "Kessoku Band",
+    "image": "/songs/NT6hu4ygEMLbGLupbRWx7A/cover.jpg",
+    "difficulties": [
+      6
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/NT6hu4ygEMLbGLupbRWx7A/video.mp4",
+    "verified": false,
+    "tags": [
+      "ost",
+      "rock",
+      "anime",
+      "j-pop"
+    ]
+  },
+  {
+    "id": "8yc8yadSoGUT6wSrr7XyRh",
+    "title": "Love Dramatic",
+    "subtitle": "TV Size",
+    "artist": "Masayuki Suzuki (鈴木雅之) feat. Rikka Ihara",
+    "image": "/songs/8yc8yadSoGUT6wSrr7XyRh/cover.jpg",
+    "difficulties": [
+      4,
+      5,
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/8yc8yadSoGUT6wSrr7XyRh/video.mp4",
+    "verified": false,
+    "tags": [
+      "epic",
+      "4keys",
+      "anime",
+      "anime-opening",
+      "banger",
+      "actuallygoodmusic"
+    ]
+  },
+  {
     "id": "98swqPNi9BJdMKu69csbR2",
     "title": "Live And Learn",
     "subtitle": "Main theme of Sonic Adventure 2.",

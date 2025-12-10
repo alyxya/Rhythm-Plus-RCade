@@ -16,7 +16,22 @@
     "- Before My Body Is Dry (Don't Lose Your Way) \u2014 Kill la Kill",
     "- Paranoid \u2014 Black Sabbath",
     "- The WORLD \u2014 Nightmare (Death Note)",
-    "- Live and Learn \u2014 Crush 40 (Sonic Adventure 2)"
+    "- Live and Learn \u2014 Crush 40 (Sonic Adventure 2)",
+    "- Love Dramatic \u2014 Masayuki Suzuki (Kaguya-sama: Love is War)",
+    "- Seishun Complex \u2014 Kessoku Band (Bocchi the Rock!)",
+    "- Haruka Kanata \u2014 ASIAN KUNG-FU GENERATION (Naruto)",
+    "- Hey Ya! \u2014 Outkast",
+    "- Only My Railgun \u2014 fripSide (A Certain Scientific Railgun)",
+    "- Colors \u2014 FLOW (Code Geass)",
+    "- Pretender \u2014 Official HIGE DANdism",
+    "- Cry Baby \u2014 Official HIGE DANdism (Tokyo Revengers)",
+    "- City Escape \u2014 Sonic Adventure 2",
+    "- Somebody That I Used to Know \u2014 Gotye",
+    "- Livin' on a Prayer \u2014 Bon Jovi",
+    "- Deal with the Devil \u2014 Tia (Kakegurui)",
+    "- Escape from the City \u2014 Sonic Adventure 2",
+    "- Want You Gone \u2014 Portal 2",
+    "- Master of Puppets \u2014 Metallica"
   ],
   "added": [
     {
@@ -98,6 +113,81 @@
       "title": "Live and Learn",
       "artist": "Crush 40",
       "song_id": "98swqPNi9BJdMKu69csbR2"
+    },
+    {
+      "title": "Love Dramatic",
+      "artist": "Masayuki Suzuki",
+      "song_id": "8yc8yadSoGUT6wSrr7XyRh"
+    },
+    {
+      "title": "Seishun Complex",
+      "artist": "Kessoku Band",
+      "song_id": "NT6hu4ygEMLbGLupbRWx7A"
+    },
+    {
+      "title": "Haruka Kanata",
+      "artist": "ASIAN KUNG-FU GENERATION",
+      "song_id": "XPo2Xk1CyDYzYANCWpAtaL"
+    },
+    {
+      "title": "Hey Ya!",
+      "artist": "Outkast",
+      "song_id": "VzNbHehYNMq45R999egtNo"
+    },
+    {
+      "title": "Only My Railgun",
+      "artist": "fripSide",
+      "song_id": "2HpYnMyLcYL2wTtgRsGBZ7"
+    },
+    {
+      "title": "Colors",
+      "artist": "FLOW",
+      "song_id": "8MbUfcz5sQMSU23zrdoBvt"
+    },
+    {
+      "title": "Pretender",
+      "artist": "Official HIGE DANdism",
+      "song_id": "QfofJwX3PGxVbJspepX4Dc"
+    },
+    {
+      "title": "Cry Baby",
+      "artist": "Official HIGE DANdism",
+      "song_id": "RqrGW7bZ2W6wMB78QGXhNd"
+    },
+    {
+      "title": "City Escape",
+      "artist": "Sonic Adventure 2",
+      "song_id": "AsqmrPeQBHUKMqK4yBYKjJ"
+    },
+    {
+      "title": "Somebody That I Used to Know",
+      "artist": "Gotye",
+      "song_id": "X1mVV9wNyPMkFrFPjSjtqM"
+    },
+    {
+      "title": "Livin' on a Prayer",
+      "artist": "Bon Jovi",
+      "song_id": "3roqqvHUocsJsGMTpDHdTV"
+    },
+    {
+      "title": "Deal with the Devil",
+      "artist": "Tia",
+      "song_id": "AG9bz6zBiYWVV21FUe1FQw"
+    },
+    {
+      "title": "Escape from the City",
+      "artist": "Sonic Adventure 2",
+      "song_id": "PoAghuZperQj2Ei3atEVaf"
+    },
+    {
+      "title": "Want You Gone",
+      "artist": "Portal 2",
+      "song_id": "CXq8Nfdp1T6U276kSbKUvw"
+    },
+    {
+      "title": "Master of Puppets",
+      "artist": "Metallica",
+      "song_id": "ZnD8vyzjF7mEULBdUsUnv"
     }
   ],
   "failed": [],

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "WQPMyi6Mnpzw8CD7TrJ6w4",
+    "songId": "ZnD8vyzjF7mEULBdUsUnv",
+    "title": "Expert",
+    "subtitle": "",
+    "startAt": 0,
+    "endAt": 0,
+    "keys": 4,
+    "difficulty": 10,
+    "length": 502.591,
+    "noteCount": 2892,
+    "bpm": 0,
+    "svCount": 0,
+    "visualizerName": "",
+    "visibility": "public",
+    "isImported": false,
+    "importedFrom": "",
+    "importRef": "",
+    "importIsOriginal": false,
+    "mapping": "",
+    "mapId": "J7Kty61FJkkWP9UzfSgniE",
+    "verified": false,
+    "clonedFrom": "",
+    "createdAt": 1744333348,
+    "updatedAt": 1744334536
+  }
+]
