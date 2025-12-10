@@ -1,5 +1,155 @@
 [
   {
+    "id": "VeEJ4DjLEE4SyE5YdRHozw",
+    "title": "Viva la Vida",
+    "subtitle": "Kinda hard, have fun!",
+    "artist": "Coldplay",
+    "image": "/songs/VeEJ4DjLEE4SyE5YdRHozw/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/VeEJ4DjLEE4SyE5YdRHozw/video.mp4",
+    "verified": false,
+    "tags": [
+      "pop"
+    ]
+  },
+  {
+    "id": "LHdkDYkH7xe8M7N5J6Ukir",
+    "title": "THE HERO!! 〜怒れる拳に火をつけろ〜",
+    "subtitle": "",
+    "artist": "JAM Project",
+    "image": "/songs/LHdkDYkH7xe8M7N5J6Ukir/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/LHdkDYkH7xe8M7N5J6Ukir/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": "GMhTCQpvebVD3mDiqUS3Sk",
+    "title": "Odd Future",
+    "subtitle": "MHA opening",
+    "artist": "UVERworld",
+    "image": "/songs/GMhTCQpvebVD3mDiqUS3Sk/cover.jpg",
+    "difficulties": [
+      4
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/GMhTCQpvebVD3mDiqUS3Sk/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "anime",
+      "opening"
+    ]
+  },
+  {
+    "id": "AeBoghkMRjaQW1JSK7EVXH",
+    "title": "Whenever, Wherever",
+    "subtitle": "",
+    "artist": "Shakira",
+    "image": "/songs/AeBoghkMRjaQW1JSK7EVXH/cover.jpg",
+    "difficulties": [
+      10
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/AeBoghkMRjaQW1JSK7EVXH/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "Tr2hPFcyLRGAYxQ2BrhMKV",
+    "title": "DADDY! DADDY! DO!",
+    "subtitle": "Kaguya-sama: Love is War OP2",
+    "artist": "Masayuki Suzuki",
+    "image": "/songs/Tr2hPFcyLRGAYxQ2BrhMKV/cover.jpg",
+    "difficulties": [
+      5
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/Tr2hPFcyLRGAYxQ2BrhMKV/video.mp4",
+    "verified": false,
+    "tags": [
+      "japanese",
+      "anime",
+      "banger"
+    ]
+  },
+  {
+    "id": "MLbmmBNBMKAtp1Zt89MRVs",
+    "title": "Electric Feel",
+    "subtitle": "",
+    "artist": "MGMT",
+    "image": "/songs/MLbmmBNBMKAtp1Zt89MRVs/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/MLbmmBNBMKAtp1Zt89MRVs/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "HpKCntcJq51D4CT7Cw5gL5",
+    "title": "GO!!!|Naruto",
+    "subtitle": "(Iconic Song)",
+    "artist": "Crunchyroll",
+    "image": "/songs/HpKCntcJq51D4CT7Cw5gL5/cover.jpg",
+    "difficulties": [
+      8
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/HpKCntcJq51D4CT7Cw5gL5/video.mp4",
+    "verified": false,
+    "tags": []
+  },
+  {
+    "id": "U169M81jiUDScLqxDrgguu",
+    "title": "Black Catcher",
+    "subtitle": "Black clover OP10",
+    "artist": "Vickeblanka",
+    "image": "/songs/U169M81jiUDScLqxDrgguu/cover.jpg",
+    "difficulties": [
+      7
+    ],
+    "keys": [
+      4
+    ],
+    "srcMode": "video",
+    "srcRef": "/songs/U169M81jiUDScLqxDrgguu/video.mp4",
+    "verified": false,
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "id": "KRSaU1t8fZnSuJnNJ74APX",
     "title": "Period (Fullmetal Alchemist Brotherhood)",
     "subtitle": "Opening",

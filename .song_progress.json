@@ -99,7 +99,17 @@
     "- Ievan Polkka \u2014 Loituma",
     "- Hitorigoto \u2014 ClariS (Eromanga Sensei)",
     "- Period \u2014 CHEMISTRY (Fullmetal Alchemist: Brotherhood)",
-    "- Stronger \u2014 Kanye West"
+    "- Stronger \u2014 Kanye West",
+    "- Personal Jesus \u2014 Depeche Mode",
+    "- Black Catcher \u2014 Vickeblanka (Black Clover)",
+    "- GO!!! \u2014 FLOW (Naruto)",
+    "- Blue (Da Ba Dee) \u2014 Eiffel 65",
+    "- Electric Feel \u2014 MGMT",
+    "- Daddy! Daddy! Do! \u2014 Masayuki Suzuki (Kaguya-sama S2)",
+    "- Whenever, Wherever \u2014 Shakira",
+    "- Odd Future \u2014 UVERworld (My Hero Academia)",
+    "- The Hero!! \u2014 JAM Project",
+    "- Viva la Vida \u2014 Coldplay"
   ],
   "added": [
     {
@@ -556,6 +566,46 @@
       "title": "Period",
       "artist": "CHEMISTRY",
       "song_id": "KRSaU1t8fZnSuJnNJ74APX"
+    },
+    {
+      "title": "Black Catcher",
+      "artist": "Vickeblanka",
+      "song_id": "U169M81jiUDScLqxDrgguu"
+    },
+    {
+      "title": "GO!!!",
+      "artist": "FLOW",
+      "song_id": "HpKCntcJq51D4CT7Cw5gL5"
+    },
+    {
+      "title": "Electric Feel",
+      "artist": "MGMT",
+      "song_id": "MLbmmBNBMKAtp1Zt89MRVs"
+    },
+    {
+      "title": "Daddy! Daddy! Do!",
+      "artist": "Masayuki Suzuki",
+      "song_id": "Tr2hPFcyLRGAYxQ2BrhMKV"
+    },
+    {
+      "title": "Whenever, Wherever",
+      "artist": "Shakira",
+      "song_id": "AeBoghkMRjaQW1JSK7EVXH"
+    },
+    {
+      "title": "Odd Future",
+      "artist": "UVERworld",
+      "song_id": "GMhTCQpvebVD3mDiqUS3Sk"
+    },
+    {
+      "title": "The Hero!!",
+      "artist": "JAM Project",
+      "song_id": "LHdkDYkH7xe8M7N5J6Ukir"
+    },
+    {
+      "title": "Viva la Vida",
+      "artist": "Coldplay",
+      "song_id": "VeEJ4DjLEE4SyE5YdRHozw"
     }
   ],
   "failed": [],
@@ -608,7 +658,12 @@
     {
       "title": "Personal Jesus",
       "artist": "Depeche Mode",
-      "reason": "Blocked/No acceptable match"
+      "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Blue (Da Ba Dee)",
+      "artist": "Eiffel 65",
+      "reason": "No selectedId in candidates"
     }
   ],
   "needs_review": [],
