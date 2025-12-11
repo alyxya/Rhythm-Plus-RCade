@@ -415,11 +415,6 @@
       "song_id": "6iGwjVS6iDeSt9ppjxzBrH"
     },
     {
-      "title": "Love is War",
-      "artist": "Hatsune Miku",
-      "song_id": "L34gv3UBVeW2NCzu2NAz7s"
-    },
-    {
       "title": "Hysteria",
       "artist": "Muse",
       "song_id": "GdXjPBkH5vn14YAbwnvJfh"
@@ -976,6 +971,11 @@
       "title": "My Soul, Your Beats!",
       "artist": "Lia",
       "reason": "No selectedId in candidates"
+    },
+    {
+      "title": "Love is War",
+      "artist": "Hatsune Miku",
+      "reason": "Video download failed - incomplete song directory"
     }
   ],
   "needs_review": [],
